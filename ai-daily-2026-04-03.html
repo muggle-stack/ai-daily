@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Daily · 2026年04月03日</title>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,300,0,0&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+    background: #fbf9f6;
+    color: #4a403a;
+    font-family: 'Noto Sans SC', system-ui, -apple-system, sans-serif;
+    line-height: 1.8;
+    min-height: 100vh;
+}
+.material-symbols-rounded {
+    font-family: 'Material Symbols Rounded' !important;
+    font-weight: 300 !important;
+    font-style: normal;
+    display: inline-block;
+    line-height: 1;
+    font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24 !important;
+}
+.container {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 48px 24px 40px;
+}
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.header h1 {
+    font-size: 2.8em;
+    font-weight: 700;
+    color: #c96442;
+    line-height: 1.2;
+    text-shadow: 2px 2px 0px rgba(201, 100, 66, 0.1);
+    margin-bottom: 8px;
+}
+.header .date {
+    color: #8a7f76;
+    font-size: 1.05em;
+    font-weight: 500;
+}
+.header .stats {
+    color: #a89f96;
+    font-size: 0.85em;
+    margin-top: 4px;
+}
+.overview {
+    background: #ffffff;
+    border: 1px solid rgb(218, 216, 212);
+    border-left: 4px solid #c96442;
+    border-radius: 16px;
+    padding: 20px 24px;
+    margin-bottom: 36px;
+    color: #4a403a;
+    font-size: 0.95em;
+    font-weight: 500;
+    box-shadow: 0 4px 16px -4px rgba(74, 64, 58, 0.06);
+}
+.category-section {
+    margin-bottom: 12px;
+}
+.category-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 32px 0 16px 0;
+    font-size: 1.35em;
+    font-weight: 700;
+    line-height: 1.25;
+}
+.category-header .material-symbols-rounded {
+    font-size: 28px;
+}
+.card {
+    background: #ffffff;
+    border: 1px solid rgb(218, 216, 212);
+    border-radius: 24px;
+    padding: 0;
+    margin-bottom: 16px;
+    box-shadow: 0 10px 30px -10px rgba(74, 64, 58, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    overflow: hidden;
+}
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 14px 36px -10px rgba(74, 64, 58, 0.14);
+}
+.card-title-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 24px 8px;
+}
+.card-title-box .material-symbols-rounded {
+    font-size: 24px;
+    flex-shrink: 0;
+}
+.card h3 {
+    font-size: 1.05em;
+    font-weight: 700;
+    line-height: 1.35;
+}
+.card-body {
+    padding: 0 24px 20px;
+}
+.card .summary {
+    color: #141413;
+    font-size: 0.92em;
+    font-weight: 500;
+    line-height: 1.7;
+    margin-bottom: 12px;
+}
+.card .meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.8em;
+    color: #8a7f76;
+}
+.card .meta a {
+    color: #c96442;
+    text-decoration: none;
+    font-weight: 500;
+}
+.card .meta a:hover {
+    text-decoration: underline;
+}
+.tag {
+    display: inline-block;
+    background: rgb(240, 239, 235);
+    color: #4a403a;
+    font-size: 0.78em;
+    padding: 2px 10px;
+    border-radius: 10px;
+    border: 0.5px solid #d1cfcc;
+    font-weight: 500;
+}
+.keywords-section {
+    margin-top: 40px;
+    text-align: center;
+    background: #ffffff;
+    border: 1px solid rgb(218, 216, 212);
+    border-radius: 24px;
+    padding: 24px;
+    box-shadow: 0 4px 16px -4px rgba(74, 64, 58, 0.06);
+}
+.keywords-section h2 {
+    color: #4a403a;
+    font-size: 1.15em;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+.keywords-section .tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+}
+.divider {
+    border: none;
+    border-top: 1px solid rgb(218, 216, 212);
+    margin: 8px 0 0 0;
+}
+.footer {
+    text-align: center;
+    color: #a89f96;
+    font-size: 0.8em;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid rgb(218, 216, 212);
+}
+</style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1>AI Daily</h1>
+        <div class="date">2026年04月03日</div>
+        <div class="stats">共 14 篇精选，来自 1 个信息源</div>
+    </div>
+    <div class="overview">Google DeepMind 发布 Gemma 4，以“字节级”智能重新定义开源模型；Agent 工程化成为行业新焦点，自动化与代码质量引发热议；开源生态迎来更新潮，Datasette 插件矩阵全面集成 LLM 能力。</div>
+    <div class="category-section">
+    <div class="category-header" style="color: #c96442;">
+        <span class="material-symbols-rounded" style="color: #c96442;">rocket</span>
+        模型发布
+    </div>
+    <div class="card">
+    <div class="card-title-box">
+        <span class="material-symbols-rounded" style="color: #c96442;">article</span>
+        <h3 style="color: #c96442;">Gemma 4: Byte for byte, the most capable open models</h3>
+    </div>
+    <div class="card-body">
+        <div class="summary">&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/&quot;&gt;Gemma 4: Byte for byte, the most capable open models&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+Four new vision-capable Apache 2.0 licensed reasoning LLMs from Google DeepMind, sized at 2B, 4B, 31B, plus a 26B-A4B Mixture-of-Exper</div>
+        <div class="meta">
+            <a href="https://simonwillison.net/2026/Apr/2/gemma-4/#atom-everything" target="_blank" rel="noopener">原文链接 ↗</a>
+            <span>· 自定义</span>
+            <span>· <span class="tag">#Gemma 4</span> <span class="tag">#Google DeepMind</span> <span class="tag">#Open Models</span> <span class="tag">#Vision</span> <span class="tag">#MoE</span></span>
+        </div>
+    </div>
+</div>
+<div class="card">
+    <div class="card-title-box">
+        <span class="material-symbols-rounded" style="color: #c96442;">article</span>
+        <h3 style="color: #c96442;">Welcome Gemma 4: Frontier multimodal intelligence on device</h3>
+    </div>
+    <div class="card-body">
+        <div class="summary"></div>
+        <div class="meta">
+            <a href="https://huggingface.co/blog/gemma4" target="_blank" rel="noopener">原文链接 ↗</a>
+            <span>· 自定义</span>
+            <span>· <span class="tag">#Gemma 4</span> <span class="tag">#Hugging Face</span> <span class="tag">#Multimodal</span> <span class="tag">#On-device</span></span>
+        </div>
+    </div>
+</div>
+<div class="card">
+    <div class="card-title-box">
+        <span class="material-symbols-rounded" style="color: #c96442;">article</span>
+        <h3 style="color: #c96442;">Holo3: Breaking the Computer Use Frontier</h3>
+    </div>
+    <div class="card-body">
+        <div class="summary"></div>
+        <div class="meta">
+            <a href="https://huggingface.co/blog/Hcompany/holo3" target="_blank" rel="noopener">原文链接 ↗</a>
+            <span>· 自定义</span>
+            <span>· <span class="tag">#Holo3</span> <span class="tag">#Computer Use</span> <span class="tag">#Agent</span> <span class="tag">#Frontier</span></span>
+        </div>
+    </div>
+</div>
+<div class="card">
+    <div class="card-title-box">
+        <span class="material-symbols-rounded" style="color: #c96442;">article</span>
+        <h3 style="color: #c96442;">Falcon Perception</h3>
+    </div>
+    <div class="card-body">
+        <div class="summary">TII（技术创新研究所）发布了 Falcon Perception 模型，进一步扩展了 Falcon 系列在视觉感知领域的能力。该模型专注于提升机器对视觉信息的理解与处理，为多模态应用提供了新的开源选择。这一发布增强了开源社区在视觉语言模型方面的竞争力。</div>
+        <div class="meta">
+            <a href="https://huggingface.co/blog/tiiuae/falcon-perception" target="_blank" rel="noopener">原文链接 ↗</a>
+            <span>· 自定义</span>
+            <span>· <span class="tag">#Falcon</span> <span class="tag">#Perception</span> <span class="tag">#Vision</span> <span class="tag">#TII</span></span>
+        </div>
+    </div>
+</div>
+</div>
+<hr class="divider">
+<div class="category-section">
+    <div class="category-header" style="color: #335c67;">
+        <span class="material-symbols-rounded" style="color: #335c67;">code</span>
+        开源项目
+    </div>
+    <div class="card">
+    <div class="card-title-box">
+        <span class="material-symbols-rounded" style="color: #335c67;">article</span>
+        <h3 style="color: #335c67;">llm-gemini 0.30</h3>
+    </div>
+    <div class="card-body">
+        <div class="summary">llm-gemini 插件发布了 0.30 版本，新增了对 `gemini-3.1-flash-lite-preview`、`gemma-4-26b-a4b-it` 和 `gemma-4-31b-it` 模型的支持。此次更新紧跟 Google 最新的模型发布步伐，让用户能通过命令行工具直接体验最新的 Gemma 4 模型。这对于习惯使用 CLI 工具的开发者来说是一个及时且实用的更新。</div>
+        <div class="meta">
+            <a href="https://simonwillison.net/2026/Apr/2/llm-gemini/#atom-everything" target="_blank" rel="noopener">原文链接 ↗</a>
+            <span>· 自定义</span>
+            <span>· <span class="tag">#llm-gemini</span> <span class="tag">#Release</span> <span class="tag">#Gemini</span> <span class="tag">#Gemma 4</span></span>
+        </div>
+    </div>
+</div>
+<div class="card">
+    <div class="card-title-box">
+        <span class="material-symbols-rounded" style="color: #335c67;">article</span>
+        <h3 style="color: #335c67;">datasette-llm 0.1a6</h3>
+    </div>
+    <div class="card-body">
+        <div class="summary">datasette-llm 插件发布了 0.1a6 版本，优化了模型 ID 的配置逻辑，现在将其设置为默认模型时会自动添加到允许列表中，无需重复配置。此外，该版本还改进了 Python API 使用的文档，方便开发者更好地集成和使用。</div>
+        <div class="meta">
+            <a href="https://simonwillison.net/2026/Apr/1/datasette-llm-2/#atom-everything" target="_blank" rel="noopener">原文链接 ↗</a>
+            <span>· 自定义</span>
+            <span>· <span class="tag">#datasette-llm</span> <span class="tag">#Release</span> <span class="tag">#Plugin</span></span>
+        </div>
+    </div>
+</div>
+<div class="card">
+    <div class="card-title-box">
+        <span class="material-symbols-rounded" style="color: #335c67;">article</span>
+        <h3 style="color: #335c67;">datasette-enrichments-llm 0.2a1</h3>
+    </div>
+    <div class="card-body">
+        <div class="summary">datasette-enrichments-llm 插件更新至 0.2a1 版本，现在会将触发数据增强操作的 `actor`（执行者）传递给 `llm.mode(... actor=actor)` 方法。这一改进增强了权限追踪和上下文感知能力，使得在多用户环境下的操作审计更加清晰。</div>
+        <div class="meta">
+            <a href="https://simonwillison.net/2026/Apr/1/datasette-enrichments-llm-2/#atom-everything" target="_blank" rel="noopener">原文链接 ↗</a>
+            <span>· 自定义</span>
+            <span>· <span class="tag">#datasette-enrichments-llm</span> <span class="tag">#Release</span> <span class="tag">#Plugin</span></span>
+        </div>
+    </div>
+</div>
+<div class="card">
+    <div class="card-title-box">
+        <span class="material-symbols-rounded" style="color: #335c67;">article</span>
+        <h3 style="color: #335c67;">datasette-extract 0.3a0</h3>
+    </div>
+    <div class="card-body">
+        <div class="summary">datasette-extract 插件在 0.3a0 版本中进行了重大重构，现在使用 datasette-llm 来管理模型配置。这意味着用户可以通过 `extract` 目的和 LLM 模型配置，精确控制哪些模型可用于数据提取任务，实现了配置的统一化管理。</div>
+        <div class="meta">
+            <a href="https://simonwillison.net/2026/Apr/1/datasette-extract/#atom-everything" target="_blank" rel="noopener">原文链接 ↗</a>
+            <span>· 自定义</span>
+            <span>· <span class="tag">#datasette-extract</span> <span class="tag">#Release</span> <span class="tag">#Extraction</span></span>
+        </div>
+    </div>
+</div>
+<div class="card">
+    <div class="card-title-box">
+        <span class="material-symbols-rounded" style="color: #335c67;">article</span>
+        <h3 style="color: #335c67;">datasette-enrichments-llm 0.2a0</h3>
+    </div>
+    <div class="card-body">
+        <div class="summary">datasette-enrichments-llm 插件更新至 0.2a1 版本，现在会将触发数据增强操作的 `actor`（执行者）传递给 `llm.mode(... actor=actor)` 方法。这一改进增强了权限追踪和上下文感知能力，使得在多用户环境下的操作审计更加清晰。</div>
+        <div class="meta">
+            <a href="https://simonwillison.net/2026/Apr/1/datasette-enrichments-llm/#atom-everything" target="_blank" rel="noopener">原文链接 ↗</a>
+            <span>· 自定义</span>
+            <span>· <span class="tag">#datasette-enrichments-llm</span> <span class="tag">#Release</span> <span class="tag">#Configuration</span></span>
+        </div>
+    </div>
+</div>
+<div class="card">
+    <div class="card-title-box">
+        <span class="material-symbols-rounded" style="color: #335c67;">article</span>
+        <h3 style="color: #335c67;">datasette-llm-usage 0.2a0</h3>
+    </div>
+    <div class="card-body">
+        <div class="summary">datasette-llm-usage 插件更新至 0.2a0，移除了与配额和估算定价相关的功能，这些功能现在由 datasette-llm-accountant 接管。新版本现在依赖 datasette-llm 进行模型配置，并支持通过设置将完整的提示、响应和工具调用记录到内部数据库的 `llm_usage_prompt_log` 表中。</div>
+        <div class="meta">
+            <a href="https://simonwillison.net/2026/Apr/1/datasette-llm-usage/#atom-everything" target="_blank" rel="noopener">原文链接 ↗</a>
+            <span>· 自定义</span>
+            <span>· <span class="tag">#datasette-llm-usage</span> <span class="tag">#Release</span> <span class="tag">#Accounting</span></span>
+        </div>
+    </div>
+</div>
+<div class="card">
+    <div class="card-title-box">
+        <span class="material-symbols-rounded" style="color: #335c67;">article</span>
+        <h3 style="color: #335c67;">datasette-llm 0.1a5</h3>
+    </div>
+    <div class="card-body">
+        <div class="summary">datasette-llm 插件在 0.1a5 版本中改进了 `llm_prompt_context()` 插件钩子包装机制。现在它不仅可以追踪一次性执行的提示，还能追踪链式执行的提示，这意味着它可以被用来有效地跟踪工具调用循环，为调试和监控 Agent 行为提供了更强支持。</div>
+        <div class="meta">
+            <a href="https://simonwillison.net/2026/Apr/1/datasette-llm/#atom-everything" target="_blank" rel="noopener">原文链接 ↗</a>
+            <span>· 自定义</span>
+            <span>· <span class="tag">#datasette-llm</span> <span class="tag">#Release</span> <span class="tag">#Plugin Hook</span></span>
+        </div>
+    </div>
+</div>
+</div>
+<hr class="divider">
+<div class="category-section">
+    <div class="category-header" style="color: #c96442;">
+        <span class="material-symbols-rounded" style="color: #c96442;">lightbulb</span>
+        行业观点
+    </div>
+    <div class="card">
+    <div class="card-title-box">
+        <span class="material-symbols-rounded" style="color: #c96442;">article</span>
+        <h3 style="color: #c96442;">Highlights from my conversation about agentic engineering on Lenny&#x27;s Podcast</h3>
+    </div>
+    <div class="card-body">
+        <div class="summary">&lt;p&gt;I was a guest on Lenny Rachitsky&#x27;s podcast, in a new episode titled &lt;a href=&quot;https://www.lennysnewsletter.com/p/an-ai-state-of-the-union&quot;&gt;An AI state of the union: We&#x27;ve passed the inflection point, dark factories are coming, and automation timelines&lt;/a&gt;. It&#x27;s available on &lt;a href=&quot;https://youtu.</div>
+        <div class="meta">
+            <a href="https://simonwillison.net/2026/Apr/2/lennys-podcast/#atom-everything" target="_blank" rel="noopener">原文链接 ↗</a>
+            <span>· 自定义</span>
+            <span>· <span class="tag">#Agentic Engineering</span> <span class="tag">#Podcast</span> <span class="tag">#AI State of the Union</span> <span class="tag">#Automation</span></span>
+        </div>
+    </div>
+</div>
+<div class="card">
+    <div class="card-title-box">
+        <span class="material-symbols-rounded" style="color: #c96442;">article</span>
+        <h3 style="color: #c96442;">Quoting Soohoon Choi</h3>
+    </div>
+    <div class="card-body">
+        <div class="summary">&lt;blockquote cite=&quot;https://www.greptile.com/blog/ai-slopware-future&quot;&gt;&lt;p&gt;I want to argue that AI models will write good code because of economic incentives. Good code is cheaper to generate and maintain. Competition is high between the AI models right now, and the ones that win will help developers sh</div>
+        <div class="meta">
+            <a href="https://simonwillison.net/2026/Apr/1/soohoon-choi/#atom-everything" target="_blank" rel="noopener">原文链接 ↗</a>
+            <span>· 自定义</span>
+            <span>· <span class="tag">#AI Code</span> <span class="tag">#Economic Incentives</span> <span class="tag">#Software Quality</span></span>
+        </div>
+    </div>
+</div>
+<div class="card">
+    <div class="card-title-box">
+        <span class="material-symbols-rounded" style="color: #c96442;">article</span>
+        <h3 style="color: #c96442;">March 2026 sponsors-only newsletter</h3>
+    </div>
+    <div class="card-body">
+        <div class="summary">&lt;p&gt;I just sent the March edition of my &lt;a href=&quot;https://github.com/sponsors/simonw/&quot;&gt;sponsors-only monthly newsletter&lt;/a&gt;. If you are a sponsor (or if you start a sponsorship now) you can &lt;a href=&quot;https://github.com/simonw-private/monthly/blob/main/2026-03-march.md&quot;&gt;access it here&lt;/a&gt;. In this month</div>
+        <div class="meta">
+            <a href="https://simonwillison.net/2026/Apr/2/march-newsletter/#atom-everything" target="_blank" rel="noopener">原文链接 ↗</a>
+            <span>· 自定义</span>
+            <span>· <span class="tag">#Newsletter</span> <span class="tag">#Agentic Patterns</span> <span class="tag">#MoE</span> <span class="tag">#Supply Chain</span></span>
+        </div>
+    </div>
+</div>
+</div>
+<hr class="divider">
+    <div class="keywords-section">
+        <h2>今日关键词</h2>
+        <div class="tags"><span class="tag">#Gemma 4</span> <span class="tag">#Google DeepMind</span> <span class="tag">#Open Models</span> <span class="tag">#Vision</span> <span class="tag">#MoE</span> <span class="tag">#Hugging Face</span> <span class="tag">#Multimodal</span> <span class="tag">#On-device</span> <span class="tag">#Holo3</span> <span class="tag">#Computer Use</span> <span class="tag">#Agent</span> <span class="tag">#Frontier</span> <span class="tag">#Falcon</span> <span class="tag">#Perception</span> <span class="tag">#TII</span> <span class="tag">#Agentic Engineering</span> <span class="tag">#Podcast</span> <span class="tag">#AI State of the Union</span> <span class="tag">#Automation</span> <span class="tag">#llm-gemini</span> <span class="tag">#Release</span> <span class="tag">#Gemini</span> <span class="tag">#AI Code</span> <span class="tag">#Economic Incentives</span> <span class="tag">#Software Quality</span> <span class="tag">#datasette-llm</span> <span class="tag">#Plugin</span> <span class="tag">#datasette-enrichments-llm</span> <span class="tag">#datasette-extract</span> <span class="tag">#Extraction</span></div>
+    </div>
+    <div class="footer">
+        由 AI Daily 自动生成 · 2026-04-03 09:51:53
+    </div>
+</div>
+</body>
+</html>
