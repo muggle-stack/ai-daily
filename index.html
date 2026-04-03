@@ -1,6 +1,135 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
-  <meta http-equiv="refresh" content="0;url=ai-daily-2026-04-03.html">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Daily — 每日 AI 资讯精选</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<script>
+tailwind.config = {
+    theme: {
+        extend: {
+            colors: {
+                warm: { 50: '#fbf9f6', 100: '#f5f0ea', 200: '#e8dfd5', 300: '#d1c4b2', 400: '#b5a08a', 500: '#8a7f76', 600: '#6b6158', 700: '#4a403a', 800: '#342d28', 900: '#1f1a17' },
+                accent: { DEFAULT: '#c96442', light: '#e8825f', dark: '#a84e32' },
+                teal: { DEFAULT: '#335c67' },
+                ruby: { DEFAULT: '#9e2a2b' },
+                gold: { DEFAULT: '#e09f3e' },
+            },
+            fontFamily: { sans: ['Noto Sans SC', 'system-ui', 'sans-serif'] },
+        }
+    }
+}
+</script>
+<style>
+body { font-family: 'Noto Sans SC', system-ui, sans-serif; }
+.card-hover { transition: all 0.3s ease; }
+.card-hover:hover { transform: translateY(-4px); box-shadow: 0 12px 28px -8px rgba(74,64,58,0.15); }
+.fade-in { animation: fadeIn 0.5s ease-out; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
+.report-card { opacity: 0; animation: slideUp 0.4s ease-out forwards; }
+@keyframes slideUp { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: translateY(0); } }
+</style>
 </head>
+<body class="bg-warm-50 text-warm-700">
+
+<!-- Navigation -->
+<nav class="fixed top-0 w-full bg-warm-50/80 backdrop-blur-md z-50 border-b border-warm-200">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-14">
+        <a href="index.html" class="text-xl font-bold text-accent">AI Daily</a>
+        <div class="hidden md:flex items-center space-x-6 text-sm">
+            <a href="#latest" class="text-warm-500 hover:text-accent transition">最新一期</a>
+            <a href="#archive" class="text-warm-500 hover:text-accent transition">往期回顾</a>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero -->
+<section class="bg-gradient-to-br from-accent to-accent-dark text-white pt-28 pb-16">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center fade-in">
+        <h1 class="text-4xl md:text-5xl font-bold mb-4">AI Daily</h1>
+        <p class="text-lg md:text-xl text-orange-100 max-w-2xl mx-auto mb-8">
+            每日精选 AI 领域重要进展，智能筛选 · 自动生成 · 一站阅读
+        </p>
+        <a href="#latest" class="inline-block bg-white text-accent px-6 py-2.5 rounded-full font-semibold hover:bg-orange-50 transition">
+            阅读最新一期
+        </a>
+    </div>
+</section>
+
+<!-- Latest -->
+<section id="latest" class="py-16">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-2xl font-bold text-warm-800 mb-8 text-center">最新一期</h2>
+        <div id="latest-report" class="fade-in"></div>
+    </div>
+</section>
+
+<!-- Archive -->
+<section id="archive" class="py-16 bg-white">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-2xl font-bold text-warm-800 mb-8 text-center">往期回顾</h2>
+        <div id="reports-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-warm-900 text-warm-400 py-8">
+    <div class="max-w-6xl mx-auto px-4 text-center text-sm">
+        <p class="font-semibold text-warm-200 mb-1">AI Daily</p>
+        <p>每日精选 · 智能筛选 · 自动生成</p>
+    </div>
+</footer>
+
+<script src="reports.js"></script>
+<script>
+const catColors = { '模型发布': 'bg-orange-100 text-orange-700', '开源项目': 'bg-teal-100 text-teal-700', '研究论文': 'bg-red-100 text-red-700', '产品动态': 'bg-yellow-100 text-yellow-700', '行业观点': 'bg-purple-100 text-purple-700', '工具技巧': 'bg-blue-100 text-blue-700' };
+function fmtDate(d) { const dt = new Date(d); return dt.toLocaleDateString('zh-CN', {year:'numeric',month:'long',day:'numeric'}); }
+function tagHtml(tags) { return tags.map(t => `<span class="px-2 py-0.5 bg-warm-100 text-warm-600 text-xs rounded-full">${t}</span>`).join(''); }
+function catHtml(cats) { return cats.map(c => `<span class="px-2 py-0.5 ${catColors[c]||'bg-gray-100 text-gray-600'} text-xs rounded-full font-medium">${c}</span>`).join(''); }
+function latestCard(r) {
+    return `<div class="bg-gradient-to-br from-[#c96442] to-[#a84e32] rounded-2xl shadow-xl p-8 text-white card-hover">
+        <div class="flex flex-col lg:flex-row justify-between items-start">
+            <div class="flex-1">
+                <div class="mb-3"><span class="px-3 py-1 bg-white/20 rounded-full text-sm font-medium">最新发布</span><span class="ml-3 text-orange-100 text-sm">${fmtDate(r.date)}</span></div>
+                <h3 class="text-2xl font-bold mb-3">${r.title}</h3>
+                <p class="text-orange-100 mb-4">${r.summary}</p>
+                <div class="flex flex-wrap gap-1.5 mb-5">${catHtml(r.categories)}</div>
+                <div class="flex flex-wrap gap-1.5 mb-6">${r.tags.map(t=>`<span class="px-2 py-0.5 bg-white/15 text-white/90 text-xs rounded-full">#${t}</span>`).join('')}</div>
+                <a href="reports/${r.id}.html" class="inline-flex items-center bg-white text-[#c96442] px-5 py-2 rounded-full font-semibold hover:bg-orange-50 transition text-sm">
+                    阅读全文 <svg class="w-4 h-4 ml-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
+                </a>
+            </div>
+            <div class="hidden lg:flex flex-col items-center ml-8 text-center">
+                <div class="text-5xl font-bold">${r.articleCount}</div>
+                <div class="text-orange-200 text-sm mt-1">篇精选</div>
+            </div>
+        </div>
+    </div>`;
+}
+function reportCard(r, i) {
+    return `<div class="bg-white rounded-xl shadow-md p-5 card-hover report-card border border-warm-200" style="animation-delay:${i*80}ms">
+        <div class="mb-3 flex justify-between items-center">
+            <span class="text-sm text-accent font-medium">${fmtDate(r.date)}</span>
+            <span class="text-xs text-warm-400">${r.articleCount} 篇</span>
+        </div>
+        <h4 class="text-base font-bold text-warm-800 mb-2 line-clamp-2">${r.title}</h4>
+        <p class="text-warm-500 text-sm mb-3 line-clamp-2">${r.summary}</p>
+        <div class="flex flex-wrap gap-1.5 mb-3">${catHtml(r.categories)}</div>
+        <a href="reports/${r.id}.html" class="inline-flex items-center text-accent hover:text-accent-dark font-medium text-sm transition">
+            阅读全文 <svg class="w-3.5 h-3.5 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+        </a>
+    </div>`;
+}
+document.addEventListener('DOMContentLoaded', () => {
+    if (typeof reportsData === 'undefined' || !reportsData.length) return;
+    document.getElementById('latest-report').innerHTML = latestCard(reportsData[0]);
+    const rest = reportsData.slice(1);
+    document.getElementById('reports-grid').innerHTML = rest.length
+        ? rest.map((r,i) => reportCard(r,i)).join('')
+        : '<div class="col-span-full text-center py-8 text-warm-400">暂无往期报告</div>';
+});
+</script>
+</body>
 </html>
