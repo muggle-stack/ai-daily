@@ -1,4 +1,4 @@
-"""Agent 1: RSS 抓取 + 去重。"""
+"""Agent 1: RSS 抓取 + URL 去重。"""
 
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -12,13 +12,6 @@ from src import config
 from src.utils.logger import get_logger
 
 logger = get_logger(__name__)
-
-# 36氪 AI 关键词过滤
-_AI_KEYWORDS = {
-    "AI", "人工智能", "大模型", "LLM", "GPT", "Claude", "Gemini",
-    "机器学习", "深度学习", "神经网络", "NLP", "自然语言", "AIGC",
-    "生成式", "Transformer", "OpenAI", "Anthropic", "智能体", "Agent",
-}
 
 
 @dataclass
@@ -49,12 +42,6 @@ def _parse_published(entry: dict) -> datetime | None:
         except (ValueError, TypeError):
             pass
     return None
-
-
-def _is_ai_related(title: str, summary: str) -> bool:
-    """检查文章是否与 AI 相关（用于 36氪等泛科技源）。"""
-    text = (title + " " + summary).upper()
-    return any(kw.upper() in text for kw in _AI_KEYWORDS)
 
 
 def _fetch_single_feed(name: str, url: str, hours: int) -> list[Article]:
@@ -101,10 +88,6 @@ def _fetch_single_feed(name: str, url: str, hours: int) -> list[Article]:
         if hasattr(entry, "content") and entry.content:
             content = entry.content[0].get("value", "")
 
-        # 36氪需要过滤 AI 相关
-        if "36kr" in url and not _is_ai_related(title, summary):
-            continue
-
         articles.append(Article(
             title=title,
             url=link,
@@ -113,6 +96,11 @@ def _fetch_single_feed(name: str, url: str, hours: int) -> list[Article]:
             summary=summary[:2000],
             content=content[:5000],
         ))
+
+    # 单源最多保留 30 篇（避免 arXiv 等高产源淹没其他源）
+    if len(articles) > 30:
+        articles.sort(key=lambda a: a.published, reverse=True)
+        articles = articles[:30]
 
     logger.info("从 %s 抓取到 %d 篇文章", name, len(articles))
     return articles
