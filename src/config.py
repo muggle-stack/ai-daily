@@ -63,7 +63,7 @@ def load() -> None:
         return
 
     # 加载 .env 文件
-    load_dotenv(PROJECT_ROOT / ".env")
+    load_dotenv(PROJECT_ROOT / ".env", override=True)
 
     # 清理空字符串的环境变量，防止 SDK 误读空值作为有效凭证
     for key in ("ANTHROPIC_API_KEY", "ANTHROPIC_AUTH_TOKEN", "ANTHROPIC_BASE_URL"):
