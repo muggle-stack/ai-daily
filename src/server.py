@@ -1,4 +1,4 @@
-"""FastAPI HTTP 服务 — 包装 AI Daily pipeline，供 OpenClaw 调用。"""
+"""FastAPI HTTP 服务 — 包装 AI 日报 pipeline，供 OpenClaw 调用。"""
 
 import argparse
 import asyncio
@@ -28,11 +28,11 @@ class RunRequest(BaseModel):
 async def lifespan(app: FastAPI):
     """应用生命周期：启动时加载配置。"""
     config.load()
-    logger.info("AI Daily HTTP 服务就绪")
+    logger.info("AI 日报 HTTP 服务就绪")
     yield
 
 
-app = FastAPI(title="AI Daily Bridge", lifespan=lifespan)
+app = FastAPI(title="AI 日报 Bridge", lifespan=lifespan)
 
 
 @app.get("/health")
@@ -60,7 +60,7 @@ async def run(body: RunRequest = RunRequest()) -> dict:
 if __name__ == "__main__":
     import uvicorn
 
-    parser = argparse.ArgumentParser(description="AI Daily HTTP Bridge")
+    parser = argparse.ArgumentParser(description="AI 日报 HTTP Bridge")
     parser.add_argument("--host", default="127.0.0.1", help="监听地址（默认 127.0.0.1）")
     parser.add_argument("--port", type=int, default=18791, help="监听端口（默认 18791）")
     args = parser.parse_args()

@@ -250,7 +250,7 @@ def publish(markdown: str) -> str:
         在线文档的访问 URL。
     """
     date_str = datetime.now().strftime("%Y-%m-%d")
-    title = f"AI Daily · {date_str}"
+    title = f"AI 日报 · {date_str}"
 
     logger.info("开始创建飞书文档: %s", title)
 
@@ -323,7 +323,7 @@ def send_group_notification(
     card = {
         "config": {"wide_screen_mode": True},
         "header": {
-            "title": {"tag": "plain_text", "content": f"🤖 AI Daily · {date_str}"},
+            "title": {"tag": "plain_text", "content": f"🤖 AI 日报 · {date_str}"},
             "template": "purple",
         },
         "elements": [

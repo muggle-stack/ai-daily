@@ -1,4 +1,4 @@
-"""AI Daily 主入口 — 编排所有 Agent 按顺序执行。"""
+"""AI 日报主入口 — 编排所有 Agent 按顺序执行。"""
 
 import argparse
 import sys
@@ -49,7 +49,7 @@ def run_pipeline(hours: int = 48, top_n: int | None = None, github_pages_url: st
         "error": None,
     }
 
-    logger.info("=== AI Daily 开始运行 ===")
+    logger.info("=== AI 日报开始运行 ===")
     logger.info("参数: hours=%d, top_n=%d", hours, top_n)
 
     # Step 1: RSS 抓取
@@ -104,7 +104,11 @@ def run_pipeline(hours: int = 48, top_n: int | None = None, github_pages_url: st
     # Step 4: HTML 渲染 + 保存
     try:
         html_report = renderer_agent.render_html(markdown_report, top_articles)
-        md_path, html_path = renderer_agent.save_output(markdown_report, html_report)
+        md_path, html_path = renderer_agent.save_output(
+            markdown_report, html_report,
+            articles=top_articles,
+            overview=result["overview"],
+        )
         logger.info("Step 4 完成: 文件已保存 %s, %s", md_path, html_path)
         result["html_content"] = html_report
         result["html_path"] = html_path
@@ -122,20 +126,20 @@ def run_pipeline(hours: int = 48, top_n: int | None = None, github_pages_url: st
 
         overview = result["overview"]
         pages_url = github_pages_url or config.GITHUB_PAGES_URL
-        html_url = f"{pages_url}/ai-daily-{date_str}.html" if pages_url else ""
+        html_url = f"{pages_url}/reports/{date_str}.html" if pages_url else ""
         feishu_agent.send_group_notification(doc_url, top_articles, overview, html_url=html_url)
     except Exception as e:
         logger.error("飞书推送失败: %s", e)
         # 飞书失败不影响整体成功状态，pipeline 核心已完成
 
     result["success"] = True
-    logger.info("=== AI Daily 运行完成 ===")
+    logger.info("=== AI 日报运行完成 ===")
     return result
 
 
 def main() -> None:
     """CLI 入口：解析命令行参数并调用 run_pipeline。"""
-    parser = argparse.ArgumentParser(description="AI Daily Report Generator")
+    parser = argparse.ArgumentParser(description="AI 日报生成器")
     parser.add_argument("--hours", type=int, default=48, help="抓取最近多少小时的文章（默认 48）")
     parser.add_argument("--top-n", type=int, default=None, help="保留 TOP N 篇文章（默认从配置读取）")
     args = parser.parse_args()
