@@ -3,24 +3,23 @@ const reportsData = [
         "id": "2026-04-04",
         "title": "AI 日报 · 2026年04月04日",
         "date": "2026-04-04",
-        "summary": "漏洞研究被编码智能体彻底改写，frontier模型的涌现正在加速安全研究的自动化进程；千问3.6-Plus发布仅1天就登顶全球API调用榜首，日调用量突破1.4万亿Token；具身智能开发者大会首次大规模集结00后极客，72小时内用机械臂完成真实世界任务。",
+        "summary": "漏洞研究迎来AI颠覆时刻——前沿模型让\"指着源码找零日漏洞\"成为现实；LangChain分享生产环境Agent自愈实践，部署后自动检测回归并提交修复PR；Anthropic以4亿美元收购生物科技初创公司Coefficient Bio，同时封杀第三方工具OpenClaw的订阅额度。",
         "articleCount": 15,
         "categories": [
-            "模型发布",
-            "研究论文",
-            "行业观点",
             "工具技巧",
-            "产品动态"
+            "行业观点",
+            "产品动态",
+            "模型发布"
         ],
         "tags": [
-            "vulnerability research",
-            "frontier models",
             "LangChain",
-            "self-healing agents",
-            "NeurIPS",
-            "paper submission",
-            "神州数码",
-            "2025财报"
+            "自愈Agent",
+            "AI安全研究",
+            "漏洞挖掘",
+            "MiniMax",
+            "腾讯云",
+            "AI安全",
+            "自动化安全研究"
         ],
         "sections": [
             {
@@ -28,20 +27,20 @@ const reportsData = [
                 "icon": "devices",
                 "items": [
                     {
-                        "title": "企业玩不转龙虾，是人的思维出错了",
-                        "url": "https://www.qbitai.com/2026/04/395307.html"
+                        "title": "Anthropic buys biotech startup Coefficient Bio in $400M deal: Reports",
+                        "url": "https://techcrunch.com/2026/04/03/anthropic-buys-biotech-startup-coefficient-bio-in-400m-deal-reports/"
                     },
                     {
-                        "title": "浪潮信息直播发布业界企业级OpenClaw方案“企千虾”",
-                        "url": "https://www.qbitai.com/2026/04/395916.html"
-                    },
-                    {
-                        "title": "[P] GPU friendly lossless 12-bit BF16 format with 0.03% escape rate and 1 integer ADD decode works for AMD & NVIDIA",
-                        "url": "https://www.reddit.com/r/MachineLearning/comments/1sbv9jl/p_gpu_friendly_lossless_12bit_bf16_format_with/"
+                        "title": "Anthropic宣布正式封杀OpenClaw",
+                        "url": "https://36kr.com/newsflashes/3751993972802307?f=rss"
                     },
                     {
                         "title": "千问3.6Plus大模型登顶全球模型调用排行榜首",
                         "url": "https://36kr.com/newsflashes/3751946475242243?f=rss"
+                    },
+                    {
+                        "title": "OpenAI executive shuffle includes new role for COO Brad Lightcap to lead ‘special projects’",
+                        "url": "https://techcrunch.com/2026/04/03/openai-executive-shuffle-new-roles-coo-brad-lightcap-fidji-simo-kate-rouch/"
                     }
                 ]
             },
@@ -64,30 +63,16 @@ const reportsData = [
                         "url": "https://simonwillison.net/2026/Apr/3/vulnerability-research-is-cooked/#atom-everything"
                     },
                     {
-                        "title": "Considering NeurIPS submission [D]",
-                        "url": "https://www.reddit.com/r/MachineLearning/comments/1sbzdzj/considering_neurips_submission_d/"
+                        "title": "企业玩不转龙虾，是人的思维出错了",
+                        "url": "https://www.qbitai.com/2026/04/395307.html"
                     },
                     {
-                        "title": "神州数码2025年营收超1400亿，AI相关业务增长近五成｜最前线",
-                        "url": "https://36kr.com/p/3751046517129735?f=rss"
+                        "title": "There should be $100M grants to automate AI safety",
+                        "url": "https://www.alignmentforum.org/posts/qdhyrN4uKwBAftmQx/there-should-be-usd100m-grants-to-automate-ai-safety"
                     },
                     {
-                        "title": "The cognitive impact of coding agents",
-                        "url": "https://simonwillison.net/2026/Apr/3/cognitive-cost/#atom-everything"
-                    }
-                ]
-            },
-            {
-                "name": "研究前沿",
-                "icon": "science",
-                "items": [
-                    {
-                        "title": "[R] VOID: Video Object and Interaction Deletion (physically-consistent video inpainting)",
-                        "url": "https://www.reddit.com/r/MachineLearning/comments/1sb9d9s/r_void_video_object_and_interaction_deletion/"
-                    },
-                    {
-                        "title": "[R] Differentiable Clustering & Search !",
-                        "url": "https://www.reddit.com/r/MachineLearning/comments/1sbfofj/r_differentiable_clustering_search/"
+                        "title": "Quoting Greg Kroah-Hartman",
+                        "url": "https://simonwillison.net/2026/Apr/3/greg-kroah-hartman/#atom-everything"
                     }
                 ]
             }
