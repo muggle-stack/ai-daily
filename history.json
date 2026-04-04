@@ -15,5 +15,22 @@
     "https://arxiv.org/abs/2604.00550",
     "https://arxiv.org/abs/2604.00594",
     "https://arxiv.org/abs/2604.00790"
+  ],
+  "2026-04-04": [
+    "https://blog.langchain.com/production-agents-self-heal/",
+    "https://simonwillison.net/2026/Apr/3/vulnerability-research-is-cooked/#atom-everything",
+    "https://www.qbitai.com/2026/04/395307.html",
+    "https://www.alignmentforum.org/posts/qdhyrN4uKwBAftmQx/there-should-be-usd100m-grants-to-automate-ai-safety",
+    "https://techcrunch.com/2026/04/03/anthropic-buys-biotech-startup-coefficient-bio-in-400m-deal-reports/",
+    "https://www.reddit.com/r/MachineLearning/comments/1sbv9jl/p_gpu_friendly_lossless_12bit_bf16_format_with/",
+    "https://www.reddit.com/r/MachineLearning/comments/1sb9d9s/r_void_video_object_and_interaction_deletion/",
+    "https://36kr.com/newsflashes/3751993972802307?f=rss",
+    "https://simonwillison.net/2026/Apr/3/willy-tarreau/#atom-everything",
+    "https://36kr.com/newsflashes/3751946475242243?f=rss",
+    "https://www.reddit.com/r/MachineLearning/comments/1sbe0dk/p_i_trained_a_mamba3_log_anomaly_detector_that/",
+    "https://simonwillison.net/2026/Apr/3/greg-kroah-hartman/#atom-everything",
+    "https://techcrunch.com/2026/04/03/openai-executive-shuffle-new-roles-coo-brad-lightcap-fidji-simo-kate-rouch/",
+    "https://simonwillison.net/2026/Apr/3/daniel-stenberg/#atom-everything",
+    "https://36kr.com/p/3752115857638145?f=rss"
   ]
 }
