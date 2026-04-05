@@ -1,5 +1,43 @@
 const reportsData = [
     {
+        "id": "2026-04-05",
+        "title": "AI 日报 · 2026年04月05日",
+        "date": "2026-04-05",
+        "summary": "Anthropic 宣布 Claude Code 用户使用 OpenClaw 等第三方工具需额外付费，编程助手生态开始进入\"增值收费\"时代；阿里千问3.6Plus 日调用量突破1.4万亿Token，登顶全球模型调用量榜首；一群中国年轻创业者打造的 AI 记忆系统凭借原生指代消解能力在 Benchmark 上实现现象级领先。",
+        "articleCount": 3,
+        "categories": [
+            "产品动态"
+        ],
+        "tags": [
+            "Anthropic",
+            "Claude Code",
+            "阿里",
+            "千问3.6Plus",
+            "AI记忆",
+            "指代消解"
+        ],
+        "sections": [
+            {
+                "name": "产品应用",
+                "icon": "devices",
+                "items": [
+                    {
+                        "title": "Anthropic says Claude Code subscribers will need to pay extra for OpenClaw usage",
+                        "url": "https://techcrunch.com/2026/04/04/anthropic-says-claude-code-subscribers-will-need-to-pay-extra-for-openclaw-support/"
+                    },
+                    {
+                        "title": "日调用量超万亿破纪录！阿里千问3.6Plus登顶全球模型调用量榜首",
+                        "url": "https://www.qbitai.com/2026/04/396346.html"
+                    },
+                    {
+                        "title": "19岁，常青藤辍学，这群中国年轻人重构了AI记忆",
+                        "url": "https://www.qbitai.com/2026/04/396069.html"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id": "2026-04-04",
         "title": "AI 日报 · 2026年04月04日",
         "date": "2026-04-04",
