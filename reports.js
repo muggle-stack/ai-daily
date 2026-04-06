@@ -1,5 +1,76 @@
 const reportsData = [
     {
+        "id": "2026-04-06",
+        "title": "AI 日报 · 2026年04月06日",
+        "date": "2026-04-06",
+        "summary": "LangChain 提出 AI Agent 持续学习的三层框架，重新定义智能体如何随时间进化；OpenAI 曝光全新预训练模型代号\"土豆\"，Sora 或被边缘化；有团队开始为 AI Agent 打造专属硬件，成本比 Mac Mini 还低。",
+        "articleCount": 7,
+        "categories": [
+            "开源项目",
+            "产品动态",
+            "行业观点",
+            "模型发布"
+        ],
+        "tags": [
+            "continual learning",
+            "AI agent",
+            "AI Agent",
+            "专用硬件",
+            "LLM",
+            "API抽象层",
+            "OpenAI",
+            "预训练模型"
+        ],
+        "sections": [
+            {
+                "name": "产品应用",
+                "icon": "devices",
+                "items": [
+                    {
+                        "title": "为了不跟龙虾抢电脑用，有人开始造Agent专属的“三无”硬件，比Mac Mini+存储便宜",
+                        "url": "https://www.qbitai.com/2026/04/396351.html"
+                    },
+                    {
+                        "title": "OpenAI新模型不是GPTX！全新预训练“土豆”曝光，Sora成弃子的原因找到了",
+                        "url": "https://www.qbitai.com/2026/04/396535.html"
+                    }
+                ]
+            },
+            {
+                "name": "开发生态",
+                "icon": "code",
+                "items": [
+                    {
+                        "title": "research-llm-apis 2026-04-04",
+                        "url": "https://simonwillison.net/2026/Apr/5/research-llm-apis/#atom-everything"
+                    }
+                ]
+            },
+            {
+                "name": "行业动态",
+                "icon": "trending_up",
+                "items": [
+                    {
+                        "title": "Continual learning for AI agents",
+                        "url": "https://blog.langchain.com/continual-learning-for-ai-agents/"
+                    },
+                    {
+                        "title": "In Japan, the robot isn’t coming for your job; it’s filling the one nobody wants",
+                        "url": "https://techcrunch.com/2026/04/05/japan-is-proving-experimental-physical-ai-is-ready-for-the-real-world/"
+                    },
+                    {
+                        "title": "Copilot is ‘for entertainment purposes only,’ according to Microsoft’s terms of use",
+                        "url": "https://techcrunch.com/2026/04/05/copilot-is-for-entertainment-purposes-only-according-to-microsofts-terms-of-service/"
+                    },
+                    {
+                        "title": "Linux内核维护者崩溃了！AI每天狂塞10份漏洞报告，想摸会鱼都难",
+                        "url": "https://www.qbitai.com/2026/04/396358.html"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id": "2026-04-05",
         "title": "AI 日报 · 2026年04月05日",
         "date": "2026-04-05",
