@@ -1,25 +1,25 @@
 const reportsData = [
     {
-        "id": "2026-04-06",
-        "title": "AI 日报 · 2026年04月06日",
-        "date": "2026-04-06",
-        "summary": "LangChain 提出 AI Agent 持续学习的三层框架，重新定义智能体如何随时间进化；OpenAI 曝光全新预训练模型代号\"土豆\"，Sora 或被边缘化；有团队开始为 AI Agent 打造专属硬件，成本比 Mac Mini 还低。",
-        "articleCount": 7,
+        "id": "2026-04-07",
+        "title": "AI 日报 · 2026年04月07日",
+        "date": "2026-04-07",
+        "summary": "今日三件大事：一篇关于大推理模型的研究揭示了\"第一个答案就是最好的\"这一反直觉现象，挑战了 test-time scaling 的主流认知；AI 硬件赛道升温，众筹近 300 万美元的 Agent Box 试图让个人用户摆脱云端算力依赖；Alignment Forum 作者大幅上调 AI 时间线预期，认为 2028 年底前 AI 全面自动化研发的概率接近 30%。",
+        "articleCount": 15,
         "categories": [
             "开源项目",
+            "研究论文",
             "产品动态",
-            "行业观点",
-            "模型发布"
+            "行业观点"
         ],
         "tags": [
-            "continual learning",
-            "AI agent",
-            "AI Agent",
-            "专用硬件",
-            "LLM",
-            "API抽象层",
-            "OpenAI",
-            "预训练模型"
+            "健康AI",
+            "纵向数据",
+            "neuro-symbolic",
+            "LLM agent",
+            "RAG",
+            "知识图谱",
+            "Agent Box",
+            "AI硬件"
         ],
         "sections": [
             {
@@ -27,12 +27,8 @@ const reportsData = [
                 "icon": "devices",
                 "items": [
                     {
-                        "title": "为了不跟龙虾抢电脑用，有人开始造Agent专属的“三无”硬件，比Mac Mini+存储便宜",
-                        "url": "https://www.qbitai.com/2026/04/396351.html"
-                    },
-                    {
-                        "title": "OpenAI新模型不是GPTX！全新预训练“土豆”曝光，Sora成弃子的原因找到了",
-                        "url": "https://www.qbitai.com/2026/04/396535.html"
+                        "title": "众筹300万美元的Agent盒子，想彻底解决你的算力焦虑",
+                        "url": "https://36kr.com/p/3754812277998083?f=rss"
                     }
                 ]
             },
@@ -41,8 +37,8 @@ const reportsData = [
                 "icon": "code",
                 "items": [
                     {
-                        "title": "research-llm-apis 2026-04-04",
-                        "url": "https://simonwillison.net/2026/Apr/5/research-llm-apis/#atom-everything"
+                        "title": "[P] Easily provide Wandb logs as context to agents for analysis and planning.",
+                        "url": "https://www.reddit.com/r/MachineLearning/comments/1se1rmd/p_easily_provide_wandb_logs_as_context_to_agents/"
                     }
                 ]
             },
@@ -51,20 +47,89 @@ const reportsData = [
                 "icon": "trending_up",
                 "items": [
                     {
-                        "title": "Continual learning for AI agents",
-                        "url": "https://blog.langchain.com/continual-learning-for-ai-agents/"
+                        "title": "AIs can now often do massive easy-to-verify SWE tasks and I've updated towards shorter timelines",
+                        "url": "https://www.alignmentforum.org/posts/dKpC6wHFqDrGZwnah/ais-can-now-often-do-massive-easy-to-verify-swe-tasks-and-i"
                     },
                     {
-                        "title": "In Japan, the robot isn’t coming for your job; it’s filling the one nobody wants",
-                        "url": "https://techcrunch.com/2026/04/05/japan-is-proving-experimental-physical-ai-is-ready-for-the-real-world/"
+                        "title": "Announcing the OpenAI Safety Fellowship",
+                        "url": "https://openai.com/index/introducing-openai-safety-fellowship"
+                    }
+                ]
+            },
+            {
+                "name": "研究前沿",
+                "icon": "science",
+                "items": [
+                    {
+                        "title": "ESL-Bench: An Event-Driven Synthetic Longitudinal Benchmark for Health Agents",
+                        "url": "https://arxiv.org/abs/2604.02834"
                     },
                     {
-                        "title": "Copilot is ‘for entertainment purposes only,’ according to Microsoft’s terms of use",
-                        "url": "https://techcrunch.com/2026/04/05/copilot-is-for-entertainment-purposes-only-according-to-microsofts-terms-of-service/"
+                        "title": "AIVV: Neuro-Symbolic LLM Agent-Integrated Verification and Validation for Trustworthy Autonomous Systems",
+                        "url": "https://arxiv.org/abs/2604.02478"
                     },
                     {
-                        "title": "Linux内核维护者崩溃了！AI每天狂塞10份漏洞报告，想摸会鱼都难",
-                        "url": "https://www.qbitai.com/2026/04/396358.html"
+                        "title": "Competency Questions as Executable Plans: a Controlled RAG Architecture for Cultural Heritage Storytelling",
+                        "url": "https://arxiv.org/abs/2604.02545"
+                    },
+                    {
+                        "title": "FoE: Forest of Errors Makes the First Solution the Best in Large Reasoning Models",
+                        "url": "https://arxiv.org/abs/2604.02967"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "2026-04-06",
+        "title": "AI 日报 · 2026年04月06日",
+        "date": "2026-04-06",
+        "summary": "30000个Claude智能体一周内将500页研究生教科书形式化为Lean代码，刷新数学形式化规模纪录；多项研究聚焦AI Agent安全——从掩盖犯罪证据到计算机操作中的有害行为评估；竞赛编程领域迎来新突破，GrandCode多智能体强化学习系统达到Grandmaster水平。",
+        "articleCount": 15,
+        "categories": [
+            "研究论文",
+            "行业观点"
+        ],
+        "tags": [
+            "自动形式化",
+            "Lean",
+            "AI安全",
+            "AI Agent",
+            "竞赛编程",
+            "多智能体RL",
+            "多轮强化学习",
+            "工具调用"
+        ],
+        "sections": [
+            {
+                "name": "行业动态",
+                "icon": "trending_up",
+                "items": [
+                    {
+                        "title": "Eight years of wanting, three months of building with AI",
+                        "url": "https://simonwillison.net/2026/Apr/5/building-with-ai/#atom-everything"
+                    }
+                ]
+            },
+            {
+                "name": "研究前沿",
+                "icon": "science",
+                "items": [
+                    {
+                        "title": "Automatic Textbook Formalization",
+                        "url": "https://arxiv.org/abs/2604.03071"
+                    },
+                    {
+                        "title": "I must delete the evidence: AI Agents Explicitly Cover up Fraud and Violent Crime",
+                        "url": "https://arxiv.org/abs/2604.02500"
+                    },
+                    {
+                        "title": "GrandCode: Achieving Grandmaster Level in Competitive Programming via Agentic Reinforcement Learning",
+                        "url": "https://arxiv.org/abs/2604.02721"
+                    },
+                    {
+                        "title": "Multi-Turn Reinforcement Learning for Tool-Calling Agents with Iterative Reward Calibration",
+                        "url": "https://arxiv.org/abs/2604.02869"
                     }
                 ]
             }
