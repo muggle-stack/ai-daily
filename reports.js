@@ -1,5 +1,91 @@
 const reportsData = [
     {
+        "id": "2026-04-08",
+        "title": "AI 日报 · 2026年04月08日",
+        "date": "2026-04-08",
+        "summary": "Anthropic 宣布 Project Glasswing 计划，将具备强大网络安全能力的 Claude Mythos 模型限制性开放给安全研究人员；PRAISE 框架为 Agent 搜索训练带来数据效率和信用分配的双重突破；LangChain 发布 Deep Agents v0.5，支持异步非阻塞子 Agent 和多模态文件系统。",
+        "articleCount": 15,
+        "categories": [
+            "行业观点",
+            "研究论文",
+            "产品动态",
+            "模型发布",
+            "开源项目"
+        ],
+        "tags": [
+            "Agent搜索",
+            "强化学习",
+            "AI现状",
+            "场景预测",
+            "序列预测",
+            "字符串学",
+            "LLM",
+            "实验室自动化"
+        ],
+        "sections": [
+            {
+                "name": "产品应用",
+                "icon": "devices",
+                "items": [
+                    {
+                        "title": "前迪士尼工程师和Midjourney联创，要做一款“会呼吸”的DIY仿生机器人｜硬氪专访",
+                        "url": "https://36kr.com/p/3754821568578050?f=rss"
+                    },
+                    {
+                        "title": "Anthropic's Project Glasswing - restricting Claude Mythos to security researchers - sounds necessary to me",
+                        "url": "https://simonwillison.net/2026/Apr/7/project-glasswing/#atom-everything"
+                    },
+                    {
+                        "title": "红熊AI完成2.1亿元A轮融资，切入物理AI赛道｜36氪首发",
+                        "url": "https://36kr.com/p/3750675963904513?f=rss"
+                    }
+                ]
+            },
+            {
+                "name": "开发生态",
+                "icon": "code",
+                "items": [
+                    {
+                        "title": "Deep Agents v0.5",
+                        "url": "https://blog.langchain.com/deep-agents-v0-5/"
+                    }
+                ]
+            },
+            {
+                "name": "行业动态",
+                "icon": "trending_up",
+                "items": [
+                    {
+                        "title": "My picture of the present in AI",
+                        "url": "https://www.alignmentforum.org/posts/WjaGAA4xCAXeFpyWm/my-picture-of-the-present-in-ai"
+                    }
+                ]
+            },
+            {
+                "name": "研究前沿",
+                "icon": "science",
+                "items": [
+                    {
+                        "title": "PRAISE: Prefix-Based Rollout Reuse in Agentic Search Training",
+                        "url": "https://arxiv.org/abs/2604.03675"
+                    },
+                    {
+                        "title": "[Paper] Stringological sequence prediction I",
+                        "url": "https://www.alignmentforum.org/posts/EEvHYKLsq92LmQ78a/paper-stringological-sequence-prediction-i-1"
+                    },
+                    {
+                        "title": "Toward Full Autonomous Laboratory Instrumentation Control with Large Language Models",
+                        "url": "https://arxiv.org/abs/2604.03286"
+                    },
+                    {
+                        "title": "Explainable Model Routing for Agentic Workflows",
+                        "url": "https://arxiv.org/abs/2604.03527"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id": "2026-04-07",
         "title": "AI 日报 · 2026年04月07日",
         "date": "2026-04-07",
