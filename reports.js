@@ -1,5 +1,76 @@
 const reportsData = [
     {
+        "id": "2026-04-09",
+        "title": "AI 日报 · 2026年04月09日",
+        "date": "2026-04-09",
+        "summary": "Meta 发布 Llama 4 之后的首个新模型 Muse Spark，走向闭源托管路线，引发社区热议；Agent 安全与评估成为今日论文主旋律，多篇研究聚焦智能体在真实工作流中的可靠性问题；OpenAI 发文阐述企业 AI 下一阶段愿景，全面押注公司级 AI Agent。",
+        "articleCount": 15,
+        "categories": [
+            "工具技巧",
+            "研究论文",
+            "产品动态",
+            "模型发布"
+        ],
+        "tags": [
+            "Meta",
+            "Muse Spark",
+            "LLM agents",
+            "benchmark",
+            "AI Agent",
+            "on-the-job learning",
+            "OpenAI",
+            "enterprise AI"
+        ],
+        "sections": [
+            {
+                "name": "产品应用",
+                "icon": "devices",
+                "items": [
+                    {
+                        "title": "Meta's new model is Muse Spark, and meta.ai chat has some interesting tools",
+                        "url": "https://simonwillison.net/2026/Apr/8/muse-spark/#atom-everything"
+                    },
+                    {
+                        "title": "The next phase of enterprise AI",
+                        "url": "https://openai.com/index/next-phase-of-enterprise-ai"
+                    }
+                ]
+            },
+            {
+                "name": "开发生态",
+                "icon": "code",
+                "items": [
+                    {
+                        "title": "Better Harness: A Recipe for Harness Hill-Climbing with Evals",
+                        "url": "https://blog.langchain.com/better-harness-a-recipe-for-harness-hill-climbing-with-evals/"
+                    }
+                ]
+            },
+            {
+                "name": "研究前沿",
+                "icon": "science",
+                "items": [
+                    {
+                        "title": "ClawsBench: Evaluating Capability and Safety of LLM Productivity Agents in Simulated Workspaces",
+                        "url": "https://arxiv.org/abs/2604.05172"
+                    },
+                    {
+                        "title": "ALTK‑Evolve: On‑the‑Job Learning for AI Agents",
+                        "url": "https://huggingface.co/blog/ibm-research/altk-evolve"
+                    },
+                    {
+                        "title": "TRACE: Capability-Targeted Agentic Training",
+                        "url": "https://arxiv.org/abs/2604.05336"
+                    },
+                    {
+                        "title": "PaperOrchestra: A Multi-Agent Framework for Automated AI Research Paper Writing",
+                        "url": "https://arxiv.org/abs/2604.05018"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id": "2026-04-08",
         "title": "AI 日报 · 2026年04月08日",
         "date": "2026-04-08",
