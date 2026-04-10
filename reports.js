@@ -1,5 +1,80 @@
 const reportsData = [
     {
+        "id": "2026-04-10",
+        "title": "AI 日报 · 2026年04月10日",
+        "date": "2026-04-10",
+        "summary": "LangChain 发布 Deep Agents Deploy，以开源姿态正面对标 Claude Managed Agents；美团光年之外团队推出 AI 浏览器 Tabbit，瞄准知识工作者的日常效率场景；阿里云百炼上线 Agent 记忆库，为龙虾类应用补上长期记忆这块拼图。",
+        "articleCount": 9,
+        "categories": [
+            "开源项目",
+            "产品动态",
+            "行业观点",
+            "模型发布"
+        ],
+        "tags": [
+            "Deep Agents",
+            "LangChain",
+            "美团",
+            "AI浏览器",
+            "阿里云百炼",
+            "Agent记忆库",
+            "AI Agent",
+            "人机协作"
+        ],
+        "sections": [
+            {
+                "name": "产品应用",
+                "icon": "devices",
+                "items": [
+                    {
+                        "title": "对话美团GN06刘炯：美团为什么做了一款AI浏览器？",
+                        "url": "https://36kr.com/p/3759372854706953?f=rss"
+                    },
+                    {
+                        "title": "阿里云百炼上线Agent记忆库，让「龙虾」应用更懂用户",
+                        "url": "https://www.qbitai.com/2026/04/398117.html"
+                    },
+                    {
+                        "title": "耀速科技获2亿人民币融资，将“AI+器官芯片”嵌入新药开发流程",
+                        "url": "https://36kr.com/p/3758982738641670?f=rss"
+                    },
+                    {
+                        "title": "36氪首发 | 牛津博士后跨界创业融资两轮，用光学重构机器人传感器",
+                        "url": "https://36kr.com/p/3758900416348934?f=rss"
+                    }
+                ]
+            },
+            {
+                "name": "开发生态",
+                "icon": "code",
+                "items": [
+                    {
+                        "title": "Deep Agents Deploy: an open alternative to Claude Managed Agents",
+                        "url": "https://blog.langchain.com/deep-agents-deploy-an-open-alternative-to-claude-managed-agents/"
+                    },
+                    {
+                        "title": "Claude封杀龙虾后推自家Agent服务，又被开源平替了",
+                        "url": "https://www.qbitai.com/2026/04/398121.html"
+                    },
+                    {
+                        "title": "爆火GitHub！《生化危机》女主打造免费“AI记忆系统”",
+                        "url": "https://www.qbitai.com/2026/04/398090.html"
+                    }
+                ]
+            },
+            {
+                "name": "行业动态",
+                "icon": "trending_up",
+                "items": [
+                    {
+                        "title": "Human judgment in the agent improvement loop",
+                        "url": "https://blog.langchain.com/human-judgment-in-the-agent-improvement-loop/"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id": "2026-04-09",
         "title": "AI 日报 · 2026年04月09日",
         "date": "2026-04-09",

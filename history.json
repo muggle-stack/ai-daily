@@ -1,21 +1,4 @@
 {
-  "2026-04-03": [
-    "https://arxiv.org/abs/2604.00005",
-    "https://arxiv.org/abs/2604.00085",
-    "https://arxiv.org/abs/2604.00137",
-    "https://arxiv.org/abs/2604.00249",
-    "https://arxiv.org/abs/2604.00442",
-    "https://arxiv.org/abs/2604.00478",
-    "https://arxiv.org/abs/2604.00555",
-    "https://arxiv.org/abs/2604.00281",
-    "https://arxiv.org/abs/2604.00284",
-    "https://arxiv.org/abs/2604.00356",
-    "https://arxiv.org/abs/2604.00362",
-    "https://arxiv.org/abs/2604.00477",
-    "https://arxiv.org/abs/2604.00550",
-    "https://arxiv.org/abs/2604.00594",
-    "https://arxiv.org/abs/2604.00790"
-  ],
   "2026-04-04": [
     "https://blog.langchain.com/production-agents-self-heal/",
     "https://simonwillison.net/2026/Apr/3/vulnerability-research-is-cooked/#atom-everything",
@@ -105,5 +88,16 @@
     "https://blog.langchain.com/better-harness-a-recipe-for-harness-hill-climbing-with-evals/",
     "https://arxiv.org/abs/2604.05075",
     "https://arxiv.org/abs/2604.05081"
+  ],
+  "2026-04-10": [
+    "https://blog.langchain.com/deep-agents-deploy-an-open-alternative-to-claude-managed-agents/",
+    "https://36kr.com/p/3759372854706953?f=rss",
+    "https://www.qbitai.com/2026/04/398117.html",
+    "https://blog.langchain.com/human-judgment-in-the-agent-improvement-loop/",
+    "https://36kr.com/p/3758982738641670?f=rss",
+    "https://36kr.com/p/3758900416348934?f=rss",
+    "https://www.qbitai.com/2026/04/398121.html",
+    "https://www.qbitai.com/2026/04/398020.html",
+    "https://www.qbitai.com/2026/04/398090.html"
   ]
 }
