@@ -1,5 +1,75 @@
 const reportsData = [
     {
+        "id": "2026-04-11",
+        "title": "AI 日报 · 2026年04月11日",
+        "date": "2026-04-11",
+        "summary": "今天有三件事值得关注：一是 arXiv 上线了面向研究级数学的 Riemann-Bench，把 AI 数学能力评估从竞赛题拉到了真正的科研前沿；二是多智能体系统持续升温，从编排 OS、路由引擎到情感谈判，Agent 生态的基础设施正在快速成型；三是百度伐谋 Agent 2.0 再次拿下 MLE-Bench 榜首，国内大厂在工程智能体赛道上继续发力。",
+        "articleCount": 15,
+        "categories": [
+            "开源项目",
+            "研究论文",
+            "产品动态"
+        ],
+        "tags": [
+            "数学推理benchmark",
+            "Riemann-Bench",
+            "LLM agent RL",
+            "树结构优化",
+            "LLM agent",
+            "自我修正",
+            "多智能体编排",
+            "agent OS"
+        ],
+        "sections": [
+            {
+                "name": "产品应用",
+                "icon": "devices",
+                "items": [
+                    {
+                        "title": "百度伐谋Agent 2.0再次登顶MLE-Bench",
+                        "url": "https://36kr.com/newsflashes/3760913826120455?f=rss"
+                    },
+                    {
+                        "title": "早期项目 | 字节、OPPO、一加三重背景产品人，将软硬一体写入底层，要让AI看懂世界",
+                        "url": "https://36kr.com/p/3760310709174784?f=rss"
+                    }
+                ]
+            },
+            {
+                "name": "开发生态",
+                "icon": "code",
+                "items": [
+                    {
+                        "title": "[P] ibu-boost: a GBDT library where splits are *absolutely* rejected, not just relatively ranked[P]",
+                        "url": "https://www.reddit.com/r/MachineLearning/comments/1shpdm2/p_ibuboost_a_gbdt_library_where_splits_are/"
+                    }
+                ]
+            },
+            {
+                "name": "研究前沿",
+                "icon": "science",
+                "items": [
+                    {
+                        "title": "Riemann-Bench: A Benchmark for Moonshot Mathematics",
+                        "url": "https://arxiv.org/abs/2604.06802"
+                    },
+                    {
+                        "title": "Reason in Chains, Learn in Trees: Self-Rectification and Grafting for Multi-turn Agent Policy Optimization",
+                        "url": "https://arxiv.org/abs/2604.07165"
+                    },
+                    {
+                        "title": "How Much LLM Does a Self-Revising Agent Actually Need?",
+                        "url": "https://arxiv.org/abs/2604.07236"
+                    },
+                    {
+                        "title": "Qualixar OS: A Universal Operating System for AI Agent Orchestration",
+                        "url": "https://arxiv.org/abs/2604.06392"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id": "2026-04-10",
         "title": "AI 日报 · 2026年04月10日",
         "date": "2026-04-10",

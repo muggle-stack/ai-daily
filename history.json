@@ -1,21 +1,4 @@
 {
-  "2026-04-04": [
-    "https://blog.langchain.com/production-agents-self-heal/",
-    "https://simonwillison.net/2026/Apr/3/vulnerability-research-is-cooked/#atom-everything",
-    "https://www.qbitai.com/2026/04/395307.html",
-    "https://www.alignmentforum.org/posts/qdhyrN4uKwBAftmQx/there-should-be-usd100m-grants-to-automate-ai-safety",
-    "https://techcrunch.com/2026/04/03/anthropic-buys-biotech-startup-coefficient-bio-in-400m-deal-reports/",
-    "https://36kr.com/newsflashes/3751993972802307?f=rss",
-    "https://simonwillison.net/2026/Apr/3/greg-kroah-hartman/#atom-everything",
-    "https://36kr.com/newsflashes/3751946475242243?f=rss",
-    "https://36kr.com/p/3752115857638145?f=rss",
-    "https://simonwillison.net/2026/Apr/3/willy-tarreau/#atom-everything",
-    "https://techcrunch.com/2026/04/03/openai-executive-shuffle-new-roles-coo-brad-lightcap-fidji-simo-kate-rouch/",
-    "https://techcrunch.com/2026/04/03/moonbounce-fundraise-content-moderation-for-the-ai-era/",
-    "https://techcrunch.com/2026/04/03/anthropic-is-having-a-moment-in-the-private-markets-spacex-could-spoil-the-party/",
-    "https://www.qbitai.com/2026/04/395995.html",
-    "https://techcrunch.com/2026/04/03/anthropic-ramps-up-its-political-activities-with-a-new-pac/"
-  ],
   "2026-04-05": [
     "https://techcrunch.com/2026/04/04/anthropic-says-claude-code-subscribers-will-need-to-pay-extra-for-openclaw-support/",
     "https://www.qbitai.com/2026/04/396346.html",
@@ -99,5 +82,22 @@
     "https://www.qbitai.com/2026/04/398121.html",
     "https://www.qbitai.com/2026/04/398020.html",
     "https://www.qbitai.com/2026/04/398090.html"
+  ],
+  "2026-04-11": [
+    "https://arxiv.org/abs/2604.06802",
+    "https://arxiv.org/abs/2604.07165",
+    "https://arxiv.org/abs/2604.07236",
+    "https://arxiv.org/abs/2604.06392",
+    "https://arxiv.org/abs/2604.06562",
+    "https://arxiv.org/abs/2604.06691",
+    "https://arxiv.org/abs/2604.06696",
+    "https://arxiv.org/abs/2604.07003",
+    "https://arxiv.org/abs/2604.07070",
+    "https://www.reddit.com/r/MachineLearning/comments/1shpdm2/p_ibuboost_a_gbdt_library_where_splits_are/",
+    "https://arxiv.org/abs/2604.06628",
+    "https://arxiv.org/abs/2604.06747",
+    "https://36kr.com/newsflashes/3760913826120455?f=rss",
+    "https://36kr.com/p/3760310709174784?f=rss",
+    "https://arxiv.org/abs/2604.06277"
   ]
 }
