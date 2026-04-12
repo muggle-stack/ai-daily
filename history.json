@@ -1,9 +1,4 @@
 {
-  "2026-04-05": [
-    "https://techcrunch.com/2026/04/04/anthropic-says-claude-code-subscribers-will-need-to-pay-extra-for-openclaw-support/",
-    "https://www.qbitai.com/2026/04/396346.html",
-    "https://www.qbitai.com/2026/04/396069.html"
-  ],
   "2026-04-06": [
     "https://arxiv.org/abs/2604.03071",
     "https://arxiv.org/abs/2604.02500",
@@ -99,5 +94,13 @@
     "https://36kr.com/newsflashes/3760913826120455?f=rss",
     "https://36kr.com/p/3760310709174784?f=rss",
     "https://arxiv.org/abs/2604.06277"
+  ],
+  "2026-04-12": [
+    "https://blog.langchain.com/your-harness-your-memory/",
+    "https://36kr.com/p/3761883183530502?f=rss",
+    "https://36kr.com/p/3762088319484419?f=rss",
+    "https://36kr.com/p/3761709375521288?f=rss",
+    "https://www.reddit.com/r/MachineLearning/comments/1sim6y1/flashattention_fa1fa4_in_pytorch_educational/",
+    "https://36kr.com/newsflashes/3761942487990792?f=rss"
   ]
 }

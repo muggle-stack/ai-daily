@@ -1,5 +1,60 @@
 const reportsData = [
     {
+        "id": "2026-04-12",
+        "title": "AI 日报 · 2026年04月12日",
+        "date": "2026-04-12",
+        "summary": "LangChain 发文警告：Agent 记忆绑定闭源框架等于交出控制权，开发者需谨慎选择；明星 AI 评测公司 Yupp 成立仅 22 个月便宣布关闭，3300 万美元种子轮还没花完市场就消失了；Anthropic 最新模型 Claude Mythos 引发金融业恐慌，美联储主席与财长紧急召集华尔街 CEO 开会应对。",
+        "articleCount": 6,
+        "categories": [
+            "开源项目",
+            "行业观点"
+        ],
+        "tags": [
+            "LangChain",
+            "Agent",
+            "Hermes Agent",
+            "Nous Research",
+            "Yupp",
+            "AI创业",
+            "Anthropic",
+            "Claude Mythos"
+        ],
+        "sections": [
+            {
+                "name": "开发生态",
+                "icon": "code",
+                "items": [
+                    {
+                        "title": "FlashAttention (FA1–FA4) in PyTorch - educational implementations focused on algorithmic differences [P]",
+                        "url": "https://www.reddit.com/r/MachineLearning/comments/1sim6y1/flashattention_fa1fa4_in_pytorch_educational/"
+                    }
+                ]
+            },
+            {
+                "name": "行业动态",
+                "icon": "trending_up",
+                "items": [
+                    {
+                        "title": "Your harness, your memory",
+                        "url": "https://blog.langchain.com/your-harness-your-memory/"
+                    },
+                    {
+                        "title": "那个“爱马仕”，想拯救“智障”小龙虾",
+                        "url": "https://36kr.com/p/3761883183530502?f=rss"
+                    },
+                    {
+                        "title": "拿下豪华种子轮，一家明星AI公司宣布倒闭",
+                        "url": "https://36kr.com/p/3762088319484419?f=rss"
+                    },
+                    {
+                        "title": "Claude新模型危险，鲍威尔召集华尔街紧急开会！全美安全股暴跌2万亿",
+                        "url": "https://36kr.com/p/3761709375521288?f=rss"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id": "2026-04-11",
         "title": "AI 日报 · 2026年04月11日",
         "date": "2026-04-11",
