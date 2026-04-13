@@ -1,5 +1,107 @@
 const reportsData = [
     {
+        "id": "2026-04-13",
+        "title": "AI 日报 · 2026年04月13日",
+        "date": "2026-04-13",
+        "summary": "KIV 项目让 RTX 4070 也能跑 100 万 token 上下文，VRAM 开销仅 12MB；中国团队发布 36.4 万超声图文对数据集登上 CVPR 2026；苹果 AI 负责人确认离职，Apple Intelligence 战略受挫的后续效应持续发酵。",
+        "articleCount": 14,
+        "categories": [
+            "行业观点",
+            "研究论文",
+            "产品动态",
+            "开源项目",
+            "工具技巧"
+        ],
+        "tags": [
+            "KV cache",
+            "长上下文",
+            "超声影像",
+            "医学AI",
+            "行为克隆",
+            "DAgger",
+            "Transformer",
+            "记忆机制"
+        ],
+        "sections": [
+            {
+                "name": "产品应用",
+                "icon": "devices",
+                "items": [
+                    {
+                        "title": "苹果AI负责人将离职",
+                        "url": "https://36kr.com/newsflashes/3764454058328838?f=rss"
+                    }
+                ]
+            },
+            {
+                "name": "开发生态",
+                "icon": "code",
+                "items": [
+                    {
+                        "title": "KIV: 1M token context window on a RTX 4070 (12GB VRAM), no retraining, drop-in HuggingFace cache replacement - Works with any model that uses DynamicCache [P]",
+                        "url": "https://www.reddit.com/r/MachineLearning/comments/1sjkmwz/kiv_1m_token_context_window_on_a_rtx_4070_12gb/"
+                    },
+                    {
+                        "title": "Training an AI to play Resident Evil Requiem using Behavior Cloning + HG-DAgge [P]",
+                        "url": "https://www.reddit.com/r/MachineLearning/comments/1sjg4ph/training_an_ai_to_play_resident_evil_requiem/"
+                    },
+                    {
+                        "title": "Educational PyTorch repo for distributed training from scratch: DP, FSDP, TP, FSDP+TP, and PP [P]",
+                        "url": "https://www.reddit.com/r/MachineLearning/comments/1sjglrn/educational_pytorch_repo_for_distributed_training/"
+                    },
+                    {
+                        "title": "ArcFace embeddings quantized to 16-bit pgvector HALFVEC ? [D]",
+                        "url": "https://www.reddit.com/r/MachineLearning/comments/1sj960m/arcface_embeddings_quantized_to_16bit_pgvector/"
+                    }
+                ]
+            },
+            {
+                "name": "行业动态",
+                "icon": "trending_up",
+                "items": [
+                    {
+                        "title": "Frameworks For Supporting LLM/Agentic Benchmarking [P]",
+                        "url": "https://www.reddit.com/r/MachineLearning/comments/1sjnha5/frameworks_for_supporting_llmagentic_benchmarking/"
+                    },
+                    {
+                        "title": "Trump officials may be encouraging banks to test Anthropic’s Mythos model",
+                        "url": "https://techcrunch.com/2026/04/12/trump-officials-may-be-encouraging-banks-to-test-anthropics-mythos-model/"
+                    },
+                    {
+                        "title": "[D] Will Google’s TurboQuant algorithm hurt AI demand for memory chips? [D]",
+                        "url": "https://www.reddit.com/r/MachineLearning/comments/1sj5hsx/d_will_googles_turboquant_algorithm_hurt_ai/"
+                    },
+                    {
+                        "title": "Gary Marcus on the Claude Code leak [D]",
+                        "url": "https://www.reddit.com/r/MachineLearning/comments/1sjb0qi/gary_marcus_on_the_claude_code_leak_d/"
+                    }
+                ]
+            },
+            {
+                "name": "研究前沿",
+                "icon": "science",
+                "items": [
+                    {
+                        "title": "36.4万超声图文对！中国团队构建首个大规模超声专属数据集，让AI真正读懂临床诊断语义丨CVPR’26",
+                        "url": "https://www.qbitai.com/2026/04/399975.html"
+                    },
+                    {
+                        "title": "A frozen transformer learned that wombats produce cube shaped droppings and still knows after cold reload [R]",
+                        "url": "https://www.reddit.com/r/MachineLearning/comments/1sjup3s/a_frozen_transformer_learned_that_wombats_produce/"
+                    },
+                    {
+                        "title": "Just did an analysis on ICLR 2025 vs 2026 scores and WOW [D]",
+                        "url": "https://www.reddit.com/r/MachineLearning/comments/1sj76a2/just_did_an_analysis_on_iclr_2025_vs_2026_scores/"
+                    },
+                    {
+                        "title": "新型芯片电源实现高效降压转换",
+                        "url": "https://36kr.com/newsflashes/3764458003219208?f=rss"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id": "2026-04-12",
         "title": "AI 日报 · 2026年04月12日",
         "date": "2026-04-12",

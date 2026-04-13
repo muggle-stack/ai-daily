@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 日报 · 2026年04月13日</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,300,0,0&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<script>
+tailwind.config = {
+    theme: {
+        extend: {
+            colors: {
+                warm: { 50: '#fbf9f6', 100: '#f5f0ea', 200: '#e8dfd5', 400: '#b5a08a', 500: '#8a7f76', 600: '#6b6158', 700: '#4a403a', 800: '#342d28', 900: '#1f1a17' },
+                accent: { DEFAULT: '#c96442', light: '#e8825f', dark: '#a84e32' },
+            },
+            fontFamily: { sans: ['Noto Sans SC', 'system-ui', 'sans-serif'] },
+        }
+    }
+}
+</script>
+<style>
+body { font-family: 'Noto Sans SC', system-ui, sans-serif; }
+.material-symbols-rounded { font-family: 'Material Symbols Rounded' !important; font-weight: 300 !important; font-style: normal; display: inline-block; line-height: 1; font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24 !important; }
+.card-hover { transition: all 0.25s ease; }
+.card-hover:hover { transform: translateY(-3px); box-shadow: 0 12px 24px -8px rgba(74,64,58,0.14); }
+</style>
+</head>
+<body class="bg-warm-50 text-warm-700 antialiased">
+
+<!-- Navigation -->
+<nav class="fixed top-0 w-full bg-warm-50/85 backdrop-blur-md z-50 border-b border-warm-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-14">
+        <a href="../index.html" class="text-lg font-bold text-accent hover:text-accent-dark transition">← AI 日报</a>
+        <span class="text-warm-500 text-sm">2026年04月13日</span>
+    </div>
+</nav>
+
+<main class="pt-20 pb-16">
+    <!-- Header -->
+    <section class="bg-gradient-to-br from-accent to-accent-dark text-white py-12 mb-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-3xl md:text-4xl font-bold mb-2">AI 日报 · 2026年04月13日</h1>
+            <p class="text-orange-100">共 14 篇精选，来自 4 个信息源</p>
+        </div>
+    </section>
+
+    <!-- Overview -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-10">
+        <div class="bg-white border border-warm-200 rounded-xl p-6 shadow-sm" style="border-left: 4px solid #c96442;">
+            <p class="text-warm-700 leading-relaxed">KIV 项目让 RTX 4070 也能跑 100 万 token 上下文，VRAM 开销仅 12MB；中国团队发布 36.4 万超声图文对数据集登上 CVPR 2026；苹果 AI 负责人确认离职，Apple Intelligence 战略受挫的后续效应持续发酵。</p>
+        </div>
+    </div>
+
+    <!-- Content -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <section class="mb-10">
+    <div class="flex items-center gap-3 mb-5">
+        <span class="material-symbols-rounded text-2xl" style="color: #335c67;">code</span>
+        <h2 class="text-xl font-bold" style="color: #335c67;">开源项目</h2>
+        <span class="text-xs text-warm-400 bg-warm-100 px-2.5 py-0.5 rounded-full">3 篇</span>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+        <div class="bg-white border border-warm-200 rounded-xl overflow-hidden shadow-sm card-hover" style="border-left: 4px solid #335c67;">
+    <div class="p-5">
+        <div class="flex items-start gap-3 mb-3">
+            <span class="material-symbols-rounded mt-0.5 flex-shrink-0" style="color: #335c67; font-size: 20px;">code</span>
+            <h3 class="text-base font-bold leading-snug flex-1" style="color: #335c67;">KIV：RTX 4070（12GB 显存）实现 100 万 token 上下文窗口，无需重训练，可直接替换 HuggingFace 缓存——兼容所有使用 DynamicCache 的模型（KIV: 1M token context window on a RTX 4070 (12GB VRAM), no retraining, drop-in HuggingFace cache replacement - Works with any model that uses DynamicCache）</h3>
+            <span class="flex-shrink-0 text-xs font-bold text-white px-2 py-0.5 rounded" style="background: #335c67;">8.3</span>
+        </div>
+        <p class="text-sm text-warm-700 leading-relaxed mb-3">KIV（K-Indexed V Materialization）是一个中间件层，用分层检索系统替换 HuggingFace transformers 的标准 KV cache。它的核心思路是：近期 token 保留在 VRAM 中保持精确，旧的 K/V 向量迁移到系统内存，解码时利用 K 向量作为索引，每步只拉回约 256 条最相关的 V 条目。在 RTX 4070 12GB 上搭配 Gemma 4 E2B（4-bit 量化）实测：100 万 token 上下文仅占 12MB KIV VRAM 开销，总 GPU 占用约 6.5GB，解码速度在 1M 上下文时达 4.1 tok/s，4K 上下文时 12.9 tok/s。更关键的是，它在 4K-32K 范围内通过了 70/70 的 needle-in-haystack 测试，58K token 时完成了完美的电话簿查找。这意味着消费级显卡也能跑超长上下文推理了，对本地部署的意义非常大。</p>
+        <div class="flex flex-wrap items-center gap-1.5 text-xs text-warm-500">
+            <a href="https://www.reddit.com/r/MachineLearning/comments/1sjkmwz/kiv_1m_token_context_window_on_a_rtx_4070_12gb/" target="_blank" rel="noopener" class="text-accent font-medium hover:underline">原文 ↗</a>
+            <span>·</span>
+            <span class="font-medium text-warm-600">Reddit ML</span>
+            <span>·</span>
+            <span>6小时前</span>
+            <span>·</span>
+            <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">KV cache</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">长上下文</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">VRAM优化</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">HuggingFace</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">推理优化</span>
+        </div>
+    </div>
+</div>
+<div class="bg-white border border-warm-200 rounded-xl overflow-hidden shadow-sm card-hover" style="border-left: 4px solid #335c67;">
+    <div class="p-5">
+        <div class="flex items-start gap-3 mb-3">
+            <span class="material-symbols-rounded mt-0.5 flex-shrink-0" style="color: #335c67; font-size: 20px;">code</span>
+            <h3 class="text-base font-bold leading-snug flex-1" style="color: #335c67;">训练 AI 玩《生化危机 安魂曲》：行为克隆 + HG-DAgger 混合方案（Training an AI to play Resident Evil Requiem using Behavior Cloning + HG-DAgger）</h3>
+            <span class="flex-shrink-0 text-xs font-bold text-white px-2 py-0.5 rounded" style="background: #335c67;">8.2</span>
+        </div>
+        <p class="text-sm text-warm-700 leading-relaxed mb-3">这个项目聚焦于训练 AI 智能体完成《生化危机 安魂曲》中一段有敌人和时间压力的高速逃脱关卡。作者没有从零开始做强化学习，而是采用混合路线：先用行为克隆（BC）从人类演示中学习初始策略，再通过 HG-DAgger 迭代改进以减少复合误差。环境基于游戏画面捕获，手柄输入被映射为离散动作空间，智能体直接从帧图像中提取观测信息。早期训练的不稳定性是主要挑战之一，这也是 DAgger 类方法发挥价值的地方——通过人类干预逐步修正策略漂移。项目代码已开源，对游戏 AI 和模仿学习感兴趣的开发者值得一看。</p>
+        <div class="flex flex-wrap items-center gap-1.5 text-xs text-warm-500">
+            <a href="https://www.reddit.com/r/MachineLearning/comments/1sjg4ph/training_an_ai_to_play_resident_evil_requiem/" target="_blank" rel="noopener" class="text-accent font-medium hover:underline">原文 ↗</a>
+            <span>·</span>
+            <span class="font-medium text-warm-600">Reddit ML</span>
+            <span>·</span>
+            <span>9小时前</span>
+            <span>·</span>
+            <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">行为克隆</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">DAgger</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">强化学习</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">游戏AI</span>
+        </div>
+    </div>
+</div>
+<div class="bg-white border border-warm-200 rounded-xl overflow-hidden shadow-sm card-hover" style="">
+    <div class="p-5">
+        <div class="flex items-start gap-3 mb-3">
+            <span class="material-symbols-rounded mt-0.5 flex-shrink-0" style="color: #335c67; font-size: 20px;">code</span>
+            <h3 class="text-base font-bold leading-snug flex-1" style="color: #335c67;">PyTorch 分布式训练教学仓库：从零实现 DP、FSDP、TP、FSDP+TP 和 PP（Educational PyTorch repo for distributed training from scratch: DP, FSDP, TP, FSDP+TP, and PP）</h3>
+            <span class="flex-shrink-0 text-xs font-bold text-white px-2 py-0.5 rounded" style="background: #335c67;">6.3</span>
+        </div>
+        <p class="text-sm text-warm-700 leading-relaxed mb-3">这是一个面向学习者的教学仓库，不依赖高层抽象，而是显式地编写前向/反向逻辑和集合通信操作，让你能直接看到分布式训练算法的运作方式。模型刻意设计得很简单——重复的双矩阵乘法 MLP 块加合成任务——目的是让通信模式成为研究重点而非模型本身。涵盖了数据并行（DP）、全分片数据并行（FSDP）、张量并行（TP）、混合并行（FSDP+TP）和流水线并行（PP）五种主流方案。适合想把分布式训练的数学原理映射到可运行代码、又不想在大型框架源码里迷路的人。</p>
+        <div class="flex flex-wrap items-center gap-1.5 text-xs text-warm-500">
+            <a href="https://www.reddit.com/r/MachineLearning/comments/1sjglrn/educational_pytorch_repo_for_distributed_training/" target="_blank" rel="noopener" class="text-accent font-medium hover:underline">原文 ↗</a>
+            <span>·</span>
+            <span class="font-medium text-warm-600">Reddit ML</span>
+            <span>·</span>
+            <span>9小时前</span>
+            <span>·</span>
+            <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">PyTorch</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">分布式训练</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">FSDP</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">Tensor Parallelism</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">Pipeline Parallelism</span>
+        </div>
+    </div>
+</div>
+    </div>
+</section>
+<section class="mb-10">
+    <div class="flex items-center gap-3 mb-5">
+        <span class="material-symbols-rounded text-2xl" style="color: #9e2a2b;">science</span>
+        <h2 class="text-xl font-bold" style="color: #9e2a2b;">研究论文</h2>
+        <span class="text-xs text-warm-400 bg-warm-100 px-2.5 py-0.5 rounded-full">4 篇</span>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+        <div class="bg-white border border-warm-200 rounded-xl overflow-hidden shadow-sm card-hover" style="border-left: 4px solid #9e2a2b;">
+    <div class="p-5">
+        <div class="flex items-start gap-3 mb-3">
+            <span class="material-symbols-rounded mt-0.5 flex-shrink-0" style="color: #9e2a2b; font-size: 20px;">science</span>
+            <h3 class="text-base font-bold leading-snug flex-1" style="color: #9e2a2b;">36.4 万超声图文对！中国团队构建首个大规模超声专属数据集，让 AI 真正读懂临床诊断语义丨CVPR&#x27;26</h3>
+            <span class="flex-shrink-0 text-xs font-bold text-white px-2 py-0.5 rounded" style="background: #9e2a2b;">8.2</span>
+        </div>
+        <p class="text-sm text-warm-700 leading-relaxed mb-3">中国研究团队构建了首个大规模超声专属图文对数据集，包含 36.4 万条超声图像与临床文本的配对数据，论文已被 CVPR 2026 接收。超声影像一直是医学 AI 的难啃骨头——图像质量受操作者影响大、标注成本高、缺乏大规模标准化数据集。这项工作的核心价值在于为超声多模态模型提供了训练基础，让 AI 能够理解临床诊断语义而非仅做图像分类。这标志着超声 AI 正式迈入大模型时代，对推动超声辅助诊断的实际落地意义重大。</p>
+        <div class="flex flex-wrap items-center gap-1.5 text-xs text-warm-500">
+            <a href="https://www.qbitai.com/2026/04/399975.html" target="_blank" rel="noopener" class="text-accent font-medium hover:underline">原文 ↗</a>
+            <span>·</span>
+            <span class="font-medium text-warm-600">量子位</span>
+            <span>·</span>
+            <span>16小时前</span>
+            <span>·</span>
+            <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">超声影像</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">医学AI</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">数据集</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">CVPR 2026</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">多模态</span>
+        </div>
+    </div>
+</div>
+<div class="bg-white border border-warm-200 rounded-xl overflow-hidden shadow-sm card-hover" style="">
+    <div class="p-5">
+        <div class="flex items-start gap-3 mb-3">
+            <span class="material-symbols-rounded mt-0.5 flex-shrink-0" style="color: #9e2a2b; font-size: 20px;">science</span>
+            <h3 class="text-base font-bold leading-snug flex-1" style="color: #9e2a2b;">冻结的 Transformer 学会了&quot;袋熊拉方形便便&quot;这个知识，冷重启后依然记得（A frozen transformer learned that wombats produce cube shaped droppings and still knows after cold reload）</h3>
+            <span class="flex-shrink-0 text-xs font-bold text-white px-2 py-0.5 rounded" style="background: #9e2a2b;">7.8</span>
+        </div>
+        <p class="text-sm text-warm-700 leading-relaxed mb-3">一项新研究展示了一种为 Transformer 添加独立外部记忆缓冲区的方法：主干网络完全冻结，仅对记忆权重进行 300 步梯度更新。实测结果相当惊艳——查询&quot;wombats produce cube-shaped&quot;预测&quot;droppings&quot;的概率达 0.9997，20 条不相关事实同时编码后全部正确召回，中位概率 0.997。更关键的是，保存、杀进程、冷重启后查询结果完全一致，实现了真正的持久化学习。该机制基于 BDH（Kosowski et al., arXiv:2509.26507），在每个 token 步计算协激活外积并累积存储，配合学习到的内容寻址投影。这延续了 Schmidhuber 1991 年快速权重编程的思路，为大模型的高效知识注入提供了一条不需要微调整个模型的新路径。</p>
+        <div class="flex flex-wrap items-center gap-1.5 text-xs text-warm-500">
+            <a href="https://www.reddit.com/r/MachineLearning/comments/1sjup3s/a_frozen_transformer_learned_that_wombats_produce/" target="_blank" rel="noopener" class="text-accent font-medium hover:underline">原文 ↗</a>
+            <span>·</span>
+            <span class="font-medium text-warm-600">Reddit ML</span>
+            <span>·</span>
+            <span>8分钟前</span>
+            <span>·</span>
+            <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">Transformer</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">记忆机制</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">外部记忆</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">权重冻结</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">持久化学习</span>
+        </div>
+    </div>
+</div>
+<div class="bg-white border border-warm-200 rounded-xl overflow-hidden shadow-sm card-hover" style="">
+    <div class="p-5">
+        <div class="flex items-start gap-3 mb-3">
+            <span class="material-symbols-rounded mt-0.5 flex-shrink-0" style="color: #9e2a2b; font-size: 20px;">science</span>
+            <h3 class="text-base font-bold leading-snug flex-1" style="color: #9e2a2b;">ICLR 2025 vs 2026 评分分析：评审一致性显著下降（Just did an analysis on ICLR 2025 vs 2026 scores and WOW）</h3>
+            <span class="flex-shrink-0 text-xs font-bold text-white px-2 py-0.5 rounded" style="background: #9e2a2b;">5.9</span>
+        </div>
+        <p class="text-sm text-warm-700 leading-relaxed mb-3">有研究者基于 OpenReview 数据对比了 ICLR 2025 和 2026 的评审评分，结果令人担忧。2025 年两位评审者之间的评分相关性约为 0.41，而 2026 年这一数字大幅下降。具体来看，2025 年论文内评审者标准差为 1.186，2026 年飙升至 1.523，意味着同一篇论文不同评审者给出的分数差异更大了。虽然顶会评审的&quot;抽奖&quot;属性早已是公开的秘密，但数据显示情况正在恶化。这对整个学术社区是一个值得警惕的信号——评审质量的下滑可能导致优秀工作被埋没、平庸工作被接收。</p>
+        <div class="flex flex-wrap items-center gap-1.5 text-xs text-warm-500">
+            <a href="https://www.reddit.com/r/MachineLearning/comments/1sj76a2/just_did_an_analysis_on_iclr_2025_vs_2026_scores/" target="_blank" rel="noopener" class="text-accent font-medium hover:underline">原文 ↗</a>
+            <span>·</span>
+            <span class="font-medium text-warm-600">Reddit ML</span>
+            <span>·</span>
+            <span>17小时前</span>
+            <span>·</span>
+            <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">ICLR</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">论文评审</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">评分分析</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">学术评审质量</span>
+        </div>
+    </div>
+</div>
+<div class="bg-white border border-warm-200 rounded-xl overflow-hidden shadow-sm card-hover" style="">
+    <div class="p-5">
+        <div class="flex items-start gap-3 mb-3">
+            <span class="material-symbols-rounded mt-0.5 flex-shrink-0" style="color: #9e2a2b; font-size: 20px;">science</span>
+            <h3 class="text-base font-bold leading-snug flex-1" style="color: #9e2a2b;">新型芯片电源实现高效降压转换</h3>
+            <span class="flex-shrink-0 text-xs font-bold text-white px-2 py-0.5 rounded" style="background: #9e2a2b;">5.6</span>
+        </div>
+        <p class="text-sm text-warm-700 leading-relaxed mb-3">美国加州大学圣迭戈分校工程团队提出了一种新型芯片电源设计方案，可实现高效电压降压转换，相关成果发表于《自然·通讯》。随着 AI 和高性能计算的快速发展，数据中心能耗问题日益突出，GPU 的电能转换效率成为关键瓶颈之一。该原型芯片有望显著提升 GPU 电能转换效率，推动更小型、更节能的先进计算系统发展。虽然距离商用还有距离，但从芯片电源层面优化 AI 算力能效是一个值得关注的方向。</p>
+        <div class="flex flex-wrap items-center gap-1.5 text-xs text-warm-500">
+            <a href="https://36kr.com/newsflashes/3764458003219208?f=rss" target="_blank" rel="noopener" class="text-accent font-medium hover:underline">原文 ↗</a>
+            <span>·</span>
+            <span class="font-medium text-warm-600">36氪</span>
+            <span>·</span>
+            <span>24分钟前</span>
+            <span>·</span>
+            <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">芯片电源</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">GPU能效</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">数据中心</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">Nature Communications</span>
+        </div>
+    </div>
+</div>
+    </div>
+</section>
+<section class="mb-10">
+    <div class="flex items-center gap-3 mb-5">
+        <span class="material-symbols-rounded text-2xl" style="color: #e09f3e;">devices</span>
+        <h2 class="text-xl font-bold" style="color: #e09f3e;">产品动态</h2>
+        <span class="text-xs text-warm-400 bg-warm-100 px-2.5 py-0.5 rounded-full">1 篇</span>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+        <div class="bg-white border border-warm-200 rounded-xl overflow-hidden shadow-sm card-hover" style="">
+    <div class="p-5">
+        <div class="flex items-start gap-3 mb-3">
+            <span class="material-symbols-rounded mt-0.5 flex-shrink-0" style="color: #e09f3e; font-size: 20px;">devices</span>
+            <h3 class="text-base font-bold leading-snug flex-1" style="color: #e09f3e;">苹果 AI 负责人将离职</h3>
+            <span class="flex-shrink-0 text-xs font-bold text-white px-2 py-0.5 rounded" style="background: #e09f3e;">6.7</span>
+        </div>
+        <p class="text-sm text-warm-700 leading-relaxed mb-3">据彭博社记者马克·古尔曼最新一期《Power On》报道，2018 年从谷歌空降苹果的前 AI 负责人约翰·詹南德雷亚确认将于本周正式结束其在苹果的&quot;休整期&quot;。这一离职早在 2025 年 3 月苹果大幅削减其 AI 职责时就已注定——当时苹果直接撤销了他对 Siri、机器人及其他 AI 团队的监管权。背后的原因很直接：Apple Intelligence 未达预期、升级版 Siri 多次延期、公司在生成式 AI 领域被打了个措手不及。这是苹果 AI 战略受挫的又一个标志性事件，也反映出大厂在 AI 转型中&quot;空降高管&quot;模式的局限性。</p>
+        <div class="flex flex-wrap items-center gap-1.5 text-xs text-warm-500">
+            <a href="https://36kr.com/newsflashes/3764454058328838?f=rss" target="_blank" rel="noopener" class="text-accent font-medium hover:underline">原文 ↗</a>
+            <span>·</span>
+            <span class="font-medium text-warm-600">36氪</span>
+            <span>·</span>
+            <span>33分钟前</span>
+            <span>·</span>
+            <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">苹果</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">Apple Intelligence</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">Siri</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">人事变动</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">AI战略</span>
+        </div>
+    </div>
+</div>
+    </div>
+</section>
+<section class="mb-10">
+    <div class="flex items-center gap-3 mb-5">
+        <span class="material-symbols-rounded text-2xl" style="color: #c96442;">lightbulb</span>
+        <h2 class="text-xl font-bold" style="color: #c96442;">行业观点</h2>
+        <span class="text-xs text-warm-400 bg-warm-100 px-2.5 py-0.5 rounded-full">5 篇</span>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+        <div class="bg-white border border-warm-200 rounded-xl overflow-hidden shadow-sm card-hover" style="">
+    <div class="p-5">
+        <div class="flex items-start gap-3 mb-3">
+            <span class="material-symbols-rounded mt-0.5 flex-shrink-0" style="color: #c96442; font-size: 20px;">lightbulb</span>
+            <h3 class="text-base font-bold leading-snug flex-1" style="color: #c96442;">LLM/Agent 基准测试的框架问题（Frameworks For Supporting LLM/Agentic Benchmarking）</h3>
+            <span class="flex-shrink-0 text-xs font-bold text-white px-2 py-0.5 rounded" style="background: #c96442;">7.7</span>
+        </div>
+        <p class="text-sm text-warm-700 leading-relaxed mb-3">一篇引发讨论的帖子对当前 LLM 基准测试方式提出了质疑。作者指出，前沿实验室的做法是每出一个新模型就配置 harness 跑一遍大规模测试套件，只为展示边际提升——比如 Gemini 最新一轮测试就用了 30,000 条 prompt。问题在于：这些测试在每次迭代时都会重复运行，本质上是在用碳排放换取信心。更令人担忧的是，如果其他组织在自己的 MLOps 中效仿这种做法，资源浪费将进一步放大。作者认为我们需要更高效的评估框架，而不是一味堆测试量。这个观点触及了 AI 行业一个被忽视的效率问题——我们在评估模型上花的算力，本身也需要被评估。</p>
+        <div class="flex flex-wrap items-center gap-1.5 text-xs text-warm-500">
+            <a href="https://www.reddit.com/r/MachineLearning/comments/1sjnha5/frameworks_for_supporting_llmagentic_benchmarking/" target="_blank" rel="noopener" class="text-accent font-medium hover:underline">原文 ↗</a>
+            <span>·</span>
+            <span class="font-medium text-warm-600">Reddit ML</span>
+            <span>·</span>
+            <span>4小时前</span>
+            <span>·</span>
+            <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">LLM</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">benchmark</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">Agent评估</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">资源效率</span>
+        </div>
+    </div>
+</div>
+<div class="bg-white border border-warm-200 rounded-xl overflow-hidden shadow-sm card-hover" style="">
+    <div class="p-5">
+        <div class="flex items-start gap-3 mb-3">
+            <span class="material-symbols-rounded mt-0.5 flex-shrink-0" style="color: #c96442; font-size: 20px;">lightbulb</span>
+            <h3 class="text-base font-bold leading-snug flex-1" style="color: #c96442;">特朗普政府官员或在推动银行测试 Anthropic 的 Mythos 模型（Trump officials may be encouraging banks to test Anthropic&#x27;s Mythos model）</h3>
+            <span class="flex-shrink-0 text-xs font-bold text-white px-2 py-0.5 rounded" style="background: #c96442;">7.1</span>
+        </div>
+        <p class="text-sm text-warm-700 leading-relaxed mb-3">据 TechCrunch 报道，特朗普政府官员可能正在鼓励银行测试 Anthropic 的 Mythos 模型。这条消息之所以引人注目，是因为美国国防部此前刚刚将 Anthropic 列为供应链风险。一边是国防部的安全警告，一边是政府官员推动金融机构采用——这种矛盾信号反映出美国政府内部在 AI 政策上的分裂。对 Anthropic 而言，进入金融领域是商业化的重要一步，但政策环境的不确定性也给这条路增添了变数。这件事值得持续关注，它可能预示着 AI 公司与政府关系的新走向。</p>
+        <div class="flex flex-wrap items-center gap-1.5 text-xs text-warm-500">
+            <a href="https://techcrunch.com/2026/04/12/trump-officials-may-be-encouraging-banks-to-test-anthropics-mythos-model/" target="_blank" rel="noopener" class="text-accent font-medium hover:underline">原文 ↗</a>
+            <span>·</span>
+            <span class="font-medium text-warm-600">TechCrunch</span>
+            <span>·</span>
+            <span>2小时前</span>
+            <span>·</span>
+            <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">Anthropic</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">Mythos</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">政策</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">金融AI</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">国防部</span>
+        </div>
+    </div>
+</div>
+<div class="bg-white border border-warm-200 rounded-xl overflow-hidden shadow-sm card-hover" style="">
+    <div class="p-5">
+        <div class="flex items-start gap-3 mb-3">
+            <span class="material-symbols-rounded mt-0.5 flex-shrink-0" style="color: #c96442; font-size: 20px;">lightbulb</span>
+            <h3 class="text-base font-bold leading-snug flex-1" style="color: #c96442;">Google 的 TurboQuant 算法会冲击 AI 对内存芯片的需求吗？（Will Google&#x27;s TurboQuant algorithm hurt AI demand for memory chips?）</h3>
+            <span class="flex-shrink-0 text-xs font-bold text-white px-2 py-0.5 rounded" style="background: #c96442;">7.0</span>
+        </div>
+        <p class="text-sm text-warm-700 leading-relaxed mb-3">Google 的 TurboQuant 声称能将 KV cache 压缩最高 6 倍，且&quot;准确率几乎无损&quot;，方法是在推理时动态重建缓存。社区讨论的核心问题是：6 倍压缩且无明显退化是否现实，还是高度依赖使用场景？如果 TurboQuant 真能将每 token 成本降低 4-8 倍，本地部署大上下文窗口模型可能不再需要多 GPU 配置。有趣的是，这和今天另一条 KIV 的新闻形成呼应——KV cache 优化正在从多个方向同时推进。从产业链角度看，如果软件层面的压缩足够有效，确实可能影响 AI 对 HBM 等高端内存芯片的需求增长预期。</p>
+        <div class="flex flex-wrap items-center gap-1.5 text-xs text-warm-500">
+            <a href="https://www.reddit.com/r/MachineLearning/comments/1sj5hsx/d_will_googles_turboquant_algorithm_hurt_ai/" target="_blank" rel="noopener" class="text-accent font-medium hover:underline">原文 ↗</a>
+            <span>·</span>
+            <span class="font-medium text-warm-600">Reddit ML</span>
+            <span>·</span>
+            <span>18小时前</span>
+            <span>·</span>
+            <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">TurboQuant</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">Google</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">KV cache压缩</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">量化</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">推理优化</span>
+        </div>
+    </div>
+</div>
+<div class="bg-white border border-warm-200 rounded-xl overflow-hidden shadow-sm card-hover" style="">
+    <div class="p-5">
+        <div class="flex items-start gap-3 mb-3">
+            <span class="material-symbols-rounded mt-0.5 flex-shrink-0" style="color: #c96442; font-size: 20px;">lightbulb</span>
+            <h3 class="text-base font-bold leading-snug flex-1" style="color: #c96442;">Gary Marcus 评论 Claude Code 泄露事件（Gary Marcus on the Claude Code leak）</h3>
+            <span class="flex-shrink-0 text-xs font-bold text-white px-2 py-0.5 rounded" style="background: #c96442;">6.5</span>
+        </div>
+        <p class="text-sm text-warm-700 leading-relaxed mb-3">Gary Marcus 在推特上评论了 Anthropic Claude Code 的泄露代码，称其架构&quot;直接来自经典符号 AI&quot;——包含 486 个分支点、12 层嵌套，全部在一个确定性符号循环内。他将其与 John McCarthy、Marvin Minsky 等经典 AI 先驱的工作相提并论。不过社区对此并不买账，有人指出 486 个分支点和 12 层嵌套更像是一个随时间积累&quot;特殊情况&quot;的大泥球，而非什么经典 AI 算法。这场讨论的有趣之处在于：它揭示了当前 AI 产品在工程层面可能远没有外界想象的那么&quot;智能&quot;，大量逻辑仍然依赖传统的条件分支和规则系统。</p>
+        <div class="flex flex-wrap items-center gap-1.5 text-xs text-warm-500">
+            <a href="https://www.reddit.com/r/MachineLearning/comments/1sjb0qi/gary_marcus_on_the_claude_code_leak_d/" target="_blank" rel="noopener" class="text-accent font-medium hover:underline">原文 ↗</a>
+            <span>·</span>
+            <span class="font-medium text-warm-600">Reddit ML</span>
+            <span>·</span>
+            <span>13小时前</span>
+            <span>·</span>
+            <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">Claude Code</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">符号AI</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">Gary Marcus</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">系统架构</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">Anthropic</span>
+        </div>
+    </div>
+</div>
+<div class="bg-white border border-warm-200 rounded-xl overflow-hidden shadow-sm card-hover" style="">
+    <div class="p-5">
+        <div class="flex items-start gap-3 mb-3">
+            <span class="material-symbols-rounded mt-0.5 flex-shrink-0" style="color: #c96442; font-size: 20px;">lightbulb</span>
+            <h3 class="text-base font-bold leading-snug flex-1" style="color: #c96442;">HumanX 大会上，所有人都在谈论 Claude（At the HumanX conference, everyone was talking about Claude）</h3>
+            <span class="flex-shrink-0 text-xs font-bold text-white px-2 py-0.5 rounded" style="background: #c96442;">6.0</span>
+        </div>
+        <p class="text-sm text-warm-700 leading-relaxed mb-3">据 TechCrunch 报道，在旧金山举办的 AI 主题会议 HumanX 上，Anthropic 成为了全场焦点。Claude 在开发者和企业用户中的热度持续攀升，这与近期 Claude 在编程、推理等任务上的强劲表现直接相关。结合今天 Gary Marcus 对 Claude Code 的讨论和 Mythos 模型进军金融的消息，Anthropic 正处于一个高曝光期。不过高关注度也意味着高期待，能否持续交付将是关键。</p>
+        <div class="flex flex-wrap items-center gap-1.5 text-xs text-warm-500">
+            <a href="https://techcrunch.com/2026/04/12/at-the-humanx-conference-everyone-was-talking-about-claude/" target="_blank" rel="noopener" class="text-accent font-medium hover:underline">原文 ↗</a>
+            <span>·</span>
+            <span class="font-medium text-warm-600">TechCrunch</span>
+            <span>·</span>
+            <span>9小时前</span>
+            <span>·</span>
+            <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">Claude</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">Anthropic</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">HumanX</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">AI会议</span>
+        </div>
+    </div>
+</div>
+    </div>
+</section>
+<section class="mb-10">
+    <div class="flex items-center gap-3 mb-5">
+        <span class="material-symbols-rounded text-2xl" style="color: #335c67;">build</span>
+        <h2 class="text-xl font-bold" style="color: #335c67;">工具技巧</h2>
+        <span class="text-xs text-warm-400 bg-warm-100 px-2.5 py-0.5 rounded-full">1 篇</span>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+        <div class="bg-white border border-warm-200 rounded-xl overflow-hidden shadow-sm card-hover" style="">
+    <div class="p-5">
+        <div class="flex items-start gap-3 mb-3">
+            <span class="material-symbols-rounded mt-0.5 flex-shrink-0" style="color: #335c67; font-size: 20px;">build</span>
+            <h3 class="text-base font-bold leading-snug flex-1" style="color: #335c67;">ArcFace 嵌入量化为 16-bit pgvector HALFVEC 是否可行？（ArcFace embeddings quantized to 16-bit pgvector HALFVEC?）</h3>
+            <span class="flex-shrink-0 text-xs font-bold text-white px-2 py-0.5 rounded" style="background: #335c67;">5.6</span>
+        </div>
+        <p class="text-sm text-warm-700 leading-relaxed mb-3">一个很实用的工程讨论：512 维 ArcFace 人脸嵌入以 32-bit float 存储时占 2048 字节，刚好超过 PostgreSQL 的 TOAST 阈值（2040 字节），导致数据默认被转储到 TOAST 表，每次查询需要两次 I/O。作者提出将其量化为 16-bit HALFVEC 来规避这个问题。理论依据是 ArcFace 的损失函数会将同一身份和不同身份的人脸在空间中推得很远，16-bit 精度的量化误差不太可能影响实际的相似度判断。虽然 HNSW 索引可以绕过 TOAST 问题，但对于需要精确向量存储和检索的场景，这个 16-bit 量化思路既省空间又避免了 I/O 瓶颈，值得做向量数据库优化的同学参考。</p>
+        <div class="flex flex-wrap items-center gap-1.5 text-xs text-warm-500">
+            <a href="https://www.reddit.com/r/MachineLearning/comments/1sj960m/arcface_embeddings_quantized_to_16bit_pgvector/" target="_blank" rel="noopener" class="text-accent font-medium hover:underline">原文 ↗</a>
+            <span>·</span>
+            <span class="font-medium text-warm-600">Reddit ML</span>
+            <span>·</span>
+            <span>15小时前</span>
+            <span>·</span>
+            <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">ArcFace</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">向量量化</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">pgvector</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">人脸识别</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">PostgreSQL</span>
+        </div>
+    </div>
+</div>
+    </div>
+</section>
+    </div>
+
+    <!-- Keywords -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12">
+        <div class="bg-white border border-warm-200 rounded-xl p-6 shadow-sm text-center">
+            <h2 class="text-lg font-bold text-warm-800 mb-4">今日关键词</h2>
+            <div class="flex flex-wrap justify-center gap-2"><span class="inline-block bg-warm-100 text-warm-600 text-xs px-2.5 py-1 rounded-full border border-warm-200">Anthropic</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2.5 py-1 rounded-full border border-warm-200">推理优化</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2.5 py-1 rounded-full border border-warm-200">KV cache</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2.5 py-1 rounded-full border border-warm-200">长上下文</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2.5 py-1 rounded-full border border-warm-200">VRAM优化</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2.5 py-1 rounded-full border border-warm-200">HuggingFace</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2.5 py-1 rounded-full border border-warm-200">超声影像</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2.5 py-1 rounded-full border border-warm-200">医学AI</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2.5 py-1 rounded-full border border-warm-200">数据集</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2.5 py-1 rounded-full border border-warm-200">CVPR 2026</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2.5 py-1 rounded-full border border-warm-200">多模态</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2.5 py-1 rounded-full border border-warm-200">行为克隆</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2.5 py-1 rounded-full border border-warm-200">DAgger</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2.5 py-1 rounded-full border border-warm-200">强化学习</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2.5 py-1 rounded-full border border-warm-200">游戏AI</span></div>
+        </div>
+    </div>
+</main>
+
+<footer class="text-center text-warm-400 text-sm py-8 border-t border-warm-200">
+    由 AI 日报 自动生成 · 2026-04-13 08:02:44
+</footer>
+</body>
+</html>
