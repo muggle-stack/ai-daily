@@ -1,5 +1,60 @@
 const reportsData = [
     {
+        "id": "2026-04-14",
+        "title": "AI 日报 · 2026年04月14日",
+        "date": "2026-04-14",
+        "summary": "Cloudflare 联手 OpenAI 将 GPT-5.4 与 Codex 引入企业级 Agent Cloud 平台；学术界密集发布多个 Agent 评测基准，从\"何时求助人类\"到\"自进化能力\"全面审视 AI 智能体的真实短板；扩散模型与强化学习的交叉研究持续升温，优势引导方法为世界模型带来新思路。",
+        "articleCount": 15,
+        "categories": [
+            "研究论文",
+            "产品动态"
+        ],
+        "tags": [
+            "OpenAI",
+            "Cloudflare",
+            "强化学习",
+            "环境记忆",
+            "自进化Agent",
+            "benchmark",
+            "编程Agent",
+            "人机协作"
+        ],
+        "sections": [
+            {
+                "name": "产品应用",
+                "icon": "devices",
+                "items": [
+                    {
+                        "title": "Enterprises power agentic workflows in Cloudflare Agent Cloud with OpenAI",
+                        "url": "https://openai.com/index/cloudflare-openai-agent-cloud"
+                    }
+                ]
+            },
+            {
+                "name": "研究前沿",
+                "icon": "science",
+                "items": [
+                    {
+                        "title": "Artifacts as Memory Beyond the Agent Boundary",
+                        "url": "https://arxiv.org/abs/2604.08756"
+                    },
+                    {
+                        "title": "SEA-Eval: A Benchmark for Evaluating Self-Evolving Agents Beyond Episodic Assessment",
+                        "url": "https://arxiv.org/abs/2604.08988"
+                    },
+                    {
+                        "title": "HiL-Bench (Human-in-Loop Benchmark): Do Agents Know When to Ask for Help?",
+                        "url": "https://arxiv.org/abs/2604.09408"
+                    },
+                    {
+                        "title": "Advantage-Guided Diffusion for Model-Based Reinforcement Learning",
+                        "url": "https://arxiv.org/abs/2604.09035"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id": "2026-04-13",
         "title": "AI 日报 · 2026年04月13日",
         "date": "2026-04-13",
