@@ -1,5 +1,60 @@
 const reportsData = [
     {
+        "id": "2026-04-15",
+        "title": "AI 日报 · 2026年04月15日",
+        "date": "2026-04-15",
+        "summary": "今日 AI 研究圈被 Agent 刷屏——从生物学实验到天体物理再到量化金融，多智能体系统正加速渗透各科学领域；GUI Agent 的\"反检测\"能力首次被正式建模为图灵测试问题；Google 则将 AI 工作流以\"Skills\"形式嵌入 Chrome，让 Gemini 的浏览器集成更进一步。",
+        "articleCount": 15,
+        "categories": [
+            "研究论文",
+            "产品动态"
+        ],
+        "tags": [
+            "LABBench2",
+            "AI科学研究",
+            "GUI Agent",
+            "图灵测试",
+            "LLM Agent",
+            "主动式智能体",
+            "PDE",
+            "基础模型"
+        ],
+        "sections": [
+            {
+                "name": "产品应用",
+                "icon": "devices",
+                "items": [
+                    {
+                        "title": "Google adds AI Skills to Chrome to help you save favorite workflows",
+                        "url": "https://techcrunch.com/2026/04/14/google-adds-ai-skills-to-chrome-to-help-you-save-favorite-workflows/"
+                    }
+                ]
+            },
+            {
+                "name": "研究前沿",
+                "icon": "science",
+                "items": [
+                    {
+                        "title": "LABBench2: An Improved Benchmark for AI Systems Performing Biology Research",
+                        "url": "https://arxiv.org/abs/2604.09554"
+                    },
+                    {
+                        "title": "Turing Test on Screen: A Benchmark for Mobile GUI Agent Humanization",
+                        "url": "https://arxiv.org/abs/2604.09574"
+                    },
+                    {
+                        "title": "Help Without Being Asked: A Deployed Proactive Agent System for On-Call Support with Continuous Self-Improvement",
+                        "url": "https://arxiv.org/abs/2604.09579"
+                    },
+                    {
+                        "title": "Agentic Exploration of PDE Spaces using Latent Foundation Models for Parameterized Simulations",
+                        "url": "https://arxiv.org/abs/2604.09584"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id": "2026-04-14",
         "title": "AI 日报 · 2026年04月14日",
         "date": "2026-04-14",
