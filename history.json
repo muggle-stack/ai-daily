@@ -1,21 +1,4 @@
 {
-  "2026-04-09": [
-    "https://simonwillison.net/2026/Apr/8/muse-spark/#atom-everything",
-    "https://arxiv.org/abs/2604.05172",
-    "https://huggingface.co/blog/ibm-research/altk-evolve",
-    "https://openai.com/index/next-phase-of-enterprise-ai",
-    "https://arxiv.org/abs/2604.05336",
-    "https://arxiv.org/abs/2604.05018",
-    "https://arxiv.org/abs/2604.05116",
-    "https://arxiv.org/abs/2604.05157",
-    "https://arxiv.org/abs/2604.05229",
-    "https://arxiv.org/abs/2604.05297",
-    "https://arxiv.org/abs/2604.05333",
-    "https://arxiv.org/abs/2604.05364",
-    "https://blog.langchain.com/better-harness-a-recipe-for-harness-hill-climbing-with-evals/",
-    "https://arxiv.org/abs/2604.05075",
-    "https://arxiv.org/abs/2604.05081"
-  ],
   "2026-04-10": [
     "https://blog.langchain.com/deep-agents-deploy-an-open-alternative-to-claude-managed-agents/",
     "https://36kr.com/p/3759372854706953?f=rss",
@@ -101,5 +84,22 @@
     "https://arxiv.org/abs/2604.09609",
     "https://arxiv.org/abs/2604.09612",
     "https://techcrunch.com/2026/04/14/google-adds-ai-skills-to-chrome-to-help-you-save-favorite-workflows/"
+  ],
+  "2026-04-16": [
+    "https://openai.com/index/the-next-evolution-of-the-agents-sdk",
+    "https://huggingface.co/blog/ibm-research/vakra-benchmark-analysis",
+    "https://arxiv.org/abs/2604.11978",
+    "https://arxiv.org/abs/2604.12007",
+    "https://www.alignmentforum.org/posts/WewsByywWNhX9rtwi/current-ais-seem-pretty-misaligned-to-me",
+    "https://arxiv.org/abs/2604.12034",
+    "https://arxiv.org/abs/2604.11914",
+    "https://arxiv.org/abs/2604.12016",
+    "https://arxiv.org/abs/2604.12102",
+    "https://arxiv.org/abs/2604.12116",
+    "https://arxiv.org/abs/2604.12081",
+    "https://arxiv.org/abs/2604.11969",
+    "https://arxiv.org/abs/2604.12019",
+    "https://arxiv.org/abs/2604.12066",
+    "https://techcrunch.com/2026/04/15/gitar-a-startup-that-uses-agents-to-secure-code-emerges-from-stealth-with-9-million/"
   ]
 }

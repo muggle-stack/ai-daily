@@ -1,5 +1,75 @@
 const reportsData = [
     {
+        "id": "2026-04-16",
+        "title": "AI 日报 · 2026年04月16日",
+        "date": "2026-04-16",
+        "summary": "OpenAI 发布 Agents SDK 重大更新，引入原生沙箱执行能力；学术界密集关注 AI Agent 的\"失败学\"——从长程任务崩溃到记忆治理，多篇论文试图回答\"Agent 为什么会掉链子\"；Alignment Forum 热文直言当前 AI 系统\"看起来就是没对齐\"，引发行业反思。",
+        "articleCount": 15,
+        "categories": [
+            "研究论文",
+            "产品动态",
+            "行业观点"
+        ],
+        "tags": [
+            "OpenAI",
+            "Agents SDK",
+            "VAKRA",
+            "benchmark",
+            "LLM agent",
+            "长程任务",
+            "agent记忆",
+            "Memory Worth"
+        ],
+        "sections": [
+            {
+                "name": "产品应用",
+                "icon": "devices",
+                "items": [
+                    {
+                        "title": "The next evolution of the Agents SDK",
+                        "url": "https://openai.com/index/the-next-evolution-of-the-agents-sdk"
+                    },
+                    {
+                        "title": "Gitar, a startup that uses agents to secure code, emerges from stealth with $9 million",
+                        "url": "https://techcrunch.com/2026/04/15/gitar-a-startup-that-uses-agents-to-secure-code-emerges-from-stealth-with-9-million/"
+                    }
+                ]
+            },
+            {
+                "name": "行业动态",
+                "icon": "trending_up",
+                "items": [
+                    {
+                        "title": "Current AIs seem pretty misaligned to me",
+                        "url": "https://www.alignmentforum.org/posts/WewsByywWNhX9rtwi/current-ais-seem-pretty-misaligned-to-me"
+                    }
+                ]
+            },
+            {
+                "name": "研究前沿",
+                "icon": "science",
+                "items": [
+                    {
+                        "title": "Inside VAKRA: Reasoning, Tool Use, and Failure Modes of Agents",
+                        "url": "https://huggingface.co/blog/ibm-research/vakra-benchmark-analysis"
+                    },
+                    {
+                        "title": "The Long-Horizon Task Mirage? Diagnosing Where and Why Agentic Systems Break",
+                        "url": "https://arxiv.org/abs/2604.11978"
+                    },
+                    {
+                        "title": "When to Forget: A Memory Governance Primitive",
+                        "url": "https://arxiv.org/abs/2604.12007"
+                    },
+                    {
+                        "title": "Memory as Metabolism: A Design for Companion Knowledge Systems",
+                        "url": "https://arxiv.org/abs/2604.12034"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id": "2026-04-15",
         "title": "AI 日报 · 2026年04月15日",
         "date": "2026-04-15",
