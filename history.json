@@ -1,15 +1,4 @@
 {
-  "2026-04-10": [
-    "https://blog.langchain.com/deep-agents-deploy-an-open-alternative-to-claude-managed-agents/",
-    "https://36kr.com/p/3759372854706953?f=rss",
-    "https://www.qbitai.com/2026/04/398117.html",
-    "https://blog.langchain.com/human-judgment-in-the-agent-improvement-loop/",
-    "https://36kr.com/p/3758982738641670?f=rss",
-    "https://36kr.com/p/3758900416348934?f=rss",
-    "https://www.qbitai.com/2026/04/398121.html",
-    "https://www.qbitai.com/2026/04/398020.html",
-    "https://www.qbitai.com/2026/04/398090.html"
-  ],
   "2026-04-11": [
     "https://arxiv.org/abs/2604.06802",
     "https://arxiv.org/abs/2604.07165",
@@ -101,5 +90,22 @@
     "https://arxiv.org/abs/2604.12019",
     "https://arxiv.org/abs/2604.12066",
     "https://techcrunch.com/2026/04/15/gitar-a-startup-that-uses-agents-to-secure-code-emerges-from-stealth-with-9-million/"
+  ],
+  "2026-04-17": [
+    "https://openai.com/index/introducing-gpt-rosalind",
+    "https://openai.com/index/codex-for-almost-everything",
+    "https://arxiv.org/abs/2604.13206",
+    "https://arxiv.org/abs/2604.13151",
+    "https://arxiv.org/abs/2604.14004",
+    "https://arxiv.org/abs/2604.14116",
+    "https://arxiv.org/abs/2604.11840",
+    "https://arxiv.org/abs/2604.13318",
+    "https://arxiv.org/abs/2604.13488",
+    "https://arxiv.org/abs/2604.13759",
+    "https://arxiv.org/abs/2604.13052",
+    "https://arxiv.org/abs/2604.13180",
+    "https://arxiv.org/abs/2604.13531",
+    "https://arxiv.org/abs/2604.13888",
+    "https://arxiv.org/abs/2604.13041"
   ]
 }

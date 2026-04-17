@@ -1,5 +1,65 @@
 const reportsData = [
     {
+        "id": "2026-04-17",
+        "title": "AI 日报 · 2026年04月17日",
+        "date": "2026-04-17",
+        "summary": "OpenAI 发布生命科学专用推理模型 GPT-Rosalind，瞄准药物发现与基因组学；Codex 大更新，加入 computer use 和插件系统，向全能开发 agent 迈进；多篇研究聚焦 LLM agent 的可靠性难题——从数值混沌到推理退化，再到\"越聪明反而模拟越差\"的反直觉发现。",
+        "articleCount": 15,
+        "categories": [
+            "研究论文",
+            "产品动态",
+            "模型发布"
+        ],
+        "tags": [
+            "OpenAI",
+            "GPT-Rosalind",
+            "Codex",
+            "LLM",
+            "数值不稳定性",
+            "LLM agent",
+            "探索与利用",
+            "编程agent"
+        ],
+        "sections": [
+            {
+                "name": "产品应用",
+                "icon": "devices",
+                "items": [
+                    {
+                        "title": "Introducing GPT-Rosalind for life sciences research",
+                        "url": "https://openai.com/index/introducing-gpt-rosalind"
+                    },
+                    {
+                        "title": "Codex for (almost) everything",
+                        "url": "https://openai.com/index/codex-for-almost-everything"
+                    }
+                ]
+            },
+            {
+                "name": "研究前沿",
+                "icon": "science",
+                "items": [
+                    {
+                        "title": "Numerical Instability and Chaos: Quantifying the Unpredictability of Large Language Models",
+                        "url": "https://arxiv.org/abs/2604.13206"
+                    },
+                    {
+                        "title": "Exploration and Exploitation Errors Are Measurable for Language Model Agents",
+                        "url": "https://arxiv.org/abs/2604.13151"
+                    },
+                    {
+                        "title": "Memory Transfer Learning: How Memories are Transferred Across Domains in Coding Agents",
+                        "url": "https://arxiv.org/abs/2604.14004"
+                    },
+                    {
+                        "title": "TREX: Automating LLM Fine-tuning via Agent-Driven Tree-based Exploration",
+                        "url": "https://arxiv.org/abs/2604.14116"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id": "2026-04-16",
         "title": "AI 日报 · 2026年04月16日",
         "date": "2026-04-16",
