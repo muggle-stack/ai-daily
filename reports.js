@@ -1,5 +1,76 @@
 const reportsData = [
     {
+        "id": "2026-04-18",
+        "title": "AI 日报 · 2026年04月18日",
+        "date": "2026-04-18",
+        "summary": "多Agent架构成为今日研究主旋律，MindDR用~30B参数模型在深度研究任务上打出领先成绩，MARS²则将多Agent树搜索引入代码生成的强化学习框架；Physical Intelligence发布π0.7，VLA路线在机器人领域跑出\"涌现能力\"；行云集成电路连融超4亿元，用非HBM路线重构大模型推理的显存成本逻辑。",
+        "articleCount": 15,
+        "categories": [
+            "研究论文",
+            "产品动态",
+            "行业观点",
+            "模型发布"
+        ],
+        "tags": [
+            "多Agent",
+            "深度研究",
+            "树搜索",
+            "Prompt优化",
+            "复合AI系统",
+            "AutoML",
+            "AI Agent",
+            "LLM Agent"
+        ],
+        "sections": [
+            {
+                "name": "产品应用",
+                "icon": "devices",
+                "items": [
+                    {
+                        "title": "36氪首发 | “华为天才少年”创业连融超4亿元，做新一代推理芯片重构显存成本",
+                        "url": "https://36kr.com/p/3770363954954755?f=rss"
+                    },
+                    {
+                        "title": "π0.7发布，VLA押出了机器人的GPT-3时刻",
+                        "url": "https://www.qbitai.com/2026/04/402189.html"
+                    }
+                ]
+            },
+            {
+                "name": "行业动态",
+                "icon": "trending_up",
+                "items": [
+                    {
+                        "title": "专访荣耀AI专家李向东：端侧AI方向还没收敛，但AI手机是最好的载体",
+                        "url": "https://36kr.com/p/3770819743728131?f=rss"
+                    }
+                ]
+            },
+            {
+                "name": "研究前沿",
+                "icon": "science",
+                "items": [
+                    {
+                        "title": "Mind DeepResearch Technical Report",
+                        "url": "https://arxiv.org/abs/2604.14518"
+                    },
+                    {
+                        "title": "MARS$^2$: Scaling Multi-Agent Tree Search via Reinforcement Learning for Code Generation",
+                        "url": "https://arxiv.org/abs/2604.14564"
+                    },
+                    {
+                        "title": "Prompt Optimization Is a Coin Flip: Diagnosing When It Helps in Compound AI Systems",
+                        "url": "https://arxiv.org/abs/2604.14585"
+                    },
+                    {
+                        "title": "AIBuildAI: An AI Agent for Automatically Building AI Models",
+                        "url": "https://arxiv.org/abs/2604.14455"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id": "2026-04-17",
         "title": "AI 日报 · 2026年04月17日",
         "date": "2026-04-17",

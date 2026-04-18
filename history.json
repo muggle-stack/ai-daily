@@ -1,21 +1,4 @@
 {
-  "2026-04-11": [
-    "https://arxiv.org/abs/2604.06802",
-    "https://arxiv.org/abs/2604.07165",
-    "https://arxiv.org/abs/2604.07236",
-    "https://arxiv.org/abs/2604.06392",
-    "https://arxiv.org/abs/2604.06562",
-    "https://arxiv.org/abs/2604.06691",
-    "https://arxiv.org/abs/2604.06696",
-    "https://arxiv.org/abs/2604.07003",
-    "https://arxiv.org/abs/2604.07070",
-    "https://www.reddit.com/r/MachineLearning/comments/1shpdm2/p_ibuboost_a_gbdt_library_where_splits_are/",
-    "https://arxiv.org/abs/2604.06628",
-    "https://arxiv.org/abs/2604.06747",
-    "https://36kr.com/newsflashes/3760913826120455?f=rss",
-    "https://36kr.com/p/3760310709174784?f=rss",
-    "https://arxiv.org/abs/2604.06277"
-  ],
   "2026-04-12": [
     "https://blog.langchain.com/your-harness-your-memory/",
     "https://36kr.com/p/3761883183530502?f=rss",
@@ -107,5 +90,22 @@
     "https://arxiv.org/abs/2604.13531",
     "https://arxiv.org/abs/2604.13888",
     "https://arxiv.org/abs/2604.13041"
+  ],
+  "2026-04-18": [
+    "https://arxiv.org/abs/2604.14518",
+    "https://arxiv.org/abs/2604.14564",
+    "https://arxiv.org/abs/2604.14585",
+    "https://arxiv.org/abs/2604.14455",
+    "https://arxiv.org/abs/2604.14178",
+    "https://arxiv.org/abs/2604.14316",
+    "https://arxiv.org/abs/2604.14401",
+    "https://arxiv.org/abs/2604.14475",
+    "https://arxiv.org/abs/2604.14493",
+    "https://36kr.com/p/3770819743728131?f=rss",
+    "https://36kr.com/p/3770363954954755?f=rss",
+    "https://arxiv.org/abs/2604.14160",
+    "https://arxiv.org/abs/2604.14607",
+    "https://www.qbitai.com/2026/04/402189.html",
+    "https://arxiv.org/abs/2604.14240"
   ]
 }
