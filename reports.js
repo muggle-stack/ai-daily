@@ -1,5 +1,99 @@
 const reportsData = [
     {
+        "id": "2026-04-19",
+        "title": "AI 日报 · 2026年04月19日",
+        "date": "2026-04-19",
+        "summary": "零样本世界模型仅用单个儿童的视觉经验就追平了SOTA视觉认知表现；智元机器人一口气发布六大AI模型，宣布打造具身智能开放生态平台；社区实战踩坑 Gemma-4 微调与部署，为后来者铺平了道路。",
+        "articleCount": 11,
+        "categories": [
+            "行业观点",
+            "研究论文",
+            "产品动态",
+            "开源项目",
+            "工具技巧"
+        ],
+        "tags": [
+            "forced alignment",
+            "语音",
+            "world model",
+            "zero-shot",
+            "Gemma-4",
+            "fine-tuning",
+            "智元机器人",
+            "具身智能"
+        ],
+        "sections": [
+            {
+                "name": "产品应用",
+                "icon": "devices",
+                "items": [
+                    {
+                        "title": "智元机器人，要做AI大模型平台和开放生态",
+                        "url": "https://36kr.com/p/3770721219035649?f=rss"
+                    },
+                    {
+                        "title": "AI开始接管实验室了！玻尔·跃迁实验室：试剂、设备、数据一个入口搞定，1800+设备即插即用",
+                        "url": "https://www.qbitai.com/2026/04/402988.html"
+                    }
+                ]
+            },
+            {
+                "name": "开发生态",
+                "icon": "code",
+                "items": [
+                    {
+                        "title": "easyaligner: Forced alignment with GPU acceleration and flexible text normalization (compatible with all w2v2 models on HF Hub) [P]",
+                        "url": "https://www.reddit.com/r/MachineLearning/comments/1soyqfw/easyaligner_forced_alignment_with_gpu/"
+                    },
+                    {
+                        "title": "Trials and tribulations fine-tuning & deploying Gemma-4 [P]",
+                        "url": "https://www.reddit.com/r/MachineLearning/comments/1spc33w/trials_and_tribulations_finetuning_deploying/"
+                    },
+                    {
+                        "title": "We’re proud to open-source LIDARLearn [R] [D] [P]",
+                        "url": "https://www.reddit.com/r/MachineLearning/comments/1sou5u1/were_proud_to_opensource_lidarlearn_r_d_p/"
+                    },
+                    {
+                        "title": "Claude system prompts as a git timeline",
+                        "url": "https://simonwillison.net/2026/Apr/18/extract-system-prompts/#atom-everything"
+                    }
+                ]
+            },
+            {
+                "name": "行业动态",
+                "icon": "trending_up",
+                "items": [
+                    {
+                        "title": "AI chip startup Cerebras files for IPO",
+                        "url": "https://techcrunch.com/2026/04/18/ai-chip-startup-cerebras-files-for-ipo/"
+                    },
+                    {
+                        "title": "Anthropic’s relationship with the Trump administration seems to be thawing",
+                        "url": "https://techcrunch.com/2026/04/18/anthropics-relationship-with-the-trump-administration-seems-to-be-thawing/"
+                    },
+                    {
+                        "title": "The App Store is booming again, and AI may be why",
+                        "url": "https://techcrunch.com/2026/04/18/the-app-store-is-booming-again-and-ai-may-be-why/"
+                    },
+                    {
+                        "title": "Meta计划于5月20日启动今年首轮大规模裁员",
+                        "url": "https://36kr.com/newsflashes/3771824203530756?f=rss"
+                    }
+                ]
+            },
+            {
+                "name": "研究前沿",
+                "icon": "science",
+                "items": [
+                    {
+                        "title": "Zero-shot World Models Are Developmentally Efficient Learners [R]",
+                        "url": "https://www.reddit.com/r/MachineLearning/comments/1soj65c/zeroshot_world_models_are_developmentally/"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id": "2026-04-18",
         "title": "AI 日报 · 2026年04月18日",
         "date": "2026-04-18",

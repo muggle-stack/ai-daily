@@ -1,12 +1,4 @@
 {
-  "2026-04-12": [
-    "https://blog.langchain.com/your-harness-your-memory/",
-    "https://36kr.com/p/3761883183530502?f=rss",
-    "https://36kr.com/p/3762088319484419?f=rss",
-    "https://36kr.com/p/3761709375521288?f=rss",
-    "https://www.reddit.com/r/MachineLearning/comments/1sim6y1/flashattention_fa1fa4_in_pytorch_educational/",
-    "https://36kr.com/newsflashes/3761942487990792?f=rss"
-  ],
   "2026-04-13": [
     "https://www.reddit.com/r/MachineLearning/comments/1sjkmwz/kiv_1m_token_context_window_on_a_rtx_4070_12gb/",
     "https://www.qbitai.com/2026/04/399975.html",
@@ -107,5 +99,18 @@
     "https://arxiv.org/abs/2604.14607",
     "https://www.qbitai.com/2026/04/402189.html",
     "https://arxiv.org/abs/2604.14240"
+  ],
+  "2026-04-19": [
+    "https://www.reddit.com/r/MachineLearning/comments/1soyqfw/easyaligner_forced_alignment_with_gpu/",
+    "https://www.reddit.com/r/MachineLearning/comments/1soj65c/zeroshot_world_models_are_developmentally/",
+    "https://www.reddit.com/r/MachineLearning/comments/1spc33w/trials_and_tribulations_finetuning_deploying/",
+    "https://36kr.com/p/3770721219035649?f=rss",
+    "https://www.reddit.com/r/MachineLearning/comments/1sou5u1/were_proud_to_opensource_lidarlearn_r_d_p/",
+    "https://techcrunch.com/2026/04/18/ai-chip-startup-cerebras-files-for-ipo/",
+    "https://simonwillison.net/2026/Apr/18/extract-system-prompts/#atom-everything",
+    "https://www.qbitai.com/2026/04/402988.html",
+    "https://techcrunch.com/2026/04/18/anthropics-relationship-with-the-trump-administration-seems-to-be-thawing/",
+    "https://techcrunch.com/2026/04/18/the-app-store-is-booming-again-and-ai-may-be-why/",
+    "https://36kr.com/newsflashes/3771824203530756?f=rss"
   ]
 }
