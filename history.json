@@ -1,20 +1,4 @@
 {
-  "2026-04-13": [
-    "https://www.reddit.com/r/MachineLearning/comments/1sjkmwz/kiv_1m_token_context_window_on_a_rtx_4070_12gb/",
-    "https://www.qbitai.com/2026/04/399975.html",
-    "https://www.reddit.com/r/MachineLearning/comments/1sjg4ph/training_an_ai_to_play_resident_evil_requiem/",
-    "https://www.reddit.com/r/MachineLearning/comments/1sjup3s/a_frozen_transformer_learned_that_wombats_produce/",
-    "https://www.reddit.com/r/MachineLearning/comments/1sjnha5/frameworks_for_supporting_llmagentic_benchmarking/",
-    "https://techcrunch.com/2026/04/12/trump-officials-may-be-encouraging-banks-to-test-anthropics-mythos-model/",
-    "https://www.reddit.com/r/MachineLearning/comments/1sj5hsx/d_will_googles_turboquant_algorithm_hurt_ai/",
-    "https://36kr.com/newsflashes/3764454058328838?f=rss",
-    "https://www.reddit.com/r/MachineLearning/comments/1sjb0qi/gary_marcus_on_the_claude_code_leak_d/",
-    "https://www.reddit.com/r/MachineLearning/comments/1sjglrn/educational_pytorch_repo_for_distributed_training/",
-    "https://techcrunch.com/2026/04/12/at-the-humanx-conference-everyone-was-talking-about-claude/",
-    "https://www.reddit.com/r/MachineLearning/comments/1sj76a2/just_did_an_analysis_on_iclr_2025_vs_2026_scores/",
-    "https://www.reddit.com/r/MachineLearning/comments/1sj960m/arcface_embeddings_quantized_to_16bit_pgvector/",
-    "https://36kr.com/newsflashes/3764458003219208?f=rss"
-  ],
   "2026-04-14": [
     "https://openai.com/index/cloudflare-openai-agent-cloud",
     "https://arxiv.org/abs/2604.08756",
@@ -112,5 +96,20 @@
     "https://techcrunch.com/2026/04/18/anthropics-relationship-with-the-trump-administration-seems-to-be-thawing/",
     "https://techcrunch.com/2026/04/18/the-app-store-is-booming-again-and-ai-may-be-why/",
     "https://36kr.com/newsflashes/3771824203530756?f=rss"
+  ],
+  "2026-04-20": [
+    "https://simonwillison.net/2026/Apr/19/headless-everything/#atom-everything",
+    "https://www.qbitai.com/2026/04/403515.html",
+    "https://36kr.com/p/3773492357169920?f=rss",
+    "https://www.qbitai.com/2026/04/403214.html",
+    "https://www.reddit.com/r/MachineLearning/comments/1spvoer/1200_iclr_2026_papers_with_public_code_or_data_r/",
+    "https://www.qbitai.com/2026/04/403210.html",
+    "https://www.reddit.com/r/MachineLearning/comments/1sq273c/on_the_path_towards_a_true_science_of_deep/",
+    "https://36kr.com/newsflashes/3774367149392643?f=rss",
+    "https://www.reddit.com/r/MachineLearning/comments/1spuaek/why_production_systems_keep_making_correct/",
+    "https://techcrunch.com/2026/04/19/the-12-month-window/",
+    "https://36kr.com/newsflashes/3774391996728064?f=rss",
+    "https://36kr.com/newsflashes/3774391299949064?f=rss",
+    "https://36kr.com/newsflashes/3774385992303366?f=rss"
   ]
 }

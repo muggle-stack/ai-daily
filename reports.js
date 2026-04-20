@@ -1,5 +1,94 @@
 const reportsData = [
     {
+        "id": "2026-04-20",
+        "title": "AI 日报 · 2026年04月20日",
+        "date": "2026-04-20",
+        "summary": "Simon Willison 引述多方观点，指出\"无头服务\"正成为个人 AI 时代的基础设施范式；量子位深度解读 Flash Depth Attention 等新架构，大模型\"深度扩展\"进入下半场；荣耀人形机器人\"闪电\"以 50 分 26 秒跑完半马夺冠，具身智能从实验室走向真实赛道。",
+        "articleCount": 13,
+        "categories": [
+            "开源项目",
+            "研究论文",
+            "产品动态",
+            "行业观点"
+        ],
+        "tags": [
+            "headless services",
+            "personal AI",
+            "Flash Depth Attention",
+            "混合深度注意力",
+            "人形机器人",
+            "马拉松",
+            "GUI智能体",
+            "训练评测部署"
+        ],
+        "sections": [
+            {
+                "name": "产品应用",
+                "icon": "devices",
+                "items": [
+                    {
+                        "title": "科氪 | 荣耀齐天大圣队机器人“闪电”夺冠  领跑2026亦庄人形机器人马拉松赛场",
+                        "url": "https://36kr.com/p/3773492357169920?f=rss"
+                    },
+                    {
+                        "title": "谷歌正与Marvell Technology洽谈开发两款新芯片",
+                        "url": "https://36kr.com/newsflashes/3774367149392643?f=rss"
+                    },
+                    {
+                        "title": "SK海力士将开始生产用于Nvidia Vera Rubin芯片的SOCAMM2服务器模块",
+                        "url": "https://36kr.com/newsflashes/3774391996728064?f=rss"
+                    }
+                ]
+            },
+            {
+                "name": "开发生态",
+                "icon": "code",
+                "items": [
+                    {
+                        "title": "1,200 ICLR 2026 Papers with Public Code or Data [R]",
+                        "url": "https://www.reddit.com/r/MachineLearning/comments/1spvoer/1200_iclr_2026_papers_with_public_code_or_data_r/"
+                    }
+                ]
+            },
+            {
+                "name": "行业动态",
+                "icon": "trending_up",
+                "items": [
+                    {
+                        "title": "Headless everything for personal AI",
+                        "url": "https://simonwillison.net/2026/Apr/19/headless-everything/#atom-everything"
+                    },
+                    {
+                        "title": "黄仁勋都被问毛了：顶级AI厂商在去CUDA？“你的前提就是错的”",
+                        "url": "https://www.qbitai.com/2026/04/403210.html"
+                    },
+                    {
+                        "title": "On the path towards a true science of deep learning [D]",
+                        "url": "https://www.reddit.com/r/MachineLearning/comments/1sq273c/on_the_path_towards_a_true_science_of_deep/"
+                    },
+                    {
+                        "title": "Why production systems keep making “correct” decisions that are no longer right [D]",
+                        "url": "https://www.reddit.com/r/MachineLearning/comments/1spuaek/why_production_systems_keep_making_correct/"
+                    }
+                ]
+            },
+            {
+                "name": "研究前沿",
+                "icon": "science",
+                "items": [
+                    {
+                        "title": "大模型架构的下半场",
+                        "url": "https://www.qbitai.com/2026/04/403515.html"
+                    },
+                    {
+                        "title": "教龙虾玩手机！打通GUI智能体训练-评测-部署全流程，训练、真机、评测一站解决",
+                        "url": "https://www.qbitai.com/2026/04/403214.html"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id": "2026-04-19",
         "title": "AI 日报 · 2026年04月19日",
         "date": "2026-04-19",
