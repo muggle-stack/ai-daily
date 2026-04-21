@@ -1,5 +1,80 @@
 const reportsData = [
     {
+        "id": "2026-04-21",
+        "title": "AI 日报 · 2026年04月21日",
+        "date": "2026-04-21",
+        "summary": "月之暗面发布开源模型 Kimi K2.6，Agent 能力全面对标 GPT-5.4 和 Claude Opus 4.6；一篇重磅安全论文揭示不安全行为可通过模型蒸馏\"潜意识\"传播；多智能体协作成为今日研究主旋律，从弱链优化到信念修正协议，学界正在系统性地解决多 Agent 的可靠性难题。",
+        "articleCount": 15,
+        "categories": [
+            "开源项目",
+            "研究论文",
+            "产品动态",
+            "模型发布"
+        ],
+        "tags": [
+            "AI安全",
+            "模型蒸馏",
+            "自动定理证明",
+            "Lean4",
+            "Kimi K2.6",
+            "月之暗面",
+            "LLM Agent",
+            "经验压缩"
+        ],
+        "sections": [
+            {
+                "name": "产品应用",
+                "icon": "devices",
+                "items": [
+                    {
+                        "title": "Kimi K2.6 发布并开源代码及Agent",
+                        "url": "https://36kr.com/newsflashes/3775335514407685?f=rss"
+                    },
+                    {
+                        "title": "继Harness之后，“龙虾”JiuwenClaw率先开启“Coordination Engineering”时代",
+                        "url": "https://www.qbitai.com/2026/04/403751.html"
+                    }
+                ]
+            },
+            {
+                "name": "开发生态",
+                "icon": "code",
+                "items": [
+                    {
+                        "title": "Discover and Prove: An Open-source Agentic Framework for Hard Mode Automated Theorem Proving in Lean 4",
+                        "url": "https://arxiv.org/abs/2604.15839"
+                    },
+                    {
+                        "title": "SGOCR: A Spatially-Grounded OCR-focused Pipeline & V1 Dataset [P]",
+                        "url": "https://www.reddit.com/r/MachineLearning/comments/1sqdrqg/sgocr_a_spatiallygrounded_ocrfocused_pipeline_v1/"
+                    }
+                ]
+            },
+            {
+                "name": "研究前沿",
+                "icon": "science",
+                "items": [
+                    {
+                        "title": "Subliminal Transfer of Unsafe Behaviors in AI Agent Distillation",
+                        "url": "https://arxiv.org/abs/2604.15559"
+                    },
+                    {
+                        "title": "Experience Compression Spectrum: Unifying Memory, Skills, and Rules in LLM Agents",
+                        "url": "https://arxiv.org/abs/2604.15877"
+                    },
+                    {
+                        "title": "Bilevel Optimization of Agent Skills via Monte Carlo Tree Search",
+                        "url": "https://arxiv.org/abs/2604.15709"
+                    },
+                    {
+                        "title": "The World Leaks the Future: Harness Evolution for Future Prediction Agents",
+                        "url": "https://arxiv.org/abs/2604.15719"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id": "2026-04-20",
         "title": "AI 日报 · 2026年04月20日",
         "date": "2026-04-20",

@@ -1,21 +1,4 @@
 {
-  "2026-04-14": [
-    "https://openai.com/index/cloudflare-openai-agent-cloud",
-    "https://arxiv.org/abs/2604.08756",
-    "https://arxiv.org/abs/2604.08988",
-    "https://arxiv.org/abs/2604.09408",
-    "https://arxiv.org/abs/2604.09035",
-    "https://arxiv.org/abs/2604.09455",
-    "https://arxiv.org/abs/2604.09482",
-    "https://arxiv.org/abs/2604.09502",
-    "https://arxiv.org/abs/2604.08601",
-    "https://arxiv.org/abs/2604.08987",
-    "https://arxiv.org/abs/2604.09251",
-    "https://arxiv.org/abs/2604.09308",
-    "https://arxiv.org/abs/2604.09195",
-    "https://arxiv.org/abs/2604.09338",
-    "https://arxiv.org/abs/2604.09001"
-  ],
   "2026-04-15": [
     "https://arxiv.org/abs/2604.09554",
     "https://arxiv.org/abs/2604.09574",
@@ -111,5 +94,22 @@
     "https://36kr.com/newsflashes/3774391996728064?f=rss",
     "https://36kr.com/newsflashes/3774391299949064?f=rss",
     "https://36kr.com/newsflashes/3774385992303366?f=rss"
+  ],
+  "2026-04-21": [
+    "https://arxiv.org/abs/2604.15559",
+    "https://arxiv.org/abs/2604.15839",
+    "https://36kr.com/newsflashes/3775335514407685?f=rss",
+    "https://arxiv.org/abs/2604.15877",
+    "https://arxiv.org/abs/2604.15709",
+    "https://arxiv.org/abs/2604.15719",
+    "https://arxiv.org/abs/2604.15760",
+    "https://arxiv.org/abs/2604.15972",
+    "https://arxiv.org/abs/2604.16022",
+    "https://arxiv.org/abs/2604.16175",
+    "https://arxiv.org/abs/2604.15558",
+    "https://arxiv.org/abs/2604.15456",
+    "https://arxiv.org/abs/2604.15951",
+    "https://www.qbitai.com/2026/04/403751.html",
+    "https://www.reddit.com/r/MachineLearning/comments/1sqdrqg/sgocr_a_spatiallygrounded_ocrfocused_pipeline_v1/"
   ]
 }
