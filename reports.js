@@ -1,5 +1,85 @@
 const reportsData = [
     {
+        "id": "2026-04-22",
+        "title": "AI 日报 · 2026年04月22日",
+        "date": "2026-04-22",
+        "summary": "OpenAI 发布 ChatGPT Images 2.0，Sam Altman 称其飞跃堪比 GPT-3 到 GPT-5；开源医疗推理模型 Chaperone-Thinking-LQ-1.0 仅需约 20GB 显存即在 MedQA 上达到 84% 准确率；多篇论文聚焦 LLM 推理本质，LACE 框架让并行推理路径首次实现\"跨线程协作\"。",
+        "articleCount": 15,
+        "categories": [
+            "研究论文",
+            "产品动态",
+            "模型发布",
+            "开源项目",
+            "工具技巧"
+        ],
+        "tags": [
+            "AI Agent",
+            "Synthetic Personas",
+            "DeepSeek-R1",
+            "GPTQ",
+            "NeoCognition",
+            "AI agent",
+            "LLM",
+            "拟人化"
+        ],
+        "sections": [
+            {
+                "name": "产品应用",
+                "icon": "devices",
+                "items": [
+                    {
+                        "title": "AI research lab NeoCognition lands $40M seed to build agents that learn like humans",
+                        "url": "https://techcrunch.com/2026/04/21/ai-research-lab-neocognition-lands-40m-seed-to-build-agents-that-learn-like-humans/"
+                    },
+                    {
+                        "title": "Where's the raccoon with the ham radio? (ChatGPT Images 2.0)",
+                        "url": "https://simonwillison.net/2026/Apr/21/gpt-image-2/#atom-everything"
+                    }
+                ]
+            },
+            {
+                "name": "开发生态",
+                "icon": "code",
+                "items": [
+                    {
+                        "title": "How to Ground a Korean AI Agent in Real Demographics with Synthetic Personas",
+                        "url": "https://huggingface.co/blog/nvidia/build-korean-agents-with-nemotron-personas"
+                    },
+                    {
+                        "title": "We open-sourced Chaperone-Thinking-LQ-1.0 — a 4-bit GPTQ + QLoRA fine-tuned DeepSeek-R1-32B that hits 84% on MedQA in ~20GB[N]",
+                        "url": "https://www.reddit.com/r/MachineLearning/comments/1srz54u/we_opensourced_chaperonethinkinglq10_a_4bit_gptq/"
+                    },
+                    {
+                        "title": "QIMMA قِمّة ⛰: A Quality-First Arabic LLM Leaderboard",
+                        "url": "https://huggingface.co/blog/tiiuae/qimma-arabic-leaderboard"
+                    }
+                ]
+            },
+            {
+                "name": "研究前沿",
+                "icon": "science",
+                "items": [
+                    {
+                        "title": "Anthropomorphism and Trust in Human-Large Language Model interactions",
+                        "url": "https://arxiv.org/abs/2604.15316"
+                    },
+                    {
+                        "title": "Explainable Iterative Data Visualisation Refinement via an LLM Agent",
+                        "url": "https://arxiv.org/abs/2604.15319"
+                    },
+                    {
+                        "title": "LACE: Lattice Attention for Cross-thread Exploration",
+                        "url": "https://arxiv.org/abs/2604.15529"
+                    },
+                    {
+                        "title": "LLM Reasoning Is Latent, Not the Chain of Thought",
+                        "url": "https://arxiv.org/abs/2604.15726"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id": "2026-04-21",
         "title": "AI 日报 · 2026年04月21日",
         "date": "2026-04-21",

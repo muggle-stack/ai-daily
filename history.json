@@ -1,21 +1,4 @@
 {
-  "2026-04-15": [
-    "https://arxiv.org/abs/2604.09554",
-    "https://arxiv.org/abs/2604.09574",
-    "https://arxiv.org/abs/2604.09579",
-    "https://arxiv.org/abs/2604.09584",
-    "https://arxiv.org/abs/2604.09590",
-    "https://arxiv.org/abs/2604.09601",
-    "https://arxiv.org/abs/2604.09621",
-    "https://arxiv.org/abs/2604.09581",
-    "https://arxiv.org/abs/2604.09587",
-    "https://arxiv.org/abs/2604.09588",
-    "https://arxiv.org/abs/2604.09604",
-    "https://arxiv.org/abs/2604.09596",
-    "https://arxiv.org/abs/2604.09609",
-    "https://arxiv.org/abs/2604.09612",
-    "https://techcrunch.com/2026/04/14/google-adds-ai-skills-to-chrome-to-help-you-save-favorite-workflows/"
-  ],
   "2026-04-16": [
     "https://openai.com/index/the-next-evolution-of-the-agents-sdk",
     "https://huggingface.co/blog/ibm-research/vakra-benchmark-analysis",
@@ -111,5 +94,22 @@
     "https://arxiv.org/abs/2604.15951",
     "https://www.qbitai.com/2026/04/403751.html",
     "https://www.reddit.com/r/MachineLearning/comments/1sqdrqg/sgocr_a_spatiallygrounded_ocrfocused_pipeline_v1/"
+  ],
+  "2026-04-22": [
+    "https://huggingface.co/blog/nvidia/build-korean-agents-with-nemotron-personas",
+    "https://www.reddit.com/r/MachineLearning/comments/1srz54u/we_opensourced_chaperonethinkinglq10_a_4bit_gptq/",
+    "https://techcrunch.com/2026/04/21/ai-research-lab-neocognition-lands-40m-seed-to-build-agents-that-learn-like-humans/",
+    "https://arxiv.org/abs/2604.15316",
+    "https://arxiv.org/abs/2604.15319",
+    "https://arxiv.org/abs/2604.15529",
+    "https://arxiv.org/abs/2604.15726",
+    "https://arxiv.org/abs/2604.16009",
+    "https://arxiv.org/abs/2604.16286",
+    "https://arxiv.org/abs/2604.15727",
+    "https://arxiv.org/abs/2604.15495",
+    "https://arxiv.org/abs/2604.15994",
+    "https://arxiv.org/abs/2604.16278",
+    "https://simonwillison.net/2026/Apr/21/gpt-image-2/#atom-everything",
+    "https://huggingface.co/blog/tiiuae/qimma-arabic-leaderboard"
   ]
 }
