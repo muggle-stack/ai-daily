@@ -1,5 +1,80 @@
 const reportsData = [
     {
+        "id": "2026-04-23",
+        "title": "AI 日报 · 2026年04月23日",
+        "date": "2026-04-23",
+        "summary": "OpenAI 为 ChatGPT 推出 Codex 驱动的工作区 Agent，团队自动化协作迈入新阶段；Qwen3.6-27B 以 27B 稠密模型体量打出旗舰级编码性能，超越上一代 397B MoE 模型；Google 发布第八代 TPU 双芯片组合，为 Agent 时代的推理和训练基础设施加码。",
+        "articleCount": 15,
+        "categories": [
+            "工具技巧",
+            "研究论文",
+            "产品动态",
+            "模型发布"
+        ],
+        "tags": [
+            "WebSocket",
+            "Codex",
+            "ChatGPT",
+            "workspace agents",
+            "AI科学家",
+            "LLM推理",
+            "Qwen3.6-27B",
+            "开源模型"
+        ],
+        "sections": [
+            {
+                "name": "产品应用",
+                "icon": "devices",
+                "items": [
+                    {
+                        "title": "Introducing workspace agents in ChatGPT",
+                        "url": "https://openai.com/index/introducing-workspace-agents-in-chatgpt"
+                    },
+                    {
+                        "title": "Qwen3.6-27B: Flagship-Level Coding in a 27B Dense Model",
+                        "url": "https://simonwillison.net/2026/Apr/22/qwen36-27b/#atom-everything"
+                    },
+                    {
+                        "title": "We're launching two specialized TPUs for the agentic era.",
+                        "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/tpus-8t-8i-cloud-next/"
+                    }
+                ]
+            },
+            {
+                "name": "开发生态",
+                "icon": "code",
+                "items": [
+                    {
+                        "title": "Speeding up agentic workflows with WebSockets in the Responses API",
+                        "url": "https://openai.com/index/speeding-up-agentic-workflows-with-websockets"
+                    }
+                ]
+            },
+            {
+                "name": "研究前沿",
+                "icon": "science",
+                "items": [
+                    {
+                        "title": "AI scientists produce results without reasoning scientifically",
+                        "url": "https://arxiv.org/abs/2604.18805"
+                    },
+                    {
+                        "title": "国产多模态Agent拿下医学分割SOTA！不用改模型、不加token",
+                        "url": "https://www.qbitai.com/2026/04/404604.html"
+                    },
+                    {
+                        "title": "Human-Guided Harm Recovery for Computer Use Agents",
+                        "url": "https://arxiv.org/abs/2604.18847"
+                    },
+                    {
+                        "title": "How Adversarial Environments Mislead Agentic AI?",
+                        "url": "https://arxiv.org/abs/2604.18874"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id": "2026-04-22",
         "title": "AI 日报 · 2026年04月22日",
         "date": "2026-04-22",

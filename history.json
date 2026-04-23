@@ -1,21 +1,4 @@
 {
-  "2026-04-16": [
-    "https://openai.com/index/the-next-evolution-of-the-agents-sdk",
-    "https://huggingface.co/blog/ibm-research/vakra-benchmark-analysis",
-    "https://arxiv.org/abs/2604.11978",
-    "https://arxiv.org/abs/2604.12007",
-    "https://www.alignmentforum.org/posts/WewsByywWNhX9rtwi/current-ais-seem-pretty-misaligned-to-me",
-    "https://arxiv.org/abs/2604.12034",
-    "https://arxiv.org/abs/2604.11914",
-    "https://arxiv.org/abs/2604.12016",
-    "https://arxiv.org/abs/2604.12102",
-    "https://arxiv.org/abs/2604.12116",
-    "https://arxiv.org/abs/2604.12081",
-    "https://arxiv.org/abs/2604.11969",
-    "https://arxiv.org/abs/2604.12019",
-    "https://arxiv.org/abs/2604.12066",
-    "https://techcrunch.com/2026/04/15/gitar-a-startup-that-uses-agents-to-secure-code-emerges-from-stealth-with-9-million/"
-  ],
   "2026-04-17": [
     "https://openai.com/index/introducing-gpt-rosalind",
     "https://openai.com/index/codex-for-almost-everything",
@@ -111,5 +94,22 @@
     "https://arxiv.org/abs/2604.16278",
     "https://simonwillison.net/2026/Apr/21/gpt-image-2/#atom-everything",
     "https://huggingface.co/blog/tiiuae/qimma-arabic-leaderboard"
+  ],
+  "2026-04-23": [
+    "https://openai.com/index/speeding-up-agentic-workflows-with-websockets",
+    "https://openai.com/index/introducing-workspace-agents-in-chatgpt",
+    "https://arxiv.org/abs/2604.18805",
+    "https://simonwillison.net/2026/Apr/22/qwen36-27b/#atom-everything",
+    "https://www.qbitai.com/2026/04/404604.html",
+    "https://arxiv.org/abs/2604.18847",
+    "https://arxiv.org/abs/2604.18874",
+    "https://arxiv.org/abs/2604.19354",
+    "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/tpus-8t-8i-cloud-next/",
+    "https://arxiv.org/abs/2604.19211",
+    "https://arxiv.org/abs/2604.18724",
+    "https://arxiv.org/abs/2604.18934",
+    "https://arxiv.org/abs/2604.19221",
+    "https://arxiv.org/abs/2604.18982",
+    "https://arxiv.org/abs/2604.19278"
   ]
 }
