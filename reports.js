@@ -1,5 +1,104 @@
 const reportsData = [
     {
+        "id": "2026-04-24",
+        "title": "AI 日报 · 2026年04月24日",
+        "date": "2026-04-24",
+        "summary": "GPT-5.5 正式发布，OpenAI 向付费用户推送其迄今最强模型；多篇论文聚焦大模型安全对齐与推理结构，ARES 和 AltTrain 分别从红队测试和推理结构角度提出新方案；国内具身智能与 AI 互动内容赛道持续升温，星际光年和涌跃智能分别斩获近亿元和 5000 万美元融资。",
+        "articleCount": 15,
+        "categories": [
+            "行业观点",
+            "研究论文",
+            "产品动态",
+            "模型发布",
+            "开源项目",
+            "工具技巧"
+        ],
+        "tags": [
+            "GPT-5.5",
+            "Codex API",
+            "OpenAI",
+            "代码智能体",
+            "科研编程",
+            "灵巧手",
+            "具身智能",
+            "Ribbi"
+        ],
+        "sections": [
+            {
+                "name": "产品应用",
+                "icon": "devices",
+                "items": [
+                    {
+                        "title": "Introducing GPT-5.5",
+                        "url": "https://openai.com/index/introducing-gpt-5-5"
+                    },
+                    {
+                        "title": "36氪首发 | 清华、哈工大团队做灵巧手，成本降到三分之一，三个月融资近亿元",
+                        "url": "https://36kr.com/p/3778730451391751?f=rss"
+                    },
+                    {
+                        "title": "一个对话框、一只青蛙、一周4万用户，Ribbi做对了什么？",
+                        "url": "https://36kr.com/p/3778121523025154?f=rss"
+                    },
+                    {
+                        "title": "开年连融两轮的“可以玩的抖音”，又融了5000万美金｜涌现新项目",
+                        "url": "https://36kr.com/p/3778135439709446?f=rss"
+                    }
+                ]
+            },
+            {
+                "name": "开发生态",
+                "icon": "code",
+                "items": [
+                    {
+                        "title": "We benchmarked 18 LLMs on OCR (7k+ calls) — cheaper/old models oftentimes win. Full dataset + framework open-sourced. [R]",
+                        "url": "https://www.reddit.com/r/MachineLearning/comments/1st9v81/we_benchmarked_18_llms_on_ocr_7k_calls_cheaperold/"
+                    },
+                    {
+                        "title": "Extract PDF text in your browser with LiteParse for the web",
+                        "url": "https://simonwillison.net/2026/Apr/23/liteparse-for-the-web/#atom-everything"
+                    },
+                    {
+                        "title": "Optimizing Transformer model size & inference beyond FP16 + ONNX (pruning/graph opt didn’t help much) [P]",
+                        "url": "https://www.reddit.com/r/MachineLearning/comments/1stfk9y/optimizing_transformer_model_size_inference/"
+                    }
+                ]
+            },
+            {
+                "name": "行业动态",
+                "icon": "trending_up",
+                "items": [
+                    {
+                        "title": "A pelican for GPT-5.5 via the semi-official Codex backdoor API",
+                        "url": "https://simonwillison.net/2026/Apr/23/gpt-5-5/#atom-everything"
+                    }
+                ]
+            },
+            {
+                "name": "研究前沿",
+                "icon": "science",
+                "items": [
+                    {
+                        "title": "On Accelerating Grounded Code Development for Research",
+                        "url": "https://arxiv.org/abs/2604.19022"
+                    },
+                    {
+                        "title": "ARES: Adaptive Red-Teaming and End-to-End Repair of Policy-Reward System",
+                        "url": "https://arxiv.org/abs/2604.18789"
+                    },
+                    {
+                        "title": "Reasoning Structure Matters for Safety Alignment of Reasoning Models",
+                        "url": "https://arxiv.org/abs/2604.18946"
+                    },
+                    {
+                        "title": "OLLM: Options-based Large Language Models",
+                        "url": "https://arxiv.org/abs/2604.19087"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id": "2026-04-23",
         "title": "AI 日报 · 2026年04月23日",
         "date": "2026-04-23",

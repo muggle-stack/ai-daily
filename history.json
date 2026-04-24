@@ -1,21 +1,4 @@
 {
-  "2026-04-17": [
-    "https://openai.com/index/introducing-gpt-rosalind",
-    "https://openai.com/index/codex-for-almost-everything",
-    "https://arxiv.org/abs/2604.13206",
-    "https://arxiv.org/abs/2604.13151",
-    "https://arxiv.org/abs/2604.14004",
-    "https://arxiv.org/abs/2604.14116",
-    "https://arxiv.org/abs/2604.11840",
-    "https://arxiv.org/abs/2604.13318",
-    "https://arxiv.org/abs/2604.13488",
-    "https://arxiv.org/abs/2604.13759",
-    "https://arxiv.org/abs/2604.13052",
-    "https://arxiv.org/abs/2604.13180",
-    "https://arxiv.org/abs/2604.13531",
-    "https://arxiv.org/abs/2604.13888",
-    "https://arxiv.org/abs/2604.13041"
-  ],
   "2026-04-18": [
     "https://arxiv.org/abs/2604.14518",
     "https://arxiv.org/abs/2604.14564",
@@ -111,5 +94,22 @@
     "https://arxiv.org/abs/2604.19221",
     "https://arxiv.org/abs/2604.18982",
     "https://arxiv.org/abs/2604.19278"
+  ],
+  "2026-04-24": [
+    "https://simonwillison.net/2026/Apr/23/gpt-5-5/#atom-everything",
+    "https://openai.com/index/introducing-gpt-5-5",
+    "https://arxiv.org/abs/2604.19022",
+    "https://36kr.com/p/3778730451391751?f=rss",
+    "https://36kr.com/p/3778121523025154?f=rss",
+    "https://www.reddit.com/r/MachineLearning/comments/1st9v81/we_benchmarked_18_llms_on_ocr_7k_calls_cheaperold/",
+    "https://36kr.com/p/3778135439709446?f=rss",
+    "https://techcrunch.com/2026/04/23/bret-taylors-sierra-buys-yc-backed-ai-startup-fragment/",
+    "https://simonwillison.net/2026/Apr/23/liteparse-for-the-web/#atom-everything",
+    "https://www.qbitai.com/2026/04/406221.html",
+    "https://arxiv.org/abs/2604.18789",
+    "https://arxiv.org/abs/2604.18946",
+    "https://arxiv.org/abs/2604.19087",
+    "https://techcrunch.com/2026/04/23/openai-chatgpt-gpt-5-5-ai-model-superapp/",
+    "https://www.reddit.com/r/MachineLearning/comments/1stfk9y/optimizing_transformer_model_size_inference/"
   ]
 }
