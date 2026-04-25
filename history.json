@@ -1,21 +1,4 @@
 {
-  "2026-04-18": [
-    "https://arxiv.org/abs/2604.14518",
-    "https://arxiv.org/abs/2604.14564",
-    "https://arxiv.org/abs/2604.14585",
-    "https://arxiv.org/abs/2604.14455",
-    "https://arxiv.org/abs/2604.14178",
-    "https://arxiv.org/abs/2604.14316",
-    "https://arxiv.org/abs/2604.14401",
-    "https://arxiv.org/abs/2604.14475",
-    "https://arxiv.org/abs/2604.14493",
-    "https://36kr.com/p/3770819743728131?f=rss",
-    "https://36kr.com/p/3770363954954755?f=rss",
-    "https://arxiv.org/abs/2604.14160",
-    "https://arxiv.org/abs/2604.14607",
-    "https://www.qbitai.com/2026/04/402189.html",
-    "https://arxiv.org/abs/2604.14240"
-  ],
   "2026-04-19": [
     "https://www.reddit.com/r/MachineLearning/comments/1soyqfw/easyaligner_forced_alignment_with_gpu/",
     "https://www.reddit.com/r/MachineLearning/comments/1soj65c/zeroshot_world_models_are_developmentally/",
@@ -111,5 +94,22 @@
     "https://arxiv.org/abs/2604.19087",
     "https://techcrunch.com/2026/04/23/openai-chatgpt-gpt-5-5-ai-model-superapp/",
     "https://www.reddit.com/r/MachineLearning/comments/1stfk9y/optimizing_transformer_model_size_inference/"
+  ],
+  "2026-04-25": [
+    "https://arxiv.org/abs/2604.19790",
+    "https://www.qbitai.com/2026/04/406359.html",
+    "https://arxiv.org/abs/2604.19789",
+    "https://simonwillison.net/2026/Apr/24/recent-claude-code-quality-reports/#atom-everything",
+    "https://arxiv.org/abs/2604.19775",
+    "https://arxiv.org/abs/2604.19793",
+    "https://arxiv.org/abs/2604.19795",
+    "https://arxiv.org/abs/2604.19821",
+    "https://arxiv.org/abs/2604.19926",
+    "https://arxiv.org/abs/2604.19755",
+    "https://arxiv.org/abs/2604.19792",
+    "https://arxiv.org/abs/2604.19803",
+    "https://arxiv.org/abs/2604.19837",
+    "https://www.reddit.com/r/MachineLearning/comments/1sun6wt/dharmaocr_opensource_specialized_slm_3b/",
+    "https://36kr.com/p/3780352721851397?f=rss"
   ]
 }

@@ -1,5 +1,80 @@
 const reportsData = [
     {
+        "id": "2026-04-25",
+        "title": "AI 日报 · 2026年04月25日",
+        "date": "2026-04-25",
+        "summary": "DeepSeek V4 正式发布，明确搭载华为芯片，在 Agent 能力与推理性能上刷新开源纪录；Anthropic 发布事后分析，确认 Claude Code 近两月质量下降源于三个独立 bug 而非模型本身；学术界密集涌现 LLM Agent 研究，从工具调用优化到自主科学发现，Agent 正在成为 2026 年最核心的研究主题。",
+        "articleCount": 15,
+        "categories": [
+            "开源项目",
+            "研究论文",
+            "产品动态",
+            "模型发布"
+        ],
+        "tags": [
+            "LLM可靠性",
+            "数值精度",
+            "DeepSeek-V4",
+            "华为芯片",
+            "LLM Agent",
+            "材料科学",
+            "Claude Code",
+            "Anthropic"
+        ],
+        "sections": [
+            {
+                "name": "产品应用",
+                "icon": "devices",
+                "items": [
+                    {
+                        "title": "DeepSeek V4终于发布！打破最强闭源垄断，明确携手华为芯片",
+                        "url": "https://www.qbitai.com/2026/04/406359.html"
+                    },
+                    {
+                        "title": "An update on recent Claude Code quality reports",
+                        "url": "https://simonwillison.net/2026/Apr/24/recent-claude-code-quality-reports/#atom-everything"
+                    },
+                    {
+                        "title": "融了2000万美金，这家2000万美金ARR的AI公司，推出“视频版Photoshop”「Buzzy」",
+                        "url": "https://36kr.com/p/3780352721851397?f=rss"
+                    }
+                ]
+            },
+            {
+                "name": "开发生态",
+                "icon": "code",
+                "items": [
+                    {
+                        "title": "DharmaOCR: Open-Source Specialized SLM (3B) + Cost–Performance Benchmark against LLMs and other open-sourced models [R]",
+                        "url": "https://www.reddit.com/r/MachineLearning/comments/1sun6wt/dharmaocr_opensource_specialized_slm_3b/"
+                    }
+                ]
+            },
+            {
+                "name": "研究前沿",
+                "icon": "science",
+                "items": [
+                    {
+                        "title": "Hidden Reliability Risks in Large Language Models: Systematic Identification of Precision-Induced Output Disagreements",
+                        "url": "https://arxiv.org/abs/2604.19790"
+                    },
+                    {
+                        "title": "From Data to Theory: Autonomous Large Language Model Agents for Materials Science",
+                        "url": "https://arxiv.org/abs/2604.19789"
+                    },
+                    {
+                        "title": "From Actions to Understanding: Conformal Interpretability of Temporal Concepts in LLM Agents",
+                        "url": "https://arxiv.org/abs/2604.19775"
+                    },
+                    {
+                        "title": "SkillGraph: Graph Foundation Priors for LLM Agent Tool Sequence Recommendation",
+                        "url": "https://arxiv.org/abs/2604.19793"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id": "2026-04-24",
         "title": "AI 日报 · 2026年04月24日",
         "date": "2026-04-24",
