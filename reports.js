@@ -1,5 +1,80 @@
 const reportsData = [
     {
+        "id": "2026-04-26",
+        "title": "AI 日报 · 2026年04月26日",
+        "date": "2026-04-26",
+        "summary": "Anthropic 搭建了一个 AI 智能体之间互相交易的实验市场，开启\"代理商务\"新范式；金融深度研究基准 Deep FinResearch Bench 揭示 AI 生成的投研报告在多维度上仍不及人类分析师；OpenAI 发布 GPT-5.5 提示词指南，为开发者带来一系列实用的新模型调优技巧。",
+        "articleCount": 15,
+        "categories": [
+            "开源项目",
+            "工具技巧",
+            "研究论文",
+            "产品动态"
+        ],
+        "tags": [
+            "Anthropic",
+            "AI agent",
+            "金融研究",
+            "deep research",
+            "多智能体",
+            "empowerment",
+            "VLA",
+            "级联失败"
+        ],
+        "sections": [
+            {
+                "name": "产品应用",
+                "icon": "devices",
+                "items": [
+                    {
+                        "title": "Anthropic created a test marketplace for agent-on-agent commerce",
+                        "url": "https://techcrunch.com/2026/04/25/anthropic-created-a-test-marketplace-for-agent-on-agent-commerce/"
+                    },
+                    {
+                        "title": "36氪首发 | 核心团队来自微软，获近亿投资，要打通AI进厂最后一公里",
+                        "url": "https://36kr.com/p/3781548853533959?f=rss"
+                    }
+                ]
+            },
+            {
+                "name": "开发生态",
+                "icon": "code",
+                "items": [
+                    {
+                        "title": "GPT-5.5 prompting guide",
+                        "url": "https://simonwillison.net/2026/Apr/25/gpt-5-5-prompting-guide/#atom-everything"
+                    },
+                    {
+                        "title": "Open-source 9-task benchmark for coding-agent retrieval augmentation. Per-task deltas +0.010 to +0.320, all evals reproducible [P]",
+                        "url": "https://www.reddit.com/r/MachineLearning/comments/1suzqxe/opensource_9task_benchmark_for_codingagent/"
+                    }
+                ]
+            },
+            {
+                "name": "研究前沿",
+                "icon": "science",
+                "items": [
+                    {
+                        "title": "Deep FinResearch Bench: Evaluating AI's Ability to Conduct Professional Financial Investment Research",
+                        "url": "https://arxiv.org/abs/2604.21006"
+                    },
+                    {
+                        "title": "Multi-Agent Empowerment and Emergence of Complex Behavior in Groups",
+                        "url": "https://arxiv.org/abs/2604.21155"
+                    },
+                    {
+                        "title": "ReCAPA: Hierarchical Predictive Correction to Mitigate Cascading Failures",
+                        "url": "https://arxiv.org/abs/2604.21232"
+                    },
+                    {
+                        "title": "SemanticAgent: A Semantics-Aware Framework for Text-to-SQL Data Synthesis",
+                        "url": "https://arxiv.org/abs/2604.21414"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id": "2026-04-25",
         "title": "AI 日报 · 2026年04月25日",
         "date": "2026-04-25",

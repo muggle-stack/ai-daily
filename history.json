@@ -1,17 +1,4 @@
 {
-  "2026-04-19": [
-    "https://www.reddit.com/r/MachineLearning/comments/1soyqfw/easyaligner_forced_alignment_with_gpu/",
-    "https://www.reddit.com/r/MachineLearning/comments/1soj65c/zeroshot_world_models_are_developmentally/",
-    "https://www.reddit.com/r/MachineLearning/comments/1spc33w/trials_and_tribulations_finetuning_deploying/",
-    "https://36kr.com/p/3770721219035649?f=rss",
-    "https://www.reddit.com/r/MachineLearning/comments/1sou5u1/were_proud_to_opensource_lidarlearn_r_d_p/",
-    "https://techcrunch.com/2026/04/18/ai-chip-startup-cerebras-files-for-ipo/",
-    "https://simonwillison.net/2026/Apr/18/extract-system-prompts/#atom-everything",
-    "https://www.qbitai.com/2026/04/402988.html",
-    "https://techcrunch.com/2026/04/18/anthropics-relationship-with-the-trump-administration-seems-to-be-thawing/",
-    "https://techcrunch.com/2026/04/18/the-app-store-is-booming-again-and-ai-may-be-why/",
-    "https://36kr.com/newsflashes/3771824203530756?f=rss"
-  ],
   "2026-04-20": [
     "https://simonwillison.net/2026/Apr/19/headless-everything/#atom-everything",
     "https://www.qbitai.com/2026/04/403515.html",
@@ -111,5 +98,22 @@
     "https://arxiv.org/abs/2604.19837",
     "https://www.reddit.com/r/MachineLearning/comments/1sun6wt/dharmaocr_opensource_specialized_slm_3b/",
     "https://36kr.com/p/3780352721851397?f=rss"
+  ],
+  "2026-04-26": [
+    "https://techcrunch.com/2026/04/25/anthropic-created-a-test-marketplace-for-agent-on-agent-commerce/",
+    "https://arxiv.org/abs/2604.21006",
+    "https://arxiv.org/abs/2604.21155",
+    "https://arxiv.org/abs/2604.21232",
+    "https://arxiv.org/abs/2604.21414",
+    "https://simonwillison.net/2026/Apr/25/gpt-5-5-prompting-guide/#atom-everything",
+    "https://arxiv.org/abs/2604.21003",
+    "https://arxiv.org/abs/2604.20987",
+    "https://arxiv.org/abs/2604.21154",
+    "https://arxiv.org/abs/2604.21357",
+    "https://www.reddit.com/r/MachineLearning/comments/1suzqxe/opensource_9task_benchmark_for_codingagent/",
+    "https://36kr.com/p/3781548853533959?f=rss",
+    "https://arxiv.org/abs/2604.20995",
+    "https://arxiv.org/abs/2604.21284",
+    "https://arxiv.org/abs/2604.21018"
   ]
 }
