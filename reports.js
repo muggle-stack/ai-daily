@@ -1,5 +1,57 @@
 const reportsData = [
     {
+        "id": "2026-04-27",
+        "title": "AI 日报 · 2026年04月27日",
+        "date": "2026-04-27",
+        "summary": "Anthropic 正式承认 Claude 存在\"降智\"问题并曝光三个 bug，全球首个医疗视频理解大模型宣布开源，Momenta CEO 曹旭东直言规模化 L4 自动驾驶需要百亿美元级投入。",
+        "articleCount": 3,
+        "categories": [
+            "开源项目",
+            "产品动态",
+            "行业观点"
+        ],
+        "tags": [
+            "Claude",
+            "模型降智",
+            "医疗视频理解",
+            "大模型",
+            "Momenta",
+            "自动驾驶"
+        ],
+        "sections": [
+            {
+                "name": "产品应用",
+                "icon": "devices",
+                "items": [
+                    {
+                        "title": "Claude终于认了！降智坐实，越聊越傻，3个bug全曝光",
+                        "url": "https://www.qbitai.com/2026/04/407502.html"
+                    }
+                ]
+            },
+            {
+                "name": "开发生态",
+                "icon": "code",
+                "items": [
+                    {
+                        "title": "全球首个医疗视频理解大模型开源！6k+组精标测试集与英雄榜同步上线，开发者速来！",
+                        "url": "https://www.qbitai.com/2026/04/407486.html"
+                    }
+                ]
+            },
+            {
+                "name": "行业动态",
+                "icon": "trending_up",
+                "items": [
+                    {
+                        "title": "Momenta曹旭东：规模L4要百亿美元投入，现金流业务是物理AI门票",
+                        "url": "https://www.qbitai.com/2026/04/407485.html"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id": "2026-04-26",
         "title": "AI 日报 · 2026年04月26日",
         "date": "2026-04-26",

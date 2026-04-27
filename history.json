@@ -1,19 +1,4 @@
 {
-  "2026-04-20": [
-    "https://simonwillison.net/2026/Apr/19/headless-everything/#atom-everything",
-    "https://www.qbitai.com/2026/04/403515.html",
-    "https://36kr.com/p/3773492357169920?f=rss",
-    "https://www.qbitai.com/2026/04/403214.html",
-    "https://www.reddit.com/r/MachineLearning/comments/1spvoer/1200_iclr_2026_papers_with_public_code_or_data_r/",
-    "https://www.qbitai.com/2026/04/403210.html",
-    "https://www.reddit.com/r/MachineLearning/comments/1sq273c/on_the_path_towards_a_true_science_of_deep/",
-    "https://36kr.com/newsflashes/3774367149392643?f=rss",
-    "https://www.reddit.com/r/MachineLearning/comments/1spuaek/why_production_systems_keep_making_correct/",
-    "https://techcrunch.com/2026/04/19/the-12-month-window/",
-    "https://36kr.com/newsflashes/3774391996728064?f=rss",
-    "https://36kr.com/newsflashes/3774391299949064?f=rss",
-    "https://36kr.com/newsflashes/3774385992303366?f=rss"
-  ],
   "2026-04-21": [
     "https://arxiv.org/abs/2604.15559",
     "https://arxiv.org/abs/2604.15839",
@@ -115,5 +100,10 @@
     "https://arxiv.org/abs/2604.20995",
     "https://arxiv.org/abs/2604.21284",
     "https://arxiv.org/abs/2604.21018"
+  ],
+  "2026-04-27": [
+    "https://www.qbitai.com/2026/04/407502.html",
+    "https://www.qbitai.com/2026/04/407486.html",
+    "https://www.qbitai.com/2026/04/407485.html"
   ]
 }
