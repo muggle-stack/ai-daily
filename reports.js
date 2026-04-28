@@ -1,5 +1,71 @@
 const reportsData = [
     {
+        "id": "2026-04-28",
+        "title": "AI 日报 · 2026年04月28日",
+        "date": "2026-04-28",
+        "summary": "今日学术圈围绕 AI Agent 展开密集讨论，从记忆架构、自我纠正机制到集体智能评估，Agent 的能力边界正被系统性地重新审视；中国监管部门叫停 Meta 20 亿美元收购 Manus 的交易，为全球 AI Agent 赛道投下变数；微软开源语音识别模型 VibeVoice 凭借内置说话人分离能力引发关注。",
+        "articleCount": 15,
+        "categories": [
+            "开源项目",
+            "研究论文",
+            "行业观点"
+        ],
+        "tags": [
+            "数学推理",
+            "benchmark",
+            "Agent记忆",
+            "语义检索",
+            "LLM自我纠正",
+            "控制论",
+            "集体智能",
+            "Agent社会"
+        ],
+        "sections": [
+            {
+                "name": "开发生态",
+                "icon": "code",
+                "items": [
+                    {
+                        "title": "microsoft/VibeVoice",
+                        "url": "https://simonwillison.net/2026/Apr/27/vibevoice/#atom-everything"
+                    }
+                ]
+            },
+            {
+                "name": "行业动态",
+                "icon": "trending_up",
+                "items": [
+                    {
+                        "title": "China blocks Meta’s $2B Manus deal after months-long probe",
+                        "url": "https://techcrunch.com/2026/04/27/china-vetoes-metas-2b-manus-deal-after-months-long-probe/"
+                    }
+                ]
+            },
+            {
+                "name": "研究前沿",
+                "icon": "science",
+                "items": [
+                    {
+                        "title": "Math Takes Two: A test for emergent mathematical reasoning in communication",
+                        "url": "https://arxiv.org/abs/2604.21935"
+                    },
+                    {
+                        "title": "Memanto: Typed Semantic Memory with Information-Theoretic Retrieval for Long-Horizon Agents",
+                        "url": "https://arxiv.org/abs/2604.22085"
+                    },
+                    {
+                        "title": "When Does LLM Self-Correction Help? A Control-Theoretic Markov Diagnostic and Verify-First Intervention",
+                        "url": "https://arxiv.org/abs/2604.22273"
+                    },
+                    {
+                        "title": "Superminds Test: Actively Evaluating Collective Intelligence of Agent Society via Probing Agents",
+                        "url": "https://arxiv.org/abs/2604.22452"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id": "2026-04-27",
         "title": "AI 日报 · 2026年04月27日",
         "date": "2026-04-27",
