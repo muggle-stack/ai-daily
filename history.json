@@ -1,21 +1,4 @@
 {
-  "2026-04-22": [
-    "https://huggingface.co/blog/nvidia/build-korean-agents-with-nemotron-personas",
-    "https://www.reddit.com/r/MachineLearning/comments/1srz54u/we_opensourced_chaperonethinkinglq10_a_4bit_gptq/",
-    "https://techcrunch.com/2026/04/21/ai-research-lab-neocognition-lands-40m-seed-to-build-agents-that-learn-like-humans/",
-    "https://arxiv.org/abs/2604.15316",
-    "https://arxiv.org/abs/2604.15319",
-    "https://arxiv.org/abs/2604.15529",
-    "https://arxiv.org/abs/2604.15726",
-    "https://arxiv.org/abs/2604.16009",
-    "https://arxiv.org/abs/2604.16286",
-    "https://arxiv.org/abs/2604.15727",
-    "https://arxiv.org/abs/2604.15495",
-    "https://arxiv.org/abs/2604.15994",
-    "https://arxiv.org/abs/2604.16278",
-    "https://simonwillison.net/2026/Apr/21/gpt-image-2/#atom-everything",
-    "https://huggingface.co/blog/tiiuae/qimma-arabic-leaderboard"
-  ],
   "2026-04-23": [
     "https://openai.com/index/speeding-up-agentic-workflows-with-websockets",
     "https://openai.com/index/introducing-workspace-agents-in-chatgpt",
@@ -105,5 +88,22 @@
     "https://techcrunch.com/2026/04/27/china-vetoes-metas-2b-manus-deal-after-months-long-probe/",
     "https://arxiv.org/abs/2604.21936",
     "https://simonwillison.net/2026/Apr/27/vibevoice/#atom-everything"
+  ],
+  "2026-04-29": [
+    "https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence",
+    "https://www.alignmentforum.org/posts/mu7eJdesBkKuBycnY/sleeper-agent-backdoor-results-are-messy",
+    "https://arxiv.org/abs/2604.21952",
+    "https://techcrunch.com/2026/04/28/amazon-is-already-offering-new-openai-products-on-aws/",
+    "https://36kr.com/newsflashes/3787104415718400?f=rss",
+    "https://techcrunch.com/2026/04/28/red-hats-openclaw-maintainer-just-made-enterprise-claw-deployments-a-lot-safer/",
+    "https://arxiv.org/abs/2604.21999",
+    "https://www.alignmentforum.org/posts/q2zYtNsh62SCphitt/recursive-forecasting-eliciting-long-term-forecasts-from",
+    "https://arxiv.org/abs/2604.22411",
+    "https://arxiv.org/abs/2601.05414",
+    "https://arxiv.org/abs/2604.21950",
+    "https://arxiv.org/abs/2604.22597",
+    "https://arxiv.org/abs/2604.22027",
+    "https://simonwillison.net/2026/Apr/28/talkie/#atom-everything",
+    "https://arxiv.org/abs/2604.22026"
   ]
 }

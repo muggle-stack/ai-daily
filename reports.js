@@ -1,5 +1,84 @@
 const reportsData = [
     {
+        "id": "2026-04-29",
+        "title": "AI 日报 · 2026年04月29日",
+        "date": "2026-04-29",
+        "summary": "NVIDIA 发布开源全模态模型 Nemotron 3 Nano Omni，号称为企业 AI Agent 带来最高 9 倍效率提升；OpenAI 结束微软独家合作次日，AWS 火速上架其模型与 Agent 服务；AI 安全领域\"沉睡代理\"后门实验复现结果混乱，提醒社区对模型安全研究需更加审慎。",
+        "articleCount": 15,
+        "categories": [
+            "开源项目",
+            "研究论文",
+            "产品动态",
+            "模型发布"
+        ],
+        "tags": [
+            "NVIDIA",
+            "Nemotron 3 Nano Omni",
+            "sleeper agents",
+            "backdoor",
+            "multimodal foundation models",
+            "hardware-software co-design",
+            "OpenAI",
+            "AWS"
+        ],
+        "sections": [
+            {
+                "name": "产品应用",
+                "icon": "devices",
+                "items": [
+                    {
+                        "title": "Introducing NVIDIA Nemotron 3 Nano Omni: Long-Context Multimodal Intelligence for Documents, Audio and Video Agents",
+                        "url": "https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence"
+                    },
+                    {
+                        "title": "Amazon is already offering new OpenAI products on AWS",
+                        "url": "https://techcrunch.com/2026/04/28/amazon-is-already-offering-new-openai-products-on-aws/"
+                    },
+                    {
+                        "title": "英伟达推出Nemotron 3 Nano Omni模型",
+                        "url": "https://36kr.com/newsflashes/3787104415718400?f=rss"
+                    },
+                    {
+                        "title": "Red Hat’s OpenClaw maintainer just made enterprise Claw deployments a lot safer",
+                        "url": "https://techcrunch.com/2026/04/28/red-hats-openclaw-maintainer-just-made-enterprise-claw-deployments-a-lot-safer/"
+                    }
+                ]
+            },
+            {
+                "name": "开发生态",
+                "icon": "code",
+                "items": [
+                    {
+                        "title": "Introducing talkie: a 13B vintage language model from 1930",
+                        "url": "https://simonwillison.net/2026/Apr/28/talkie/#atom-everything"
+                    }
+                ]
+            },
+            {
+                "name": "研究前沿",
+                "icon": "science",
+                "items": [
+                    {
+                        "title": "Sleeper Agent Backdoor Results Are Messy",
+                        "url": "https://www.alignmentforum.org/posts/mu7eJdesBkKuBycnY/sleeper-agent-backdoor-results-are-messy"
+                    },
+                    {
+                        "title": "Focus Session: Hardware and Software Techniques for Accelerating Multimodal Foundation Models",
+                        "url": "https://arxiv.org/abs/2604.21952"
+                    },
+                    {
+                        "title": "Universal Transformers Need Memory: Depth-State Trade-offs in Adaptive Recursive Reasoning",
+                        "url": "https://arxiv.org/abs/2604.21999"
+                    },
+                    {
+                        "title": "Recursive forecasting: Eliciting long-term forecasts from myopic fitness-seekers",
+                        "url": "https://www.alignmentforum.org/posts/q2zYtNsh62SCphitt/recursive-forecasting-eliciting-long-term-forecasts-from"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id": "2026-04-28",
         "title": "AI 日报 · 2026年04月28日",
         "date": "2026-04-28",
