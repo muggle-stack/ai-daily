@@ -1,5 +1,49 @@
 const reportsData = [
     {
+        "id": "2026-04-30",
+        "title": "AI 日报 · 2026年04月30日",
+        "date": "2026-04-30",
+        "summary": "今日研究论文密集，三大看点：信念图架构让LLM在多智能体博弈中实现100%二阶心智理论推理；闭环自引用框架Escher-Loop让Agent和优化器互相进化、突破人工流程瓶颈；EPO-Safe证明LLM仅凭1-bit危险信号就能自主发现隐藏的安全规范。",
+        "articleCount": 15,
+        "categories": [
+            "研究论文"
+        ],
+        "tags": [
+            "信念图",
+            "多智能体推理",
+            "软命题推理",
+            "LLM Agent架构",
+            "Agent安全",
+            "行为规范发现",
+            "幻觉检测",
+            "多智能体LLM"
+        ],
+        "sections": [
+            {
+                "name": "研究前沿",
+                "icon": "science",
+                "items": [
+                    {
+                        "title": "Don't Make the LLM Read the Graph: Make the Graph Think",
+                        "url": "https://arxiv.org/abs/2604.23057"
+                    },
+                    {
+                        "title": "Analytica: Soft Propositional Reasoning for Robust and Scalable LLM-Driven Analysis",
+                        "url": "https://arxiv.org/abs/2604.23072"
+                    },
+                    {
+                        "title": "Discovering Agentic Safety Specifications from 1-Bit Danger Signals",
+                        "url": "https://arxiv.org/abs/2604.23210"
+                    },
+                    {
+                        "title": "GSAR: Typed Grounding for Hallucination Detection and Recovery in Multi-Agent LLMs",
+                        "url": "https://arxiv.org/abs/2604.23366"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id": "2026-04-29",
         "title": "AI 日报 · 2026年04月29日",
         "date": "2026-04-29",

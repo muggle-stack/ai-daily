@@ -1,21 +1,4 @@
 {
-  "2026-04-23": [
-    "https://openai.com/index/speeding-up-agentic-workflows-with-websockets",
-    "https://openai.com/index/introducing-workspace-agents-in-chatgpt",
-    "https://arxiv.org/abs/2604.18805",
-    "https://simonwillison.net/2026/Apr/22/qwen36-27b/#atom-everything",
-    "https://www.qbitai.com/2026/04/404604.html",
-    "https://arxiv.org/abs/2604.18847",
-    "https://arxiv.org/abs/2604.18874",
-    "https://arxiv.org/abs/2604.19354",
-    "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/tpus-8t-8i-cloud-next/",
-    "https://arxiv.org/abs/2604.19211",
-    "https://arxiv.org/abs/2604.18724",
-    "https://arxiv.org/abs/2604.18934",
-    "https://arxiv.org/abs/2604.19221",
-    "https://arxiv.org/abs/2604.18982",
-    "https://arxiv.org/abs/2604.19278"
-  ],
   "2026-04-24": [
     "https://simonwillison.net/2026/Apr/23/gpt-5-5/#atom-everything",
     "https://openai.com/index/introducing-gpt-5-5",
@@ -105,5 +88,22 @@
     "https://arxiv.org/abs/2604.22027",
     "https://simonwillison.net/2026/Apr/28/talkie/#atom-everything",
     "https://arxiv.org/abs/2604.22026"
+  ],
+  "2026-04-30": [
+    "https://arxiv.org/abs/2604.23057",
+    "https://arxiv.org/abs/2604.23072",
+    "https://arxiv.org/abs/2604.23210",
+    "https://arxiv.org/abs/2604.23366",
+    "https://arxiv.org/abs/2604.23472",
+    "https://arxiv.org/abs/2604.23483",
+    "https://arxiv.org/abs/2604.23148",
+    "https://arxiv.org/abs/2604.23194",
+    "https://arxiv.org/abs/2604.23198",
+    "https://arxiv.org/abs/2604.23270",
+    "https://arxiv.org/abs/2604.23280",
+    "https://arxiv.org/abs/2604.22934",
+    "https://arxiv.org/abs/2604.23002",
+    "https://arxiv.org/abs/2604.23049",
+    "https://arxiv.org/abs/2604.23355"
   ]
 }
