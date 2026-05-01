@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 日报 · 2026年05月01日</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,300,0,0&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<script>
+tailwind.config = {
+    theme: {
+        extend: {
+            colors: {
+                warm: { 50: '#fbf9f6', 100: '#f5f0ea', 200: '#e8dfd5', 400: '#b5a08a', 500: '#8a7f76', 600: '#6b6158', 700: '#4a403a', 800: '#342d28', 900: '#1f1a17' },
+                accent: { DEFAULT: '#c96442', light: '#e8825f', dark: '#a84e32' },
+            },
+            fontFamily: { sans: ['Noto Sans SC', 'system-ui', 'sans-serif'] },
+        }
+    }
+}
+</script>
+<style>
+body { font-family: 'Noto Sans SC', system-ui, sans-serif; }
+.material-symbols-rounded { font-family: 'Material Symbols Rounded' !important; font-weight: 300 !important; font-style: normal; display: inline-block; line-height: 1; font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24 !important; }
+.card-hover { transition: all 0.25s ease; }
+.card-hover:hover { transform: translateY(-3px); box-shadow: 0 12px 24px -8px rgba(74,64,58,0.14); }
+</style>
+</head>
+<body class="bg-warm-50 text-warm-700 antialiased">
+
+<!-- Navigation -->
+<nav class="fixed top-0 w-full bg-warm-50/85 backdrop-blur-md z-50 border-b border-warm-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-14">
+        <a href="../index.html" class="text-lg font-bold text-accent hover:text-accent-dark transition">← AI 日报</a>
+        <span class="text-warm-500 text-sm">2026年05月01日</span>
+    </div>
+</nav>
+
+<main class="pt-20 pb-16">
+    <!-- Header -->
+    <section class="bg-gradient-to-br from-accent to-accent-dark text-white py-12 mb-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-3xl md:text-4xl font-bold mb-2">AI 日报 · 2026年05月01日</h1>
+            <p class="text-orange-100">共 15 篇精选，来自 4 个信息源</p>
+        </div>
+    </section>
+
+    <!-- Overview -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-10">
+        <div class="bg-white border border-warm-200 rounded-xl p-6 shadow-sm" style="border-left: 4px solid #c96442;">
+            <p class="text-warm-700 leading-relaxed">DreamProver 提出&quot;清醒-睡眠&quot;范式让定理证明器自动进化可复用引理库，刷新形式化验证思路；Stripe 推出 Link 数字钱包，让 AI 智能体也能安全地替你花钱；一篇引人深思的论文提出&quot;LLM 精神病&quot;框架，认为大模型的行为失败远不止&quot;幻觉&quot;那么简单。</p>
+        </div>
+    </div>
+
+    <!-- Content -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <section class="mb-10">
+    <div class="flex items-center gap-3 mb-5">
+        <span class="material-symbols-rounded text-2xl" style="color: #335c67;">code</span>
+        <h2 class="text-xl font-bold" style="color: #335c67;">开源项目</h2>
+        <span class="text-xs text-warm-400 bg-warm-100 px-2.5 py-0.5 rounded-full">1 篇</span>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+        <div class="bg-white border border-warm-200 rounded-xl overflow-hidden shadow-sm card-hover" style="">
+    <div class="p-5">
+        <div class="flex items-start gap-3 mb-3">
+            <span class="material-symbols-rounded mt-0.5 flex-shrink-0" style="color: #335c67; font-size: 20px;">code</span>
+            <h3 class="text-base font-bold leading-snug flex-1" style="color: #335c67;">将 Karpathy 的 autoresearch 应用于 3300 万 token 公共交通数据集（14% 提升，复现笔记）（Applying Karpathy&#x27;s autoresearch to a 33M-token public transit dataset (14% improvement, replication notes)）</h3>
+            <span class="flex-shrink-0 text-xs font-bold text-white px-2 py-0.5 rounded" style="background: #335c67;">8.4</span>
+        </div>
+        <p class="text-sm text-warm-700 leading-relaxed mb-3">一位美国公共交通行业从业者分享了使用 Andrej Karpathy 的 autoresearch 框架从零训练 80M 参数小模型的完整实践。autoresearch 是一个 LLM 驱动的研究循环：智能体编辑训练脚本、运行实验、分析结果并迭代优化。作者使用了一个 3300 万 token 的公共交通数据集，最终获得了 14% 的性能提升。这篇帖子的价值在于提供了详细的复现笔记和踩坑记录，对想在垂直领域数据上尝试 autoresearch 的开发者来说是很好的参考。作者也坦诚地征求社区反馈，包括哪里做错了、下一步该关注什么。</p>
+        <div class="flex flex-wrap items-center gap-1.5 text-xs text-warm-500">
+            <a href="https://www.reddit.com/r/MachineLearning/comments/1t04rrz/applying_karpathys_autoresearch_to_a_33mtoken/" target="_blank" rel="noopener" class="text-accent font-medium hover:underline">原文 ↗</a>
+            <span>·</span>
+            <span class="font-medium text-warm-600">Reddit ML</span>
+            <span>·</span>
+            <span>5小时前</span>
+            <span>·</span>
+            <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">autoresearch</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">Karpathy</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">预训练</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">公共交通数据</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">小模型</span>
+        </div>
+    </div>
+</div>
+    </div>
+</section>
+<section class="mb-10">
+    <div class="flex items-center gap-3 mb-5">
+        <span class="material-symbols-rounded text-2xl" style="color: #9e2a2b;">science</span>
+        <h2 class="text-xl font-bold" style="color: #9e2a2b;">研究论文</h2>
+        <span class="text-xs text-warm-400 bg-warm-100 px-2.5 py-0.5 rounded-full">12 篇</span>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+        <div class="bg-white border border-warm-200 rounded-xl overflow-hidden shadow-sm card-hover" style="border-left: 4px solid #9e2a2b;">
+    <div class="p-5">
+        <div class="flex items-start gap-3 mb-3">
+            <span class="material-symbols-rounded mt-0.5 flex-shrink-0" style="color: #9e2a2b; font-size: 20px;">science</span>
+            <h3 class="text-base font-bold leading-snug flex-1" style="color: #9e2a2b;">DreamProver：通过清醒-睡眠定理证明智能体进化可迁移引理库（DreamProver: Evolving Transferable Lemma Libraries via a Wake-Sleep Theorem-Proving Agent）</h3>
+            <span class="flex-shrink-0 text-xs font-bold text-white px-2 py-0.5 rounded" style="background: #9e2a2b;">10.1</span>
+        </div>
+        <p class="text-sm text-warm-700 leading-relaxed mb-3">DreamProver 提出了一种受&quot;清醒-睡眠&quot;程序归纳范式启发的智能体框架，用于自动发现和优化形式化定理证明中的可复用引理。现有方法要么依赖固定引理库缺乏适应性，要么只能合成针对单个定理的特定中间引理，泛化能力差。DreamProver 通过迭代的两阶段流程解决这一问题：清醒阶段尝试用当前引理库证明训练集中的定理并提出新候选引理，睡眠阶段则对候选引理进行抽象、精炼和整合以压缩优化库。这种交替循环让引理库逐步进化，兼具适应性和通用性，是形式化验证领域一个相当优雅的思路。</p>
+        <div class="flex flex-wrap items-center gap-1.5 text-xs text-warm-500">
+            <a href="https://arxiv.org/abs/2604.26311" target="_blank" rel="noopener" class="text-accent font-medium hover:underline">原文 ↗</a>
+            <span>·</span>
+            <span class="font-medium text-warm-600">arXiv AI</span>
+            <span>·</span>
+            <span>20小时前</span>
+            <span>·</span>
+            <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">theorem proving</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">wake-sleep</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">lemma discovery</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">formal verification</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">DreamProver</span>
+        </div>
+    </div>
+</div>
+<div class="bg-white border border-warm-200 rounded-xl overflow-hidden shadow-sm card-hover" style="border-left: 4px solid #9e2a2b;">
+    <div class="p-5">
+        <div class="flex items-start gap-3 mb-3">
+            <span class="material-symbols-rounded mt-0.5 flex-shrink-0" style="color: #9e2a2b; font-size: 20px;">science</span>
+            <h3 class="text-base font-bold leading-snug flex-1" style="color: #9e2a2b;">评估预测智能体的战略推理能力（Evaluating Strategic Reasoning in Forecasting Agents）</h3>
+            <span class="flex-shrink-0 text-xs font-bold text-white px-2 py-0.5 rounded" style="background: #9e2a2b;">9.5</span>
+        </div>
+        <p class="text-sm text-warm-700 leading-relaxed mb-3">现有预测基准只产出准确率排行榜，却无法解释为什么有些预测者更准。这篇论文推出 Bench to the Future 2（BTF-2），包含 1,417 道&quot;回溯预测&quot;问题和一个冻结的 1500 万文档研究语料库，让智能体在离线环境中可复现地进行研究和预测，并生成完整推理链。BTF-2 能检测到低至 0.004 Brier 分的准确率差异，还能区分智能体在&quot;研究&quot;与&quot;判断&quot;环节的差异化优势。研究团队构建了一个比任何单一前沿智能体高 0.011 Brier 分的预测器，发现更优秀的预测者主要胜在&quot;事前验尸&quot;分析——即对自身盲点和黑天鹅事件的预判能力。</p>
+        <div class="flex flex-wrap items-center gap-1.5 text-xs text-warm-500">
+            <a href="https://arxiv.org/abs/2604.26106" target="_blank" rel="noopener" class="text-accent font-medium hover:underline">原文 ↗</a>
+            <span>·</span>
+            <span class="font-medium text-warm-600">arXiv AI</span>
+            <span>·</span>
+            <span>20小时前</span>
+            <span>·</span>
+            <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">forecasting agents</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">strategic reasoning</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">benchmark</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">Brier score</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">pastcasting</span>
+        </div>
+    </div>
+</div>
+<div class="bg-white border border-warm-200 rounded-xl overflow-hidden shadow-sm card-hover" style="border-left: 4px solid #9e2a2b;">
+    <div class="p-5">
+        <div class="flex items-start gap-3 mb-3">
+            <span class="material-symbols-rounded mt-0.5 flex-shrink-0" style="color: #9e2a2b; font-size: 20px;">science</span>
+            <h3 class="text-base font-bold leading-snug flex-1" style="color: #9e2a2b;">AGEL-Comp：面向交互式智能体组合泛化的神经符号框架（AGEL-Comp: A Neuro-Symbolic Framework for Compositional Generalization in Interactive Agents）</h3>
+            <span class="flex-shrink-0 text-xs font-bold text-white px-2 py-0.5 rounded" style="background: #9e2a2b;">9.3</span>
+        </div>
+        <p class="text-sm text-warm-700 leading-relaxed mb-3">基于 LLM 的智能体在组合泛化方面存在系统性缺陷，限制了其在交互环境中的鲁棒性。AGEL-Comp 是一种神经符号 AI 智能体架构，通过动作接地来应对这一挑战。它整合了三项核心创新：动态因果程序图（CPG）作为世界模型，用有向超图表示过程性和因果知识；归纳逻辑编程（ILP）引擎从交互反馈中合成新的 Horn 子句；以及一个混合推理核心，由 LLM 提出候选子目标，再由符号系统验证逻辑一致性。这种&quot;神经提议 + 符号验证&quot;的架构思路，为解决 LLM 智能体的组合泛化难题提供了一条务实路径。</p>
+        <div class="flex flex-wrap items-center gap-1.5 text-xs text-warm-500">
+            <a href="https://arxiv.org/abs/2604.26522" target="_blank" rel="noopener" class="text-accent font-medium hover:underline">原文 ↗</a>
+            <span>·</span>
+            <span class="font-medium text-warm-600">arXiv AI</span>
+            <span>·</span>
+            <span>20小时前</span>
+            <span>·</span>
+            <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">neuro-symbolic</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">compositional generalization</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">LLM agent</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">causal program graph</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">AGEL-Comp</span>
+        </div>
+    </div>
+</div>
+<div class="bg-white border border-warm-200 rounded-xl overflow-hidden shadow-sm card-hover" style="">
+    <div class="p-5">
+        <div class="flex items-start gap-3 mb-3">
+            <span class="material-symbols-rounded mt-0.5 flex-shrink-0" style="color: #9e2a2b; font-size: 20px;">science</span>
+            <h3 class="text-base font-bold leading-snug flex-1" style="color: #9e2a2b;">FutureWorld：用真实世界结果奖励训练预测智能体的实时环境（FutureWorld: A Live Environment for Training Predictive Agents with Real-World Outcome Rewards）</h3>
+            <span class="flex-shrink-0 text-xs font-bold text-white px-2 py-0.5 rounded" style="background: #9e2a2b;">9.3</span>
+        </div>
+        <p class="text-sm text-warm-700 leading-relaxed mb-3">实时未来预测——在真实事件发生前做出预测——正成为 LLM 智能体研究的重要方向。FutureWorld 将这一任务构建为统一的学习环境，提供大量基于多样化真实事件的预测问题，同时天然防止答案泄露。与此前将预测任务拆解为独立模块的工作不同，FutureWorld 提供了一个完整的闭环框架，让智能体能够从真实世界中持续学习。这对构建能不断适应现实变化的智能体来说是一块重要的基础设施拼图。</p>
+        <div class="flex flex-wrap items-center gap-1.5 text-xs text-warm-500">
+            <a href="https://arxiv.org/abs/2604.26733" target="_blank" rel="noopener" class="text-accent font-medium hover:underline">原文 ↗</a>
+            <span>·</span>
+            <span class="font-medium text-warm-600">arXiv AI</span>
+            <span>·</span>
+            <span>20小时前</span>
+            <span>·</span>
+            <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">predictive agents</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">live prediction</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">reinforcement learning</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">real-world environment</span>
+        </div>
+    </div>
+</div>
+<div class="bg-white border border-warm-200 rounded-xl overflow-hidden shadow-sm card-hover" style="">
+    <div class="p-5">
+        <div class="flex items-start gap-3 mb-3">
+            <span class="material-symbols-rounded mt-0.5 flex-shrink-0" style="color: #9e2a2b; font-size: 20px;">science</span>
+            <h3 class="text-base font-bold leading-snug flex-1" style="color: #9e2a2b;">LLM 精神病：大语言模型现实边界失败的理论与诊断框架（LLM Psychosis: A Theoretical and Diagnostic Framework for Reality-Boundary Failures in Large Language Models）</h3>
+            <span class="flex-shrink-0 text-xs font-bold text-white px-2 py-0.5 rounded" style="background: #9e2a2b;">9.3</span>
+        </div>
+        <p class="text-sm text-warm-700 leading-relaxed mb-3">这篇论文认为，&quot;幻觉&quot;这个词已经不足以描述 LLM 作为交互式智能体时暴露出的行为失败。作者提出&quot;LLM 精神病&quot;作为结构化理论框架，定义了五个标志性特征：现实边界溶解、注入虚假信念的持续性、不可能约束下的逻辑不连贯、自我模型不稳定、以及认知过度自信。论文主张这些构成了一种质的不同的失败模式，而非普通事实错误的简单加剧。视角颇为新颖——用临床精神病学的类比来系统化理解模型行为缺陷，对 AI 安全研究有启发意义。</p>
+        <div class="flex flex-wrap items-center gap-1.5 text-xs text-warm-500">
+            <a href="https://arxiv.org/abs/2604.25934" target="_blank" rel="noopener" class="text-accent font-medium hover:underline">原文 ↗</a>
+            <span>·</span>
+            <span class="font-medium text-warm-600">arXiv AI</span>
+            <span>·</span>
+            <span>20小时前</span>
+            <span>·</span>
+            <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">LLM psychosis</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">hallucination</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">model behavior</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">theoretical framework</span>
+        </div>
+    </div>
+</div>
+<div class="bg-white border border-warm-200 rounded-xl overflow-hidden shadow-sm card-hover" style="">
+    <div class="p-5">
+        <div class="flex items-start gap-3 mb-3">
+            <span class="material-symbols-rounded mt-0.5 flex-shrink-0" style="color: #9e2a2b; font-size: 20px;">science</span>
+            <h3 class="text-base font-bold leading-snug flex-1" style="color: #9e2a2b;">扁鹊：面向在线系统运维的灵活技能编排智能体框架（Bian Que: An Agentic Framework with Flexible Skill Arrangement for Online System Operations）</h3>
+            <span class="flex-shrink-0 text-xs font-bold text-white px-2 py-0.5 rounded" style="background: #9e2a2b;">9.0</span>
+        </div>
+        <p class="text-sm text-warm-700 leading-relaxed mb-3">大规模在线引擎系统（搜索、推荐、广告）的运维需要大量人力进行发布监控、告警响应和根因分析。LLM 智能体天然适合这些任务，但部署瓶颈不在推理能力，而在编排——如何为每个运维事件选择相关数据和适用的运维知识。无差别地灌入所有信号会导致信息稀释和幻觉，而手动策划映射关系在每天数十次发布的场景下不可行。扁鹊框架通过灵活的技能编排机制解决这一问题，是 AIOps 领域一个接地气的工程贡献。</p>
+        <div class="flex flex-wrap items-center gap-1.5 text-xs text-warm-500">
+            <a href="https://arxiv.org/abs/2604.26805" target="_blank" rel="noopener" class="text-accent font-medium hover:underline">原文 ↗</a>
+            <span>·</span>
+            <span class="font-medium text-warm-600">arXiv AI</span>
+            <span>·</span>
+            <span>20小时前</span>
+            <span>·</span>
+            <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">LLM agent</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">运维</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">AIOps</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">skill orchestration</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">online systems</span>
+        </div>
+    </div>
+</div>
+<div class="bg-white border border-warm-200 rounded-xl overflow-hidden shadow-sm card-hover" style="">
+    <div class="p-5">
+        <div class="flex items-start gap-3 mb-3">
+            <span class="material-symbols-rounded mt-0.5 flex-shrink-0" style="color: #9e2a2b; font-size: 20px;">science</span>
+            <h3 class="text-base font-bold leading-snug flex-1" style="color: #9e2a2b;">基于图神经网络通信的多智能体深度强化学习综述（A Survey of Multi-Agent Deep Reinforcement Learning with Graph Neural Network-Based Communication）</h3>
+            <span class="flex-shrink-0 text-xs font-bold text-white px-2 py-0.5 rounded" style="background: #9e2a2b;">9.0</span>
+        </div>
+        <p class="text-sm text-warm-700 leading-relaxed mb-3">在多智能体强化学习（MARL）中，通信机制让智能体通过信息共享更好地协调行动。基于交互图的一类方法使用图神经网络（GNN）来学习通信，使智能体能通过信息交换丰富内部表示。随着该领域研究快速增长，目前缺乏明确的结构和框架来区分和分类基于 GNN 的 MARL 通信方法。这篇综述系统梳理了近期工作，提出了一个通用的 GNN 通信流程框架，对入门和跟进这个交叉方向很有参考价值。</p>
+        <div class="flex flex-wrap items-center gap-1.5 text-xs text-warm-500">
+            <a href="https://arxiv.org/abs/2604.25972" target="_blank" rel="noopener" class="text-accent font-medium hover:underline">原文 ↗</a>
+            <span>·</span>
+            <span class="font-medium text-warm-600">arXiv AI</span>
+            <span>·</span>
+            <span>20小时前</span>
+            <span>·</span>
+            <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">multi-agent RL</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">GNN</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">communication</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">survey</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">MARL</span>
+        </div>
+    </div>
+</div>
+<div class="bg-white border border-warm-200 rounded-xl overflow-hidden shadow-sm card-hover" style="">
+    <div class="p-5">
+        <div class="flex items-start gap-3 mb-3">
+            <span class="material-symbols-rounded mt-0.5 flex-shrink-0" style="color: #9e2a2b; font-size: 20px;">science</span>
+            <h3 class="text-base font-bold leading-snug flex-1" style="color: #9e2a2b;">Distill-Belief：物理场中的闭环逆源定位与表征（Distill-Belief: Closed-Loop Inverse Source Localization and Characterization in Physical Fields）</h3>
+            <span class="flex-shrink-0 text-xs font-bold text-white px-2 py-0.5 rounded" style="background: #9e2a2b;">8.7</span>
+        </div>
+        <p class="text-sm text-warm-700 leading-relaxed mb-3">闭环逆源定位与表征（ISLC）要求移动智能体在严格时间约束下选择测量点以定位源并推断潜在场参数。核心挑战在于信念空间目标：有效的不确定性估计需要昂贵的贝叶斯推断，而使用快速的学习信念模型则会导致&quot;奖励黑客&quot;——策略利用近似误差而非真正减少不确定性。Distill-Belief 提出教师-学生框架，将正确性与效率解耦：贝叶斯正确的粒子滤波教师维护后验并提供密集的信息增益信号，紧凑的学生网络蒸馏后验。这种设计在保证推理质量的同时实现了实时决策。</p>
+        <div class="flex flex-wrap items-center gap-1.5 text-xs text-warm-500">
+            <a href="https://arxiv.org/abs/2604.26095" target="_blank" rel="noopener" class="text-accent font-medium hover:underline">原文 ↗</a>
+            <span>·</span>
+            <span class="font-medium text-warm-600">arXiv AI</span>
+            <span>·</span>
+            <span>20小时前</span>
+            <span>·</span>
+            <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">inverse source localization</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">belief-space planning</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">mobile agent</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">Bayesian inference</span>
+        </div>
+    </div>
+</div>
+<div class="bg-white border border-warm-200 rounded-xl overflow-hidden shadow-sm card-hover" style="">
+    <div class="p-5">
+        <div class="flex items-start gap-3 mb-3">
+            <span class="material-symbols-rounded mt-0.5 flex-shrink-0" style="color: #9e2a2b; font-size: 20px;">science</span>
+            <h3 class="text-base font-bold leading-snug flex-1" style="color: #9e2a2b;">SciHorizon-DataEVA：面向异构科学数据 AI 就绪度评估的智能体系统（SciHorizon-DataEVA: An Agentic System for AI-Readiness Evaluation of Heterogeneous Scientific Data）</h3>
+            <span class="flex-shrink-0 text-xs font-bold text-white px-2 py-0.5 rounded" style="background: #9e2a2b;">8.7</span>
+        </div>
+        <p class="text-sm text-warm-700 leading-relaxed mb-3">AI for Science 正在加速科学发现，但模型的有效性从根本上受限于科学数据的&quot;AI 就绪度&quot;，而目前缺乏可扩展的系统化评估机制。SciHorizon-DataEVA 提出了 Sci-TQA² 原则，将 AI 就绪度组织为四个互补维度：治理可信度、数据质量、AI 兼容性和科学适应性。作为一个智能体系统，它能对异构科学数据进行可扩展的自动化评估。对于推动 AI4Science 从&quot;能跑&quot;到&quot;跑得好&quot;，数据质量评估是一个容易被忽视但至关重要的环节。</p>
+        <div class="flex flex-wrap items-center gap-1.5 text-xs text-warm-500">
+            <a href="https://arxiv.org/abs/2604.26645" target="_blank" rel="noopener" class="text-accent font-medium hover:underline">原文 ↗</a>
+            <span>·</span>
+            <span class="font-medium text-warm-600">arXiv AI</span>
+            <span>·</span>
+            <span>20小时前</span>
+            <span>·</span>
+            <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">AI4Science</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">data readiness</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">agentic system</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">scientific data evaluation</span>
+        </div>
+    </div>
+</div>
+<div class="bg-white border border-warm-200 rounded-xl overflow-hidden shadow-sm card-hover" style="">
+    <div class="p-5">
+        <div class="flex items-start gap-3 mb-3">
+            <span class="material-symbols-rounded mt-0.5 flex-shrink-0" style="color: #9e2a2b; font-size: 20px;">science</span>
+            <h3 class="text-base font-bold leading-snug flex-1" style="color: #9e2a2b;">链上语言模型智能体在真实资本下的运行层控制（Operating-Layer Controls for Onchain Language-Model Agents Under Real Capital）</h3>
+            <span class="flex-shrink-0 text-xs font-bold text-white px-2 py-0.5 rounded" style="background: #9e2a2b;">8.4</span>
+        </div>
+        <p class="text-sm text-warm-700 leading-relaxed mb-3">这篇论文研究了在真实资本环境下自主语言模型智能体的可靠性。实验平台 DX Terminal Pro 在 21 天部署中让 3,505 个用户出资的智能体用真实 ETH 在链上市场交易。系统产生了 750 万次智能体调用、约 30 万次链上操作、约 2000 万美元交易量、超过 5,000 ETH 部署、约 700 亿推理 token，策略合规交易的结算成功率达 99.9%。长期运行的智能体累积了数千次连续决策，包括 6,000+ 次提示-状态-动作循环。这是目前少见的在真金白银环境下大规模验证 LLM 智能体可靠性的实证研究。</p>
+        <div class="flex flex-wrap items-center gap-1.5 text-xs text-warm-500">
+            <a href="https://arxiv.org/abs/2604.26091" target="_blank" rel="noopener" class="text-accent font-medium hover:underline">原文 ↗</a>
+            <span>·</span>
+            <span class="font-medium text-warm-600">arXiv AI</span>
+            <span>·</span>
+            <span>20小时前</span>
+            <span>·</span>
+            <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">LLM agent</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">onchain</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">DeFi</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">autonomous trading</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">agent reliability</span>
+        </div>
+    </div>
+</div>
+<div class="bg-white border border-warm-200 rounded-xl overflow-hidden shadow-sm card-hover" style="">
+    <div class="p-5">
+        <div class="flex items-start gap-3 mb-3">
+            <span class="material-symbols-rounded mt-0.5 flex-shrink-0" style="color: #9e2a2b; font-size: 20px;">science</span>
+            <h3 class="text-base font-bold leading-snug flex-1" style="color: #9e2a2b;">联合嵌入变分贝叶斯（Joint Embedding Variational Bayes (TMLR &#x27;26)）</h3>
+            <span class="flex-shrink-0 text-xs font-bold text-white px-2 py-0.5 rounded" style="background: #9e2a2b;">8.3</span>
+        </div>
+        <p class="text-sm text-warm-700 leading-relaxed mb-3">这篇发表于 TMLR 的论文为非对比表示学习中的联合嵌入架构引入了操作性变分语义。核心思路是三个耦合选择：将嵌入似然分解为方向项和径向项，使角度对齐和表示范数分别建模，避免范数-方向耦合导致的病态解；将后验方差锚定到似然尺度，让不确定性直接治理推断和生成；以及由此导出的训练目标。数学上较为密集，但概念上直截了当，为联合嵌入方法提供了更扎实的概率基础。</p>
+        <div class="flex flex-wrap items-center gap-1.5 text-xs text-warm-500">
+            <a href="https://www.reddit.com/r/MachineLearning/comments/1szyjpk/r_joint_embedding_variational_bayes_tmlr_26/" target="_blank" rel="noopener" class="text-accent font-medium hover:underline">原文 ↗</a>
+            <span>·</span>
+            <span class="font-medium text-warm-600">Reddit ML</span>
+            <span>·</span>
+            <span>9小时前</span>
+            <span>·</span>
+            <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">TMLR</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">联合嵌入</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">变分贝叶斯</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">表示学习</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">非对比学习</span>
+        </div>
+    </div>
+</div>
+<div class="bg-white border border-warm-200 rounded-xl overflow-hidden shadow-sm card-hover" style="">
+    <div class="p-5">
+        <div class="flex items-start gap-3 mb-3">
+            <span class="material-symbols-rounded mt-0.5 flex-shrink-0" style="color: #9e2a2b; font-size: 20px;">science</span>
+            <h3 class="text-base font-bold leading-snug flex-1" style="color: #9e2a2b;">开发者内部 AI 模型使用的风险报告（Risk Reporting for Developers&#x27; Internal AI Model Use）</h3>
+            <span class="flex-shrink-0 text-xs font-bold text-white px-2 py-0.5 rounded" style="background: #9e2a2b;">8.1</span>
+        </div>
+        <p class="text-sm text-warm-700 leading-relaxed mb-3">前沿 AI 公司在公开发布前，会先在内部部署最先进的模型进行数周甚至数月的安全测试和迭代——例如 Anthropic 最近开发的具有高级网络攻击能力的 Mythos Preview 模型，在公开宣布前至少内部使用了六周。这种内部使用本身就会产生外部部署框架可能无法覆盖的风险。论文梳理了加州 SB 53、纽约 RAISE 法案和欧盟通用 AI 行为准则等法律框架对内部 AI 使用风险的讨论和要求，为前沿模型的内部部署风险治理提供了系统性分析。</p>
+        <div class="flex flex-wrap items-center gap-1.5 text-xs text-warm-500">
+            <a href="https://arxiv.org/abs/2604.24966" target="_blank" rel="noopener" class="text-accent font-medium hover:underline">原文 ↗</a>
+            <span>·</span>
+            <span class="font-medium text-warm-600">arXiv AI</span>
+            <span>·</span>
+            <span>20小时前</span>
+            <span>·</span>
+            <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">AI safety</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">risk reporting</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">internal deployment</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">frontier models</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">Anthropic Mythos</span>
+        </div>
+    </div>
+</div>
+    </div>
+</section>
+<section class="mb-10">
+    <div class="flex items-center gap-3 mb-5">
+        <span class="material-symbols-rounded text-2xl" style="color: #e09f3e;">devices</span>
+        <h2 class="text-xl font-bold" style="color: #e09f3e;">产品动态</h2>
+        <span class="text-xs text-warm-400 bg-warm-100 px-2.5 py-0.5 rounded-full">2 篇</span>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+        <div class="bg-white border border-warm-200 rounded-xl overflow-hidden shadow-sm card-hover" style="">
+    <div class="p-5">
+        <div class="flex items-start gap-3 mb-3">
+            <span class="material-symbols-rounded mt-0.5 flex-shrink-0" style="color: #e09f3e; font-size: 20px;">devices</span>
+            <h3 class="text-base font-bold leading-snug flex-1" style="color: #e09f3e;">Codex CLI 0.128.0 新增 /goal 功能（Codex CLI 0.128.0 adds /goal）</h3>
+            <span class="flex-shrink-0 text-xs font-bold text-white px-2 py-0.5 rounded" style="background: #e09f3e;">9.1</span>
+        </div>
+        <p class="text-sm text-warm-700 leading-relaxed mb-3">OpenAI 的 Codex CLI 编程智能体发布 0.128.0 版本，新增了 /goal 命令。设定目标后，Codex 会持续循环执行直到评估目标已完成，或者配置的 token 预算耗尽。这个功能本质上是 OpenAI 版本的&quot;Ralph 循环&quot;，让编程智能体从单轮交互进化为目标驱动的持续执行模式。实现上主要通过 goals/continuation.md 和 goals/budget_limit.md 两个提示文件，在每轮结束时自动注入。对于需要多步骤完成的复杂编程任务，这是一个实用的体验提升。</p>
+        <div class="flex flex-wrap items-center gap-1.5 text-xs text-warm-500">
+            <a href="https://simonwillison.net/2026/Apr/30/codex-goals/#atom-everything" target="_blank" rel="noopener" class="text-accent font-medium hover:underline">原文 ↗</a>
+            <span>·</span>
+            <span class="font-medium text-warm-600">Simon Willison</span>
+            <span>·</span>
+            <span>42分钟前</span>
+            <span>·</span>
+            <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">OpenAI</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">Codex CLI</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">coding agent</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">goal loop</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">prompt-engineering</span>
+        </div>
+    </div>
+</div>
+<div class="bg-white border border-warm-200 rounded-xl overflow-hidden shadow-sm card-hover" style="">
+    <div class="p-5">
+        <div class="flex items-start gap-3 mb-3">
+            <span class="material-symbols-rounded mt-0.5 flex-shrink-0" style="color: #e09f3e; font-size: 20px;">devices</span>
+            <h3 class="text-base font-bold leading-snug flex-1" style="color: #e09f3e;">Stripe 推出 Link 数字钱包，AI 智能体也能用（Stripe introduces Link, a digital wallet that autonomous AI agents can use, too）</h3>
+            <span class="flex-shrink-0 text-xs font-bold text-white px-2 py-0.5 rounded" style="background: #e09f3e;">9.1</span>
+        </div>
+        <p class="text-sm text-warm-700 leading-relaxed mb-3">Stripe 推出 Link 数字钱包，用户可以关联银行卡、银行账户和订阅服务，然后通过审批流程授权 AI 智能体安全地进行消费。这意味着 AI 智能体不仅能帮你做决策，现在还能帮你付钱了——当然是在你授权的范围内。随着智能体从&quot;建议者&quot;向&quot;执行者&quot;演进，支付基础设施的适配是关键一环。Stripe 作为支付领域的头部玩家率先布局，信号意义明显：智能体经济的基础设施竞赛已经开始。</p>
+        <div class="flex flex-wrap items-center gap-1.5 text-xs text-warm-500">
+            <a href="https://techcrunch.com/2026/04/30/stripe-link-digital-wallet-ai-agents-shopping/" target="_blank" rel="noopener" class="text-accent font-medium hover:underline">原文 ↗</a>
+            <span>·</span>
+            <span class="font-medium text-warm-600">TechCrunch</span>
+            <span>·</span>
+            <span>6小时前</span>
+            <span>·</span>
+            <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">Stripe</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">Link</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">AI agent</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">数字钱包</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">支付</span>
+        </div>
+    </div>
+</div>
+    </div>
+</section>
+    </div>
+
+    <!-- Keywords -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12">
+        <div class="bg-white border border-warm-200 rounded-xl p-6 shadow-sm text-center">
+            <h2 class="text-lg font-bold text-warm-800 mb-4">今日关键词</h2>
+            <div class="flex flex-wrap justify-center gap-2"><span class="inline-block bg-warm-100 text-warm-600 text-xs px-2.5 py-1 rounded-full border border-warm-200">LLM agent</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2.5 py-1 rounded-full border border-warm-200">theorem proving</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2.5 py-1 rounded-full border border-warm-200">wake-sleep</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2.5 py-1 rounded-full border border-warm-200">lemma discovery</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2.5 py-1 rounded-full border border-warm-200">formal verification</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2.5 py-1 rounded-full border border-warm-200">DreamProver</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2.5 py-1 rounded-full border border-warm-200">forecasting agents</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2.5 py-1 rounded-full border border-warm-200">strategic reasoning</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2.5 py-1 rounded-full border border-warm-200">benchmark</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2.5 py-1 rounded-full border border-warm-200">Brier score</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2.5 py-1 rounded-full border border-warm-200">pastcasting</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2.5 py-1 rounded-full border border-warm-200">neuro-symbolic</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2.5 py-1 rounded-full border border-warm-200">compositional generalization</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2.5 py-1 rounded-full border border-warm-200">causal program graph</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2.5 py-1 rounded-full border border-warm-200">AGEL-Comp</span></div>
+        </div>
+    </div>
+</main>
+
+<footer class="text-center text-warm-400 text-sm py-8 border-t border-warm-200">
+    由 AI 日报 自动生成 · 2026-05-01 08:05:47
+</footer>
+</body>
+</html>

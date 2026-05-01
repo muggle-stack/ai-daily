@@ -1,5 +1,75 @@
 const reportsData = [
     {
+        "id": "2026-05-01",
+        "title": "AI 日报 · 2026年05月01日",
+        "date": "2026-05-01",
+        "summary": "DreamProver 提出\"清醒-睡眠\"范式让定理证明器自动进化可复用引理库，刷新形式化验证思路；Stripe 推出 Link 数字钱包，让 AI 智能体也能安全地替你花钱；一篇引人深思的论文提出\"LLM 精神病\"框架，认为大模型的行为失败远不止\"幻觉\"那么简单。",
+        "articleCount": 15,
+        "categories": [
+            "开源项目",
+            "研究论文",
+            "产品动态"
+        ],
+        "tags": [
+            "theorem proving",
+            "wake-sleep",
+            "forecasting agents",
+            "strategic reasoning",
+            "neuro-symbolic",
+            "compositional generalization",
+            "predictive agents",
+            "live prediction"
+        ],
+        "sections": [
+            {
+                "name": "产品应用",
+                "icon": "devices",
+                "items": [
+                    {
+                        "title": "Codex CLI 0.128.0 adds /goal",
+                        "url": "https://simonwillison.net/2026/Apr/30/codex-goals/#atom-everything"
+                    },
+                    {
+                        "title": "Stripe introduces Link, a digital wallet that autonomous AI agents can use, too",
+                        "url": "https://techcrunch.com/2026/04/30/stripe-link-digital-wallet-ai-agents-shopping/"
+                    }
+                ]
+            },
+            {
+                "name": "开发生态",
+                "icon": "code",
+                "items": [
+                    {
+                        "title": "Applying Karpathy's autoresearch to a 33M-token public transit dataset (14% improvement, replication notes) [P]",
+                        "url": "https://www.reddit.com/r/MachineLearning/comments/1t04rrz/applying_karpathys_autoresearch_to_a_33mtoken/"
+                    }
+                ]
+            },
+            {
+                "name": "研究前沿",
+                "icon": "science",
+                "items": [
+                    {
+                        "title": "DreamProver: Evolving Transferable Lemma Libraries via a Wake-Sleep Theorem-Proving Agent",
+                        "url": "https://arxiv.org/abs/2604.26311"
+                    },
+                    {
+                        "title": "Evaluating Strategic Reasoning in Forecasting Agents",
+                        "url": "https://arxiv.org/abs/2604.26106"
+                    },
+                    {
+                        "title": "AGEL-Comp: A Neuro-Symbolic Framework for Compositional Generalization in Interactive Agents",
+                        "url": "https://arxiv.org/abs/2604.26522"
+                    },
+                    {
+                        "title": "FutureWorld: A Live Environment for Training Predictive Agents with Real-World Outcome Rewards",
+                        "url": "https://arxiv.org/abs/2604.26733"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id": "2026-04-30",
         "title": "AI 日报 · 2026年04月30日",
         "date": "2026-04-30",

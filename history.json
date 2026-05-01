@@ -1,21 +1,4 @@
 {
-  "2026-04-24": [
-    "https://simonwillison.net/2026/Apr/23/gpt-5-5/#atom-everything",
-    "https://openai.com/index/introducing-gpt-5-5",
-    "https://arxiv.org/abs/2604.19022",
-    "https://36kr.com/p/3778730451391751?f=rss",
-    "https://36kr.com/p/3778121523025154?f=rss",
-    "https://www.reddit.com/r/MachineLearning/comments/1st9v81/we_benchmarked_18_llms_on_ocr_7k_calls_cheaperold/",
-    "https://36kr.com/p/3778135439709446?f=rss",
-    "https://techcrunch.com/2026/04/23/bret-taylors-sierra-buys-yc-backed-ai-startup-fragment/",
-    "https://simonwillison.net/2026/Apr/23/liteparse-for-the-web/#atom-everything",
-    "https://www.qbitai.com/2026/04/406221.html",
-    "https://arxiv.org/abs/2604.18789",
-    "https://arxiv.org/abs/2604.18946",
-    "https://arxiv.org/abs/2604.19087",
-    "https://techcrunch.com/2026/04/23/openai-chatgpt-gpt-5-5-ai-model-superapp/",
-    "https://www.reddit.com/r/MachineLearning/comments/1stfk9y/optimizing_transformer_model_size_inference/"
-  ],
   "2026-04-25": [
     "https://arxiv.org/abs/2604.19790",
     "https://www.qbitai.com/2026/04/406359.html",
@@ -105,5 +88,22 @@
     "https://arxiv.org/abs/2604.23002",
     "https://arxiv.org/abs/2604.23049",
     "https://arxiv.org/abs/2604.23355"
+  ],
+  "2026-05-01": [
+    "https://arxiv.org/abs/2604.26311",
+    "https://arxiv.org/abs/2604.26106",
+    "https://arxiv.org/abs/2604.26522",
+    "https://arxiv.org/abs/2604.26733",
+    "https://arxiv.org/abs/2604.25934",
+    "https://simonwillison.net/2026/Apr/30/codex-goals/#atom-everything",
+    "https://techcrunch.com/2026/04/30/stripe-link-digital-wallet-ai-agents-shopping/",
+    "https://arxiv.org/abs/2604.26805",
+    "https://arxiv.org/abs/2604.25972",
+    "https://arxiv.org/abs/2604.26095",
+    "https://arxiv.org/abs/2604.26645",
+    "https://arxiv.org/abs/2604.26091",
+    "https://www.reddit.com/r/MachineLearning/comments/1t04rrz/applying_karpathys_autoresearch_to_a_33mtoken/",
+    "https://www.reddit.com/r/MachineLearning/comments/1szyjpk/r_joint_embedding_variational_bayes_tmlr_26/",
+    "https://arxiv.org/abs/2604.24966"
   ]
 }
