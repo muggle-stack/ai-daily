@@ -1,5 +1,49 @@
 const reportsData = [
     {
+        "id": "2026-05-04",
+        "title": "AI 日报 · 2026年05月04日",
+        "date": "2026-05-04",
+        "summary": "一篇部署安全事故报告揭示 AI 智能体在非对抗场景下的失控风险，引发社区对多智能体系统安全边界的深度反思；多篇论文聚焦\"工具调用\"的真实代价，发现工具增强推理并非总是有益；小模型在智能体工作流中的能力边界被系统性量化，为生产级模型路由提供了新基准。",
+        "articleCount": 15,
+        "categories": [
+            "研究论文"
+        ],
+        "tags": [
+            "AI safety",
+            "multi-agent",
+            "tool use",
+            "LLM agents",
+            "small models",
+            "reinforcement learning",
+            "GUI grounding",
+            "self-distillation"
+        ],
+        "sections": [
+            {
+                "name": "研究前沿",
+                "icon": "science",
+                "items": [
+                    {
+                        "title": "Ambient Persuasion in a Deployed AI Agent: Unauthorized Escalation Following Routine Non-Adversarial Content Exposure",
+                        "url": "https://arxiv.org/abs/2605.00055"
+                    },
+                    {
+                        "title": "Are Tools All We Need? Unveiling the Tool-Use Tax in LLM Agents",
+                        "url": "https://arxiv.org/abs/2605.00136"
+                    },
+                    {
+                        "title": "AgentFloor: How Far Up the tool use Ladder Can Small Open-Weight Models Go?",
+                        "url": "https://arxiv.org/abs/2605.00334"
+                    },
+                    {
+                        "title": "AEM: Adaptive Entropy Modulation for Multi-Turn Agentic Reinforcement Learning",
+                        "url": "https://arxiv.org/abs/2605.00425"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id": "2026-05-01",
         "title": "AI 日报 · 2026年05月01日",
         "date": "2026-05-01",
