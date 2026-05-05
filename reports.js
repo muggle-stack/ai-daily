@@ -1,5 +1,86 @@
 const reportsData = [
     {
+        "id": "2026-05-05",
+        "title": "AI 日报 · 2026年05月05日",
+        "date": "2026-05-05",
+        "summary": "今日重点：研究者提出智能体AI框架解决智能车辆路径优化难题；新论文揭示LLM\"知道但违反\"约束的有趣现象；图像AI模型成为应用增长新引擎，下载量提升6.5倍但变现仍是难题。",
+        "articleCount": 15,
+        "categories": [
+            "研究论文",
+            "开源项目",
+            "行业观点",
+            "产品动态"
+        ],
+        "tags": [
+            "智能体AI",
+            "路径规划",
+            "jailbreak",
+            "LLM安全",
+            "LLM",
+            "约束遵循",
+            "DPO",
+            "偏好优化"
+        ],
+        "sections": [
+            {
+                "name": "产品应用",
+                "icon": "devices",
+                "items": [
+                    {
+                        "title": "Reduce friction and latency for long-running jobs with Webhooks in Gemini API",
+                        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/event-driven-webhooks/"
+                    },
+                    {
+                        "title": "Anthropic and OpenAI are both launching joint ventures for enterprise AI services",
+                        "url": "https://techcrunch.com/2026/05/04/anthropic-and-openai-are-both-launching-joint-ventures-for-enterprise-ai-services/"
+                    }
+                ]
+            },
+            {
+                "name": "开发生态",
+                "icon": "code",
+                "items": [
+                    {
+                        "title": "[P] QLoRA Fine-Tuning of Qwen2.5-1.5B for CEFR English Proficiency Classification (A1–C2) [P]",
+                        "url": "https://www.reddit.com/r/MachineLearning/comments/1t3ogbw/p_qlora_finetuning_of_qwen2515b_for_cefr_english/"
+                    }
+                ]
+            },
+            {
+                "name": "行业动态",
+                "icon": "trending_up",
+                "items": [
+                    {
+                        "title": "Image AI models now drive app growth, beating chatbot upgrades",
+                        "url": "https://techcrunch.com/2026/05/04/image-ai-models-now-drive-app-growth-beating-chatbot-upgrades/"
+                    }
+                ]
+            },
+            {
+                "name": "研究前沿",
+                "icon": "science",
+                "items": [
+                    {
+                        "title": "Agentic AI for Trip Planning Optimization Application",
+                        "url": "https://arxiv.org/abs/2605.00276"
+                    },
+                    {
+                        "title": "Minimal, Local, Causal Explanations for Jailbreak Success in Large Language Models",
+                        "url": "https://arxiv.org/abs/2605.00123"
+                    },
+                    {
+                        "title": "Models Recall What They Violate: Constraint Adherence in Multi-Turn LLM Ideation",
+                        "url": "https://arxiv.org/abs/2604.28031"
+                    },
+                    {
+                        "title": "TUR-DPO: Topology- and Uncertainty-Aware Direct Preference Optimization",
+                        "url": "https://arxiv.org/abs/2605.00224"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id": "2026-05-04",
         "title": "AI 日报 · 2026年05月04日",
         "date": "2026-05-04",

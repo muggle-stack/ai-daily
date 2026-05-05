@@ -1,21 +1,4 @@
 {
-  "2026-04-26": [
-    "https://techcrunch.com/2026/04/25/anthropic-created-a-test-marketplace-for-agent-on-agent-commerce/",
-    "https://arxiv.org/abs/2604.21006",
-    "https://arxiv.org/abs/2604.21155",
-    "https://arxiv.org/abs/2604.21232",
-    "https://arxiv.org/abs/2604.21414",
-    "https://simonwillison.net/2026/Apr/25/gpt-5-5-prompting-guide/#atom-everything",
-    "https://arxiv.org/abs/2604.21003",
-    "https://arxiv.org/abs/2604.20987",
-    "https://arxiv.org/abs/2604.21154",
-    "https://arxiv.org/abs/2604.21357",
-    "https://www.reddit.com/r/MachineLearning/comments/1suzqxe/opensource_9task_benchmark_for_codingagent/",
-    "https://36kr.com/p/3781548853533959?f=rss",
-    "https://arxiv.org/abs/2604.20995",
-    "https://arxiv.org/abs/2604.21284",
-    "https://arxiv.org/abs/2604.21018"
-  ],
   "2026-04-27": [
     "https://www.qbitai.com/2026/04/407502.html",
     "https://www.qbitai.com/2026/04/407486.html",
@@ -105,5 +88,22 @@
     "https://arxiv.org/abs/2605.00005",
     "https://arxiv.org/abs/2605.00412",
     "https://arxiv.org/abs/2605.00438"
+  ],
+  "2026-05-05": [
+    "https://arxiv.org/abs/2605.00276",
+    "https://arxiv.org/abs/2605.00123",
+    "https://arxiv.org/abs/2604.28031",
+    "https://arxiv.org/abs/2605.00224",
+    "https://www.reddit.com/r/MachineLearning/comments/1t3ogbw/p_qlora_finetuning_of_qwen2515b_for_cefr_english/",
+    "https://arxiv.org/abs/2605.00012",
+    "https://arxiv.org/abs/2605.00015",
+    "https://www.reddit.com/r/MachineLearning/comments/1t3hxsy/why_ssms_struggle_in_parameterconstrained/",
+    "https://arxiv.org/abs/2605.00245",
+    "https://arxiv.org/abs/2605.00011",
+    "https://blog.google/innovation-and-ai/technology/developers-tools/event-driven-webhooks/",
+    "https://arxiv.org/abs/2605.00022",
+    "https://techcrunch.com/2026/05/04/image-ai-models-now-drive-app-growth-beating-chatbot-upgrades/",
+    "https://techcrunch.com/2026/05/04/anthropic-and-openai-are-both-launching-joint-ventures-for-enterprise-ai-services/",
+    "https://www.reddit.com/r/MachineLearning/comments/1t3hks9/autobe_benchmark_structured_harness_narrows/"
   ]
 }

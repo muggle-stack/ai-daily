@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 日报 · 2026年05月05日</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,300,0,0&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<script>
+tailwind.config = {
+    theme: {
+        extend: {
+            colors: {
+                warm: { 50: '#fbf9f6', 100: '#f5f0ea', 200: '#e8dfd5', 400: '#b5a08a', 500: '#8a7f76', 600: '#6b6158', 700: '#4a403a', 800: '#342d28', 900: '#1f1a17' },
+                accent: { DEFAULT: '#c96442', light: '#e8825f', dark: '#a84e32' },
+            },
+            fontFamily: { sans: ['Noto Sans SC', 'system-ui', 'sans-serif'] },
+        }
+    }
+}
+</script>
+<style>
+body { font-family: 'Noto Sans SC', system-ui, sans-serif; }
+.material-symbols-rounded { font-family: 'Material Symbols Rounded' !important; font-weight: 300 !important; font-style: normal; display: inline-block; line-height: 1; font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24 !important; }
+.card-hover { transition: all 0.25s ease; }
+.card-hover:hover { transform: translateY(-3px); box-shadow: 0 12px 24px -8px rgba(74,64,58,0.14); }
+</style>
+</head>
+<body class="bg-warm-50 text-warm-700 antialiased">
+
+<!-- Navigation -->
+<nav class="fixed top-0 w-full bg-warm-50/85 backdrop-blur-md z-50 border-b border-warm-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-14">
+        <a href="../index.html" class="text-lg font-bold text-accent hover:text-accent-dark transition">← AI 日报</a>
+        <span class="text-warm-500 text-sm">2026年05月05日</span>
+    </div>
+</nav>
+
+<main class="pt-20 pb-16">
+    <!-- Header -->
+    <section class="bg-gradient-to-br from-accent to-accent-dark text-white py-12 mb-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-3xl md:text-4xl font-bold mb-2">AI 日报 · 2026年05月05日</h1>
+            <p class="text-orange-100">共 15 篇精选，来自 4 个信息源</p>
+        </div>
+    </section>
+
+    <!-- Overview -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-10">
+        <div class="bg-white border border-warm-200 rounded-xl p-6 shadow-sm" style="border-left: 4px solid #c96442;">
+            <p class="text-warm-700 leading-relaxed">今日重点：研究者提出智能体AI框架解决智能车辆路径优化难题；新论文揭示LLM&quot;知道但违反&quot;约束的有趣现象；图像AI模型成为应用增长新引擎，下载量提升6.5倍但变现仍是难题。</p>
+        </div>
+    </div>
+
+    <!-- Content -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <section class="mb-10">
+    <div class="flex items-center gap-3 mb-5">
+        <span class="material-symbols-rounded text-2xl" style="color: #335c67;">code</span>
+        <h2 class="text-xl font-bold" style="color: #335c67;">开源项目</h2>
+        <span class="text-xs text-warm-400 bg-warm-100 px-2.5 py-0.5 rounded-full">1 篇</span>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+        <div class="bg-white border border-warm-200 rounded-xl overflow-hidden shadow-sm card-hover" style="">
+    <div class="p-5">
+        <div class="flex items-start gap-3 mb-3">
+            <span class="material-symbols-rounded mt-0.5 flex-shrink-0" style="color: #335c67; font-size: 20px;">code</span>
+            <h3 class="text-base font-bold leading-snug flex-1" style="color: #335c67;">基于QLoRA微调Qwen2.5-1.5B实现CEFR英语水平分类（QLoRA Fine-Tuning of Qwen2.5-1.5B for CEFR English Proficiency Classification）</h3>
+            <span class="flex-shrink-0 text-xs font-bold text-white px-2 py-0.5 rounded" style="background: #335c67;">7.9</span>
+        </div>
+        <p class="text-sm text-warm-700 leading-relaxed mb-3">作者使用QLoRA（4-bit NF4量化）对Qwen2.5-1.5B进行微调，实现A1到C2六级CEFR英语水平分类。训练数据集包含1,785条英文文本，覆盖6个CEFR等级和10个领域，由Groq API的Llama-3.3-70B合成生成，保留了词汇复杂度和语法递进等CEFR特征。仅训练了约0.28%的模型参数，适用于自适应语言学习、分级测试和可读性评估等教育NLP场景。这是一个很好的小模型+高效微调在垂直场景落地的案例。</p>
+        <div class="flex flex-wrap items-center gap-1.5 text-xs text-warm-500">
+            <a href="https://www.reddit.com/r/MachineLearning/comments/1t3ogbw/p_qlora_finetuning_of_qwen2515b_for_cefr_english/" target="_blank" rel="noopener" class="text-accent font-medium hover:underline">原文 ↗</a>
+            <span>·</span>
+            <span class="font-medium text-warm-600">Reddit ML</span>
+            <span>·</span>
+            <span>6小时前</span>
+            <span>·</span>
+            <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">QLoRA</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">Qwen2.5</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">微调</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">文本分类</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">CEFR</span>
+        </div>
+    </div>
+</div>
+    </div>
+</section>
+<section class="mb-10">
+    <div class="flex items-center gap-3 mb-5">
+        <span class="material-symbols-rounded text-2xl" style="color: #9e2a2b;">science</span>
+        <h2 class="text-xl font-bold" style="color: #9e2a2b;">研究论文</h2>
+        <span class="text-xs text-warm-400 bg-warm-100 px-2.5 py-0.5 rounded-full">11 篇</span>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+        <div class="bg-white border border-warm-200 rounded-xl overflow-hidden shadow-sm card-hover" style="border-left: 4px solid #9e2a2b;">
+    <div class="p-5">
+        <div class="flex items-start gap-3 mb-3">
+            <span class="material-symbols-rounded mt-0.5 flex-shrink-0" style="color: #9e2a2b; font-size: 20px;">science</span>
+            <h3 class="text-base font-bold leading-snug flex-1" style="color: #9e2a2b;">智能体AI在行程规划优化中的应用（Agentic AI for Trip Planning Optimization Application）</h3>
+            <span class="flex-shrink-0 text-xs font-bold text-white px-2 py-0.5 rounded" style="background: #9e2a2b;">8.4</span>
+        </div>
+        <p class="text-sm text-warm-700 leading-relaxed mb-3">智能车辆的路径规划正从&quot;可行&quot;走向&quot;最优&quot;，需要综合考虑行驶时间、能耗和交通状况等多重因素。然而现有系统大多只面向可行性规划，且缺乏带有真实标注的评估基准。本文提出了一个多智能体协作框架，由编排智能体协调交通、充电和兴趣点等专用智能体，实现动态路径优化。同时发布了 Trip-planning Optimization Problems Dataset，提供了带有ground truth的评估数据集，填补了该领域客观评估的空白。这项工作对自动驾驶和智能出行的实际落地有直接参考价值。</p>
+        <div class="flex flex-wrap items-center gap-1.5 text-xs text-warm-500">
+            <a href="https://arxiv.org/abs/2605.00276" target="_blank" rel="noopener" class="text-accent font-medium hover:underline">原文 ↗</a>
+            <span>·</span>
+            <span class="font-medium text-warm-600">arXiv AI</span>
+            <span>·</span>
+            <span>20小时前</span>
+            <span>·</span>
+            <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">智能体AI</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">路径规划</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">智能车辆</span>
+        </div>
+    </div>
+</div>
+<div class="bg-white border border-warm-200 rounded-xl overflow-hidden shadow-sm card-hover" style="border-left: 4px solid #9e2a2b;">
+    <div class="p-5">
+        <div class="flex items-start gap-3 mb-3">
+            <span class="material-symbols-rounded mt-0.5 flex-shrink-0" style="color: #9e2a2b; font-size: 20px;">science</span>
+            <h3 class="text-base font-bold leading-snug flex-1" style="color: #9e2a2b;">LLM越狱成功的最小化、局部化因果解释（Minimal, Local, Causal Explanations for Jailbreak Success in Large Language Models）</h3>
+            <span class="flex-shrink-0 text-xs font-bold text-white px-2 py-0.5 rounded" style="background: #9e2a2b;">8.3</span>
+        </div>
+        <p class="text-sm text-warm-700 leading-relaxed mb-3">经过安全训练的LLM仍然容易被越狱提示攻破，但我们对其脆弱性的根本原因理解不足。先前研究通过全局方向（如&quot;降低有害性&quot;）来解释所有越狱攻击，但本文指出不同越狱策略可能通过强化或抑制不同的中间表征来奏效。作者提出了一种最小化、局部化的因果解释方法，能更精细地刻画每种越狱策略的具体作用机制。这对于构建更鲁棒的安全对齐方案至关重要——如果我们不理解攻击为何成功，未来更自主的前沿模型同样会面临类似风险。</p>
+        <div class="flex flex-wrap items-center gap-1.5 text-xs text-warm-500">
+            <a href="https://arxiv.org/abs/2605.00123" target="_blank" rel="noopener" class="text-accent font-medium hover:underline">原文 ↗</a>
+            <span>·</span>
+            <span class="font-medium text-warm-600">arXiv AI</span>
+            <span>·</span>
+            <span>20小时前</span>
+            <span>·</span>
+            <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">jailbreak</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">LLM安全</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">因果解释</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">对齐</span>
+        </div>
+    </div>
+</div>
+<div class="bg-white border border-warm-200 rounded-xl overflow-hidden shadow-sm card-hover" style="border-left: 4px solid #9e2a2b;">
+    <div class="p-5">
+        <div class="flex items-start gap-3 mb-3">
+            <span class="material-symbols-rounded mt-0.5 flex-shrink-0" style="color: #9e2a2b; font-size: 20px;">science</span>
+            <h3 class="text-base font-bold leading-snug flex-1" style="color: #9e2a2b;">模型能复述却仍违反：多轮LLM辅助科研中的约束遵循问题（Models Recall What They Violate: Constraint Adherence in Multi-Turn LLM Ideation）</h3>
+            <span class="flex-shrink-0 text-xs font-bold text-white px-2 py-0.5 rounded" style="background: #9e2a2b;">8.3</span>
+        </div>
+        <p class="text-sm text-warm-700 leading-relaxed mb-3">当研究者与LLM迭代打磨想法时，模型是否能忠实于最初的目标？本文推出 DriftBench 基准，覆盖7个模型、5家提供商、2,146次评分运行和24个科学领域的38份研究简报。核心发现令人警醒：迭代压力会可靠地增加结构复杂性，同时降低对原始约束的遵循度。更有趣的是，探测实验揭示了&quot;声明性记忆&quot;与&quot;行为遵循&quot;的分离——模型能准确复述约束，却同时违反它们。这一&quot;知道但违反&quot;的现象对LLM辅助科研的可靠性敲响了警钟。</p>
+        <div class="flex flex-wrap items-center gap-1.5 text-xs text-warm-500">
+            <a href="https://arxiv.org/abs/2604.28031" target="_blank" rel="noopener" class="text-accent font-medium hover:underline">原文 ↗</a>
+            <span>·</span>
+            <span class="font-medium text-warm-600">arXiv AI</span>
+            <span>·</span>
+            <span>20小时前</span>
+            <span>·</span>
+            <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">LLM</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">约束遵循</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">多轮对话</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">科研辅助</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">benchmark</span>
+        </div>
+    </div>
+</div>
+<div class="bg-white border border-warm-200 rounded-xl overflow-hidden shadow-sm card-hover" style="">
+    <div class="p-5">
+        <div class="flex items-start gap-3 mb-3">
+            <span class="material-symbols-rounded mt-0.5 flex-shrink-0" style="color: #9e2a2b; font-size: 20px;">science</span>
+            <h3 class="text-base font-bold leading-snug flex-1" style="color: #9e2a2b;">TUR-DPO：拓扑与不确定性感知的直接偏好优化（TUR-DPO: Topology- and Uncertainty-Aware Direct Preference Optimization）</h3>
+            <span class="flex-shrink-0 text-xs font-bold text-white px-2 py-0.5 rounded" style="background: #9e2a2b;">8.0</span>
+        </div>
+        <p class="text-sm text-warm-700 leading-relaxed mb-3">DPO虽然稳定且无需强化学习，但将偏好简化为&quot;赢家vs输家&quot;的扁平信号，对噪声偏好和脆弱推理链敏感。TUR-DPO 提出了一种拓扑与不确定性感知的改进方案，不仅关注答案&quot;说了什么&quot;，还奖励答案&quot;如何推导&quot;。方法通过轻量级推理拓扑提取，将语义忠实度、实用性和拓扑质量组合为校准的不确定性信号，再用小型可学习奖励进行分解。这为偏好对齐提供了更细粒度的优化维度，有望提升模型在复杂推理任务上的对齐质量。</p>
+        <div class="flex flex-wrap items-center gap-1.5 text-xs text-warm-500">
+            <a href="https://arxiv.org/abs/2605.00224" target="_blank" rel="noopener" class="text-accent font-medium hover:underline">原文 ↗</a>
+            <span>·</span>
+            <span class="font-medium text-warm-600">arXiv AI</span>
+            <span>·</span>
+            <span>20小时前</span>
+            <span>·</span>
+            <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">DPO</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">偏好优化</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">RLHF</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">拓扑感知</span>
+        </div>
+    </div>
+</div>
+<div class="bg-white border border-warm-200 rounded-xl overflow-hidden shadow-sm card-hover" style="">
+    <div class="p-5">
+        <div class="flex items-start gap-3 mb-3">
+            <span class="material-symbols-rounded mt-0.5 flex-shrink-0" style="color: #9e2a2b; font-size: 20px;">science</span>
+            <h3 class="text-base font-bold leading-snug flex-1" style="color: #9e2a2b;">探索LLM偏见以操纵AI搜索概览（Exploring LLM biases to manipulate AI search overview）</h3>
+            <span class="flex-shrink-0 text-xs font-bold text-white px-2 py-0.5 rounded" style="background: #9e2a2b;">7.8</span>
+        </div>
+        <p class="text-sm text-warm-700 leading-relaxed mb-3">LLM驱动的搜索概览系统（如AI Overview）在源选择和答案生成阶段都可能受到模型内在偏见的影响。本研究聚焦于这些偏见是否可被利用来操纵搜索结果排序，特别是在源选择阶段。作者训练了一个小型模型来验证偏见利用的可行性。这项工作对SEO生态和AI搜索的公平性有重要警示意义——如果搜索结果可以通过利用LLM偏见被系统性操纵，用户获取信息的质量将受到威胁。</p>
+        <div class="flex flex-wrap items-center gap-1.5 text-xs text-warm-500">
+            <a href="https://arxiv.org/abs/2605.00012" target="_blank" rel="noopener" class="text-accent font-medium hover:underline">原文 ↗</a>
+            <span>·</span>
+            <span class="font-medium text-warm-600">arXiv AI</span>
+            <span>·</span>
+            <span>20小时前</span>
+            <span>·</span>
+            <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">LLM偏见</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">AI搜索</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">搜索操纵</span>
+        </div>
+    </div>
+</div>
+<div class="bg-white border border-warm-200 rounded-xl overflow-hidden shadow-sm card-hover" style="">
+    <div class="p-5">
+        <div class="flex items-start gap-3 mb-3">
+            <span class="material-symbols-rounded mt-0.5 flex-shrink-0" style="color: #9e2a2b; font-size: 20px;">science</span>
+            <h3 class="text-base font-bold leading-snug flex-1" style="color: #9e2a2b;">TimeRFT：通过强化微调激发时间序列基础模型的泛化预测能力（TimeRFT: Stimulating Generalizable Time Series Forecasting for TSFMs via Reinforcement Finetuning）</h3>
+            <span class="flex-shrink-0 text-xs font-bold text-white px-2 py-0.5 rounded" style="background: #9e2a2b;">7.8</span>
+        </div>
+        <p class="text-sm text-warm-700 leading-relaxed mb-3">时间序列基础模型（TSFMs）在泛化和数据效率上有优势，但在适配下游任务时面临两大挑战：时序分布漂移导致监督微调容易过拟合，以及不同任务的数据可用性差异大。TimeRFT 引入强化微调范式来解决这些问题，让模型在多样数据条件下都能保持良好泛化。这是将强化学习微调思路从语言模型迁移到时间序列领域的有意义尝试，对金融、气象等预测场景有实际价值。</p>
+        <div class="flex flex-wrap items-center gap-1.5 text-xs text-warm-500">
+            <a href="https://arxiv.org/abs/2605.00015" target="_blank" rel="noopener" class="text-accent font-medium hover:underline">原文 ↗</a>
+            <span>·</span>
+            <span class="font-medium text-warm-600">arXiv AI</span>
+            <span>·</span>
+            <span>20小时前</span>
+            <span>·</span>
+            <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">时间序列</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">基础模型</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">强化微调</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">预测</span>
+        </div>
+    </div>
+</div>
+<div class="bg-white border border-warm-200 rounded-xl overflow-hidden shadow-sm card-hover" style="">
+    <div class="p-5">
+        <div class="flex items-start gap-3 mb-3">
+            <span class="material-symbols-rounded mt-0.5 flex-shrink-0" style="color: #9e2a2b; font-size: 20px;">science</span>
+            <h3 class="text-base font-bold leading-snug flex-1" style="color: #9e2a2b;">为何SSM在参数受限训练中表现不佳：2500万参数下的实证发现（Why SSMs struggle in parameter-constrained training: empirical findings at 25M parameters）</h3>
+            <span class="flex-shrink-0 text-xs font-bold text-white px-2 py-0.5 rounded" style="background: #9e2a2b;">7.7</span>
+        </div>
+        <p class="text-sm text-warm-700 leading-relaxed mb-3">在OpenAI的Parameter Golf竞赛中（10分钟训练、16MB模型、2500万参数、8×H100），作者经过约3周实验发现SSM相对Transformer存在结构性劣势。核心发现：SSM的in_proj权重在LZMA压缩下比注意力QKV差3.26倍，直接消耗压缩参数预算；在SP4096上验证有效的架构改进在SP8192上反转了效果。文章还包含三个Mamba-3 Triton内核级实验，包括一个数值精确但因共享内存压力慢16%的反向融合尝试。对理解SSM与Transformer的适用边界很有参考价值。</p>
+        <div class="flex flex-wrap items-center gap-1.5 text-xs text-warm-500">
+            <a href="https://www.reddit.com/r/MachineLearning/comments/1t3hxsy/why_ssms_struggle_in_parameterconstrained/" target="_blank" rel="noopener" class="text-accent font-medium hover:underline">原文 ↗</a>
+            <span>·</span>
+            <span class="font-medium text-warm-600">Reddit ML</span>
+            <span>·</span>
+            <span>10小时前</span>
+            <span>·</span>
+            <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">SSM</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">Transformer</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">参数效率</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">模型压缩</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">架构对比</span>
+        </div>
+    </div>
+</div>
+<div class="bg-white border border-warm-200 rounded-xl overflow-hidden shadow-sm card-hover" style="">
+    <div class="p-5">
+        <div class="flex items-start gap-3 mb-3">
+            <span class="material-symbols-rounded mt-0.5 flex-shrink-0" style="color: #9e2a2b; font-size: 20px;">science</span>
+            <h3 class="text-base font-bold leading-snug flex-1" style="color: #9e2a2b;">ARMOR 2025：超越民用场景的军事对齐LLM安全基准（ARMOR 2025: A Military-Aligned Benchmark for Evaluating Large Language Model Safety Beyond Civilian Contexts）</h3>
+            <span class="flex-shrink-0 text-xs font-bold text-white px-2 py-0.5 rounded" style="background: #9e2a2b;">7.5</span>
+        </div>
+        <p class="text-sm text-warm-700 leading-relaxed mb-3">LLM正被探索用于国防决策支持，但现有安全基准聚焦于一般社会风险，无法测试模型是否遵循真实军事行动的法律和伦理规则。ARMOR 2025基于三大军事准则——战争法、交战规则和联合伦理条例——构建了军事对齐的安全评估基准。该工作从准则中提取教条标准，为军事场景下的LLM合规性评估提供了首个系统化框架。随着AI在国防领域的应用加速，这类专业化评估工具的需求将持续增长。</p>
+        <div class="flex flex-wrap items-center gap-1.5 text-xs text-warm-500">
+            <a href="https://arxiv.org/abs/2605.00245" target="_blank" rel="noopener" class="text-accent font-medium hover:underline">原文 ↗</a>
+            <span>·</span>
+            <span class="font-medium text-warm-600">arXiv AI</span>
+            <span>·</span>
+            <span>20小时前</span>
+            <span>·</span>
+            <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">LLM安全</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">军事应用</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">benchmark</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">评估</span>
+        </div>
+    </div>
+</div>
+<div class="bg-white border border-warm-200 rounded-xl overflow-hidden shadow-sm card-hover" style="">
+    <div class="p-5">
+        <div class="flex items-start gap-3 mb-3">
+            <span class="material-symbols-rounded mt-0.5 flex-shrink-0" style="color: #9e2a2b; font-size: 20px;">science</span>
+            <h3 class="text-base font-bold leading-snug flex-1" style="color: #9e2a2b;">FedACT：异构数据源上的并发联邦智能（FedACT: Concurrent Federated Intelligence across Heterogeneous Data Sources）</h3>
+            <span class="flex-shrink-0 text-xs font-bold text-white px-2 py-0.5 rounded" style="background: #9e2a2b;">7.5</span>
+        </div>
+        <p class="text-sm text-warm-700 leading-relaxed mb-3">现实中的联邦学习场景往往需要多个机器学习任务同时在共享设备池上训练模型，但简单套用单任务FL优化技术会因设备异构性和资源低效导致系统性能下降。FedACT 提出了一种资源异构感知的设备调度方法，能高效调度异构设备以支持多任务并发联邦学习。这对边缘计算和隐私保护场景下的多任务协同训练有实际意义。</p>
+        <div class="flex flex-wrap items-center gap-1.5 text-xs text-warm-500">
+            <a href="https://arxiv.org/abs/2605.00011" target="_blank" rel="noopener" class="text-accent font-medium hover:underline">原文 ↗</a>
+            <span>·</span>
+            <span class="font-medium text-warm-600">arXiv AI</span>
+            <span>·</span>
+            <span>20小时前</span>
+            <span>·</span>
+            <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">联邦学习</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">多任务学习</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">隐私保护</span>
+        </div>
+    </div>
+</div>
+<div class="bg-white border border-warm-200 rounded-xl overflow-hidden shadow-sm card-hover" style="">
+    <div class="p-5">
+        <div class="flex items-start gap-3 mb-3">
+            <span class="material-symbols-rounded mt-0.5 flex-shrink-0" style="color: #9e2a2b; font-size: 20px;">science</span>
+            <h3 class="text-base font-bold leading-snug flex-1" style="color: #9e2a2b;">以人为本：基于人类偏好对齐的高效大型音频模型评估（Putting HUMANS first: Efficient LAM Evaluation with Human Preference Alignment）</h3>
+            <span class="flex-shrink-0 text-xs font-bold text-white px-2 py-0.5 rounded" style="background: #9e2a2b;">7.2</span>
+        </div>
+        <p class="text-sm text-warm-700 leading-relaxed mb-3">大型音频模型（LAMs）的快速增长需要高效的模型对比方法，但全面基准测试成本高昂。研究分析了10种子集选择方法，覆盖18个音频模型和40个任务，发现仅50个样本（占数据的0.3%）就能达到与完整基准超过0.93的Pearson相关性。团队还收集了776条来自真实语音助手对话的人类偏好评分，验证了子集评估与用户满意度的对齐程度。这为音频模型的低成本快速评估提供了实用方案。</p>
+        <div class="flex flex-wrap items-center gap-1.5 text-xs text-warm-500">
+            <a href="https://arxiv.org/abs/2605.00022" target="_blank" rel="noopener" class="text-accent font-medium hover:underline">原文 ↗</a>
+            <span>·</span>
+            <span class="font-medium text-warm-600">arXiv AI</span>
+            <span>·</span>
+            <span>20小时前</span>
+            <span>·</span>
+            <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">音频模型</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">评估</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">子集选择</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">benchmark</span>
+        </div>
+    </div>
+</div>
+<div class="bg-white border border-warm-200 rounded-xl overflow-hidden shadow-sm card-hover" style="">
+    <div class="p-5">
+        <div class="flex items-start gap-3 mb-3">
+            <span class="material-symbols-rounded mt-0.5 flex-shrink-0" style="color: #9e2a2b; font-size: 20px;">science</span>
+            <h3 class="text-base font-bold leading-snug flex-1" style="color: #9e2a2b;">AutoBe基准：结构化框架缩小前沿模型与本地模型在后端生成上的差距（AutoBe benchmark: structured harness narrows frontier-vs-local gap in backend generation）</h3>
+            <span class="flex-shrink-0 text-xs font-bold text-white px-2 py-0.5 rounded" style="background: #9e2a2b;">6.9</span>
+        </div>
+        <p class="text-sm text-warm-700 leading-relaxed mb-3">AutoBe是一个端到端后端代码生成基准，一条自然语言请求产出六项输出：需求分析、ERD、OpenAPI规范、端到端测试、NestJS实现和类型安全SDK。每个阶段通过结构化函数调用填充预定义AST，评分完全由静态分析驱动（满分100）。核心发现：GLM 5排名第一，qwen3.5-27b紧随前沿模型之后，多个本地模型实现了100%编译成功率。作者认为，一旦框架结构化，后端生成质量更多受限于框架设计而非模型能力。</p>
+        <div class="flex flex-wrap items-center gap-1.5 text-xs text-warm-500">
+            <a href="https://www.reddit.com/r/MachineLearning/comments/1t3hks9/autobe_benchmark_structured_harness_narrows/" target="_blank" rel="noopener" class="text-accent font-medium hover:underline">原文 ↗</a>
+            <span>·</span>
+            <span class="font-medium text-warm-600">Reddit ML</span>
+            <span>·</span>
+            <span>10小时前</span>
+            <span>·</span>
+            <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">代码生成</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">benchmark</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">后端生成</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">LLM评估</span>
+        </div>
+    </div>
+</div>
+    </div>
+</section>
+<section class="mb-10">
+    <div class="flex items-center gap-3 mb-5">
+        <span class="material-symbols-rounded text-2xl" style="color: #e09f3e;">devices</span>
+        <h2 class="text-xl font-bold" style="color: #e09f3e;">产品动态</h2>
+        <span class="text-xs text-warm-400 bg-warm-100 px-2.5 py-0.5 rounded-full">2 篇</span>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+        <div class="bg-white border border-warm-200 rounded-xl overflow-hidden shadow-sm card-hover" style="">
+    <div class="p-5">
+        <div class="flex items-start gap-3 mb-3">
+            <span class="material-symbols-rounded mt-0.5 flex-shrink-0" style="color: #e09f3e; font-size: 20px;">devices</span>
+            <h3 class="text-base font-bold leading-snug flex-1" style="color: #e09f3e;">Gemini API新增Webhooks支持，降低长时间任务的延迟与摩擦（Reduce friction and latency for long-running jobs with Webhooks in Gemini API）</h3>
+            <span class="flex-shrink-0 text-xs font-bold text-white px-2 py-0.5 rounded" style="background: #e09f3e;">7.2</span>
+        </div>
+        <p class="text-sm text-warm-700 leading-relaxed mb-3">Google为Gemini API引入了事件驱动的Webhooks机制，专门解决长时间运行任务的体验问题。开发者不再需要轮询API状态，而是在任务完成时自动收到回调通知，显著降低了延迟和资源浪费。这对于处理大型文档、视频分析等耗时较长的Gemini调用场景尤为实用。Webhooks是API成熟度的标志性功能，说明Gemini API正在向生产级开发者工具演进。</p>
+        <div class="flex flex-wrap items-center gap-1.5 text-xs text-warm-500">
+            <a href="https://blog.google/innovation-and-ai/technology/developers-tools/event-driven-webhooks/" target="_blank" rel="noopener" class="text-accent font-medium hover:underline">原文 ↗</a>
+            <span>·</span>
+            <span class="font-medium text-warm-600">Google AI Blog</span>
+            <span>·</span>
+            <span>8小时前</span>
+            <span>·</span>
+            <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">Gemini API</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">Webhooks</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">开发者工具</span>
+        </div>
+    </div>
+</div>
+<div class="bg-white border border-warm-200 rounded-xl overflow-hidden shadow-sm card-hover" style="">
+    <div class="p-5">
+        <div class="flex items-start gap-3 mb-3">
+            <span class="material-symbols-rounded mt-0.5 flex-shrink-0" style="color: #e09f3e; font-size: 20px;">devices</span>
+            <h3 class="text-base font-bold leading-snug flex-1" style="color: #e09f3e;">Anthropic和OpenAI双双成立合资企业推进企业AI服务（Anthropic and OpenAI are both launching joint ventures for enterprise AI services）</h3>
+            <span class="flex-shrink-0 text-xs font-bold text-white px-2 py-0.5 rounded" style="background: #e09f3e;">6.9</span>
+        </div>
+        <p class="text-sm text-warm-700 leading-relaxed mb-3">Anthropic和OpenAI分别与资产管理公司合作，成立合资企业以更积极地推广企业级AI产品。这一动向表明两家头部AI公司正在从技术竞争转向商业化竞争，通过引入金融合作伙伴加速企业市场渗透。合资模式可以帮助AI公司获得行业资源和客户渠道，同时分担市场拓展风险。企业AI服务正成为大模型公司营收增长的核心战场。</p>
+        <div class="flex flex-wrap items-center gap-1.5 text-xs text-warm-500">
+            <a href="https://techcrunch.com/2026/05/04/anthropic-and-openai-are-both-launching-joint-ventures-for-enterprise-ai-services/" target="_blank" rel="noopener" class="text-accent font-medium hover:underline">原文 ↗</a>
+            <span>·</span>
+            <span class="font-medium text-warm-600">TechCrunch</span>
+            <span>·</span>
+            <span>8小时前</span>
+            <span>·</span>
+            <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">Anthropic</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">OpenAI</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">企业AI</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">合资</span>
+        </div>
+    </div>
+</div>
+    </div>
+</section>
+<section class="mb-10">
+    <div class="flex items-center gap-3 mb-5">
+        <span class="material-symbols-rounded text-2xl" style="color: #c96442;">lightbulb</span>
+        <h2 class="text-xl font-bold" style="color: #c96442;">行业观点</h2>
+        <span class="text-xs text-warm-400 bg-warm-100 px-2.5 py-0.5 rounded-full">1 篇</span>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+        <div class="bg-white border border-warm-200 rounded-xl overflow-hidden shadow-sm card-hover" style="">
+    <div class="p-5">
+        <div class="flex items-start gap-3 mb-3">
+            <span class="material-symbols-rounded mt-0.5 flex-shrink-0" style="color: #c96442; font-size: 20px;">lightbulb</span>
+            <h3 class="text-base font-bold leading-snug flex-1" style="color: #c96442;">图像AI模型成为应用增长新引擎，超越聊天机器人升级（Image AI models now drive app growth, beating chatbot upgrades）</h3>
+            <span class="flex-shrink-0 text-xs font-bold text-white px-2 py-0.5 rounded" style="background: #c96442;">7.1</span>
+        </div>
+        <p class="text-sm text-warm-700 leading-relaxed mb-3">Appfigures的数据显示，视觉模型的发布能带来6.5倍于聊天机器人升级的下载量增长。图像生成类AI功能对普通用户的吸引力远超文本对话的迭代升级，这解释了为何各家都在加码图像和视频生成能力。但报告同时指出，大多数应用未能将下载量高峰转化为收入，变现仍是图像AI应用的核心挑战。这对AI应用开发者的启示是：获客靠视觉，留存和付费需要更深的产品设计。</p>
+        <div class="flex flex-wrap items-center gap-1.5 text-xs text-warm-500">
+            <a href="https://techcrunch.com/2026/05/04/image-ai-models-now-drive-app-growth-beating-chatbot-upgrades/" target="_blank" rel="noopener" class="text-accent font-medium hover:underline">原文 ↗</a>
+            <span>·</span>
+            <span class="font-medium text-warm-600">TechCrunch</span>
+            <span>·</span>
+            <span>4小时前</span>
+            <span>·</span>
+            <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">图像AI</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">应用增长</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">商业化</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">下载量</span>
+        </div>
+    </div>
+</div>
+    </div>
+</section>
+    </div>
+
+    <!-- Keywords -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12">
+        <div class="bg-white border border-warm-200 rounded-xl p-6 shadow-sm text-center">
+            <h2 class="text-lg font-bold text-warm-800 mb-4">今日关键词</h2>
+            <div class="flex flex-wrap justify-center gap-2"><span class="inline-block bg-warm-100 text-warm-600 text-xs px-2.5 py-1 rounded-full border border-warm-200">benchmark</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2.5 py-1 rounded-full border border-warm-200">LLM安全</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2.5 py-1 rounded-full border border-warm-200">评估</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2.5 py-1 rounded-full border border-warm-200">智能体AI</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2.5 py-1 rounded-full border border-warm-200">路径规划</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2.5 py-1 rounded-full border border-warm-200">智能车辆</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2.5 py-1 rounded-full border border-warm-200">jailbreak</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2.5 py-1 rounded-full border border-warm-200">因果解释</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2.5 py-1 rounded-full border border-warm-200">对齐</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2.5 py-1 rounded-full border border-warm-200">LLM</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2.5 py-1 rounded-full border border-warm-200">约束遵循</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2.5 py-1 rounded-full border border-warm-200">多轮对话</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2.5 py-1 rounded-full border border-warm-200">科研辅助</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2.5 py-1 rounded-full border border-warm-200">DPO</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2.5 py-1 rounded-full border border-warm-200">偏好优化</span></div>
+        </div>
+    </div>
+</main>
+
+<footer class="text-center text-warm-400 text-sm py-8 border-t border-warm-200">
+    由 AI 日报 自动生成 · 2026-05-05 08:02:37
+</footer>
+</body>
+</html>
