@@ -1,5 +1,99 @@
 const reportsData = [
     {
+        "id": "2026-05-06",
+        "title": "AI 日报 · 2026年05月06日",
+        "date": "2026-05-06",
+        "summary": "OpenAI 发布 GPT-5.5 Instant 作为 ChatGPT 新默认模型，主打降低幻觉与个性化；SAP 豪掷 11.6 亿美元收购德国 AI 实验室 Prior Labs；可解释性研究取得突破，新方法 VPD 首次有效分解注意力层参数。",
+        "articleCount": 15,
+        "categories": [
+            "研究论文",
+            "行业观点",
+            "开源项目",
+            "产品动态",
+            "模型发布"
+        ],
+        "tags": [
+            "GPT-5.5",
+            "OpenAI",
+            "SAP",
+            "Prior Labs",
+            "CopilotKit",
+            "AI agents",
+            "parameter decomposition",
+            "interpretability"
+        ],
+        "sections": [
+            {
+                "name": "产品应用",
+                "icon": "devices",
+                "items": [
+                    {
+                        "title": "GPT-5.5 Instant: smarter, clearer, and more personalized",
+                        "url": "https://openai.com/index/gpt-5-5-instant"
+                    },
+                    {
+                        "title": "SAP bets $1.16B on 18-month-old German AI lab and says yes to NemoClaw",
+                        "url": "https://techcrunch.com/2026/05/05/sap-bets-1-16b-on-18-month-old-german-ai-lab-and-says-yes-to-nemoclaw/"
+                    },
+                    {
+                        "title": "CopilotKit raises $27M to help devs deploy app-native AI agents",
+                        "url": "https://techcrunch.com/2026/05/05/copilotkit-raises-27m-to-help-devs-deploy-app-native-ai-agents/"
+                    },
+                    {
+                        "title": "OpenAI releases GPT-5.5 Instant, a new default model for ChatGPT",
+                        "url": "https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/"
+                    }
+                ]
+            },
+            {
+                "name": "开发生态",
+                "icon": "code",
+                "items": [
+                    {
+                        "title": "Competition - League of Robot Runners 2026: Multi-robot coordination under uncertainty [N]",
+                        "url": "https://www.reddit.com/r/MachineLearning/comments/1t4sjr7/competition_league_of_robot_runners_2026/"
+                    },
+                    {
+                        "title": "TritonSigmoid: A fast, padding-aware sigmoid attention kernel for GPUs [R]",
+                        "url": "https://www.reddit.com/r/MachineLearning/comments/1t4kalf/tritonsigmoid_a_fast_paddingaware_sigmoid/"
+                    }
+                ]
+            },
+            {
+                "name": "行业动态",
+                "icon": "trending_up",
+                "items": [
+                    {
+                        "title": "OpenAI与Anthropic合资企业洽谈收购AI服务公司",
+                        "url": "https://36kr.com/newsflashes/3797027135315202?f=rss"
+                    },
+                    {
+                        "title": "Pennsylvania sues Character.AI after a chatbot allegedly posed as a doctor",
+                        "url": "https://techcrunch.com/2026/05/05/pennsylvania-sues-character-ai-after-a-chatbot-allegedly-posed-as-a-doctor/"
+                    }
+                ]
+            },
+            {
+                "name": "研究前沿",
+                "icon": "science",
+                "items": [
+                    {
+                        "title": "[Linkpost] Interpreting Language Model Parameters",
+                        "url": "https://www.alignmentforum.org/posts/eAQZaiC3PcBhS4HjM/linkpost-interpreting-language-model-parameters"
+                    },
+                    {
+                        "title": "Visual graph classification for blockchain security: Experiences fine-tuning Qwen2-VL on AMD MI300X [D]",
+                        "url": "https://www.reddit.com/r/MachineLearning/comments/1t4dcej/visual_graph_classification_for_blockchain/"
+                    },
+                    {
+                        "title": "On the Role of Artificial Intelligence in Human-Machine Symbiosis",
+                        "url": "https://arxiv.org/abs/2605.00440"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id": "2026-05-05",
         "title": "AI 日报 · 2026年05月05日",
         "date": "2026-05-05",
