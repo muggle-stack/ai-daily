@@ -1,5 +1,60 @@
 const reportsData = [
     {
+        "id": "2026-05-07",
+        "title": "AI 日报 · 2026年05月07日",
+        "date": "2026-05-07",
+        "summary": "今日重点：神经符号技能归纳框架 NSI 让智能体学会\"何时行动、为何行动\"；一篇立场论文指出多智能体系统的安全性取决于交互拓扑而非模型规模；Simon Willison 坦言 vibe coding 与 agentic engineering 正在他自己的工作中趋于融合。",
+        "articleCount": 15,
+        "categories": [
+            "研究论文",
+            "行业观点"
+        ],
+        "tags": [
+            "neuro-symbolic",
+            "skill induction",
+            "multimodal LLM",
+            "e-commerce",
+            "LLM agents",
+            "fraud detection",
+            "agentic AI",
+            "safety"
+        ],
+        "sections": [
+            {
+                "name": "行业动态",
+                "icon": "trending_up",
+                "items": [
+                    {
+                        "title": "Vibe coding and agentic engineering are getting closer than I'd like",
+                        "url": "https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/#atom-everything"
+                    }
+                ]
+            },
+            {
+                "name": "研究前沿",
+                "icon": "science",
+                "items": [
+                    {
+                        "title": "Lifting Traces to Logic: Programmatic Skill Induction with Neuro-Symbolic Learning for Long-Horizon Agentic Tasks",
+                        "url": "https://arxiv.org/abs/2605.01293"
+                    },
+                    {
+                        "title": "Valley3: Scaling Omni Foundation Models for E-commerce",
+                        "url": "https://arxiv.org/abs/2605.01278"
+                    },
+                    {
+                        "title": "A Low-Latency Fraud Detection Layer for Detecting Adversarial Interaction Patterns in LLM-Powered Agents",
+                        "url": "https://arxiv.org/abs/2605.01143"
+                    },
+                    {
+                        "title": "Position: Safety and Fairness in Agentic AI Depend on Interaction Topology, Not on Model Scale or Alignment",
+                        "url": "https://arxiv.org/abs/2605.01147"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id": "2026-05-06",
         "title": "AI 日报 · 2026年05月06日",
         "date": "2026-05-06",

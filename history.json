@@ -1,21 +1,4 @@
 {
-  "2026-04-28": [
-    "https://arxiv.org/abs/2604.21935",
-    "https://arxiv.org/abs/2604.22085",
-    "https://arxiv.org/abs/2604.22273",
-    "https://arxiv.org/abs/2604.22452",
-    "https://arxiv.org/abs/2604.22436",
-    "https://arxiv.org/abs/2604.21965",
-    "https://arxiv.org/abs/2604.22748",
-    "https://arxiv.org/abs/2604.22119",
-    "https://arxiv.org/abs/2604.22446",
-    "https://arxiv.org/abs/2604.21937",
-    "https://arxiv.org/abs/2604.22080",
-    "https://arxiv.org/abs/2604.22577",
-    "https://techcrunch.com/2026/04/27/china-vetoes-metas-2b-manus-deal-after-months-long-probe/",
-    "https://arxiv.org/abs/2604.21936",
-    "https://simonwillison.net/2026/Apr/27/vibevoice/#atom-everything"
-  ],
   "2026-04-29": [
     "https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence",
     "https://www.alignmentforum.org/posts/mu7eJdesBkKuBycnY/sleeper-agent-backdoor-results-are-messy",
@@ -117,5 +100,22 @@
     "https://techcrunch.com/2026/05/05/meta-will-use-ai-to-analyze-height-and-bone-structure-to-identify-if-users-are-underage/",
     "https://techcrunch.com/2026/05/05/pennsylvania-sues-character-ai-after-a-chatbot-allegedly-posed-as-a-doctor/",
     "https://techcrunch.com/2026/05/05/elevenlabs-lists-blackrock-jamie-foxx-and-eva-longoria-as-new-investors/"
+  ],
+  "2026-05-07": [
+    "https://arxiv.org/abs/2605.01293",
+    "https://arxiv.org/abs/2605.01278",
+    "https://arxiv.org/abs/2605.01143",
+    "https://arxiv.org/abs/2605.01147",
+    "https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/#atom-everything",
+    "https://arxiv.org/abs/2605.01208",
+    "https://arxiv.org/abs/2605.01214",
+    "https://arxiv.org/abs/2605.01250",
+    "https://arxiv.org/abs/2605.01329",
+    "https://arxiv.org/abs/2605.00846",
+    "https://arxiv.org/abs/2605.01338",
+    "https://arxiv.org/abs/2605.01030",
+    "https://arxiv.org/abs/2605.01101",
+    "https://arxiv.org/abs/2605.01102",
+    "https://arxiv.org/abs/2605.00842"
   ]
 }
