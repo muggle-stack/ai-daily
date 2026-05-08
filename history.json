@@ -1,21 +1,4 @@
 {
-  "2026-04-29": [
-    "https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence",
-    "https://www.alignmentforum.org/posts/mu7eJdesBkKuBycnY/sleeper-agent-backdoor-results-are-messy",
-    "https://arxiv.org/abs/2604.21952",
-    "https://techcrunch.com/2026/04/28/amazon-is-already-offering-new-openai-products-on-aws/",
-    "https://36kr.com/newsflashes/3787104415718400?f=rss",
-    "https://techcrunch.com/2026/04/28/red-hats-openclaw-maintainer-just-made-enterprise-claw-deployments-a-lot-safer/",
-    "https://arxiv.org/abs/2604.21999",
-    "https://www.alignmentforum.org/posts/q2zYtNsh62SCphitt/recursive-forecasting-eliciting-long-term-forecasts-from",
-    "https://arxiv.org/abs/2604.22411",
-    "https://arxiv.org/abs/2601.05414",
-    "https://arxiv.org/abs/2604.21950",
-    "https://arxiv.org/abs/2604.22597",
-    "https://arxiv.org/abs/2604.22027",
-    "https://simonwillison.net/2026/Apr/28/talkie/#atom-everything",
-    "https://arxiv.org/abs/2604.22026"
-  ],
   "2026-04-30": [
     "https://arxiv.org/abs/2604.23057",
     "https://arxiv.org/abs/2604.23072",
@@ -117,5 +100,22 @@
     "https://arxiv.org/abs/2605.01101",
     "https://arxiv.org/abs/2605.01102",
     "https://arxiv.org/abs/2605.00842"
+  ],
+  "2026-05-08": [
+    "https://www.alignmentforum.org/posts/oeYesesaxjzMAktCM/natural-language-autoencoders-produce-unsupervised",
+    "https://arxiv.org/abs/2605.04050",
+    "https://arxiv.org/abs/2605.04312",
+    "https://arxiv.org/abs/2605.05138",
+    "https://arxiv.org/abs/2605.04785",
+    "https://arxiv.org/abs/2605.04808",
+    "https://arxiv.org/abs/2605.05191",
+    "https://arxiv.org/abs/2605.04906",
+    "https://arxiv.org/abs/2605.05007",
+    "https://arxiv.org/abs/2605.04361",
+    "https://arxiv.org/abs/2605.04624",
+    "https://techcrunch.com/2026/05/07/perplexitys-personal-computer-is-now-available-everyone-on-mac/",
+    "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api",
+    "https://arxiv.org/abs/2605.04169",
+    "https://arxiv.org/abs/2605.04608"
   ]
 }

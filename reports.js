@@ -1,5 +1,65 @@
 const reportsData = [
     {
+        "id": "2026-05-08",
+        "title": "AI 日报 · 2026年05月08日",
+        "date": "2026-05-08",
+        "summary": "今日三大看点：Anthropic 提出\"自然语言自编码器\"用无监督方法解释 LLM 内部激活，为模型审计提供新工具；LCM 无损上下文管理架构在长上下文任务上超越 Claude Code；OpenAI 发布新一代实时语音模型，支持推理、翻译和转录。",
+        "articleCount": 15,
+        "categories": [
+            "研究论文",
+            "模型发布",
+            "产品动态"
+        ],
+        "tags": [
+            "interpretability",
+            "LLM activations",
+            "context management",
+            "long-context",
+            "benchmark",
+            "multiagent",
+            "ARC-AGI",
+            "world model"
+        ],
+        "sections": [
+            {
+                "name": "产品应用",
+                "icon": "devices",
+                "items": [
+                    {
+                        "title": "Perplexity’s Personal Computer is now available to everyone on Mac",
+                        "url": "https://techcrunch.com/2026/05/07/perplexitys-personal-computer-is-now-available-everyone-on-mac/"
+                    },
+                    {
+                        "title": "Advancing voice intelligence with new models in the API",
+                        "url": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api"
+                    }
+                ]
+            },
+            {
+                "name": "研究前沿",
+                "icon": "science",
+                "items": [
+                    {
+                        "title": "Natural Language Autoencoders Produce Unsupervised Explanations of LLM Activations",
+                        "url": "https://www.alignmentforum.org/posts/oeYesesaxjzMAktCM/natural-language-autoencoders-produce-unsupervised"
+                    },
+                    {
+                        "title": "LCM: Lossless Context Management",
+                        "url": "https://arxiv.org/abs/2605.04050"
+                    },
+                    {
+                        "title": "Agent Island: A Saturation- and Contamination-Resistant Benchmark from Multiagent Games",
+                        "url": "https://arxiv.org/abs/2605.04312"
+                    },
+                    {
+                        "title": "Executable World Models for ARC-AGI-3 in the Era of Coding Agents",
+                        "url": "https://arxiv.org/abs/2605.05138"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id": "2026-05-07",
         "title": "AI 日报 · 2026年05月07日",
         "date": "2026-05-07",
