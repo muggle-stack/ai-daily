@@ -1,21 +1,4 @@
 {
-  "2026-04-30": [
-    "https://arxiv.org/abs/2604.23057",
-    "https://arxiv.org/abs/2604.23072",
-    "https://arxiv.org/abs/2604.23210",
-    "https://arxiv.org/abs/2604.23366",
-    "https://arxiv.org/abs/2604.23472",
-    "https://arxiv.org/abs/2604.23483",
-    "https://arxiv.org/abs/2604.23148",
-    "https://arxiv.org/abs/2604.23194",
-    "https://arxiv.org/abs/2604.23198",
-    "https://arxiv.org/abs/2604.23270",
-    "https://arxiv.org/abs/2604.23280",
-    "https://arxiv.org/abs/2604.22934",
-    "https://arxiv.org/abs/2604.23002",
-    "https://arxiv.org/abs/2604.23049",
-    "https://arxiv.org/abs/2604.23355"
-  ],
   "2026-05-01": [
     "https://arxiv.org/abs/2604.26311",
     "https://arxiv.org/abs/2604.26106",
@@ -117,5 +100,22 @@
     "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api",
     "https://arxiv.org/abs/2605.04169",
     "https://arxiv.org/abs/2605.04608"
+  ],
+  "2026-05-09": [
+    "https://openai.com/index/running-codex-safely",
+    "https://www.qbitai.com/2026/05/414194.html",
+    "https://36kr.com/p/3799984046333186?f=rss",
+    "https://arxiv.org/abs/2605.04263",
+    "https://arxiv.org/abs/2605.04916",
+    "https://huggingface.co/blog/allenai/emo",
+    "https://36kr.com/newsflashes/3800615656741890?f=rss",
+    "https://arxiv.org/abs/2605.04243",
+    "https://arxiv.org/abs/2605.04330",
+    "https://arxiv.org/abs/2605.04454",
+    "https://arxiv.org/abs/2605.04488",
+    "https://arxiv.org/abs/2605.04572",
+    "https://arxiv.org/abs/2605.04711",
+    "https://arxiv.org/abs/2605.04193",
+    "https://arxiv.org/abs/2605.04908"
   ]
 }

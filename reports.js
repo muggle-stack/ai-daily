@@ -1,5 +1,80 @@
 const reportsData = [
     {
+        "id": "2026-05-09",
+        "title": "AI 日报 · 2026年05月09日",
+        "date": "2026-05-09",
+        "summary": "OpenAI 详解 Codex 代码代理的安全运行架构；OpenAI 发布三款实时语音模型，将 GPT-5 级推理能力注入语音交互；多篇论文聚焦 LLM 推理加速与安全对齐问题。",
+        "articleCount": 15,
+        "categories": [
+            "研究论文",
+            "模型发布",
+            "行业观点",
+            "产品动态"
+        ],
+        "tags": [
+            "OpenAI",
+            "Codex",
+            "语音模型",
+            "AI Infra",
+            "GPU",
+            "推测解码",
+            "LLM推理加速",
+            "归纳逻辑编程"
+        ],
+        "sections": [
+            {
+                "name": "产品应用",
+                "icon": "devices",
+                "items": [
+                    {
+                        "title": "Running Codex safely at OpenAI",
+                        "url": "https://openai.com/index/running-codex-safely"
+                    },
+                    {
+                        "title": "GPT-5级推理能力塞进语音模型，OpenAI把同传翻译成本砍穿地板价",
+                        "url": "https://www.qbitai.com/2026/05/414194.html"
+                    },
+                    {
+                        "title": "海光DCU完成与混元Hy3 preview大模型的深度适配",
+                        "url": "https://36kr.com/newsflashes/3800615656741890?f=rss"
+                    }
+                ]
+            },
+            {
+                "name": "行业动态",
+                "icon": "trending_up",
+                "items": [
+                    {
+                        "title": "36氪首发 | 清华系AI Infra厂商完成数亿元融资，以GPU为核心重构计算机系统架构",
+                        "url": "https://36kr.com/p/3799984046333186?f=rss"
+                    }
+                ]
+            },
+            {
+                "name": "研究前沿",
+                "icon": "science",
+                "items": [
+                    {
+                        "title": "Parallel Prefix Verification for Speculative Generation",
+                        "url": "https://arxiv.org/abs/2605.04263"
+                    },
+                    {
+                        "title": "A Foundation Model for Zero-Shot Logical Rule Induction",
+                        "url": "https://arxiv.org/abs/2605.04916"
+                    },
+                    {
+                        "title": "EMO: Pretraining mixture of experts for emergent modularity",
+                        "url": "https://huggingface.co/blog/allenai/emo"
+                    },
+                    {
+                        "title": "Temporal Reasoning Is Not the Bottleneck: A Probabilistic Inconsistency Framework for Neuro-Symbolic QA",
+                        "url": "https://arxiv.org/abs/2605.04243"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id": "2026-05-08",
         "title": "AI 日报 · 2026年05月08日",
         "date": "2026-05-08",
