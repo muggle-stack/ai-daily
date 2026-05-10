@@ -1,5 +1,75 @@
 const reportsData = [
     {
+        "id": "2026-05-10",
+        "title": "AI 日报 · 2026年05月10日",
+        "date": "2026-05-10",
+        "summary": "今日三大看点：DeepSeek V4 完整论文发布，FP4 量化训练实现 2 倍加速且保留 99.7% 召回率；LLM Agent 驱动的科学发现再下一城，自动搜索密度泛函理论中的交换关联泛函；多篇论文聚焦 Agent 系统的记忆、授权与检索架构，agentic AI 的工程化正在加速成型。",
+        "articleCount": 15,
+        "categories": [
+            "研究论文",
+            "行业观点",
+            "模型发布"
+        ],
+        "tags": [
+            "LLM",
+            "科学发现",
+            "量化",
+            "推理模型",
+            "DeepSeek V4",
+            "FP4量化",
+            "LLM Agent",
+            "记忆"
+        ],
+        "sections": [
+            {
+                "name": "产品应用",
+                "icon": "devices",
+                "items": [
+                    {
+                        "title": "DeepSeek V4 paper full version is out, FP4 QAT details and stability tricks [D]",
+                        "url": "https://www.reddit.com/r/MachineLearning/comments/1t7yrvr/deepseek_v4_paper_full_version_is_out_fp4_qat/"
+                    },
+                    {
+                        "title": "百度发布文心 5.1：搜索能力登顶国内，预训练成本仅为业界 6%",
+                        "url": "https://www.qbitai.com/2026/05/414496.html"
+                    }
+                ]
+            },
+            {
+                "name": "行业动态",
+                "icon": "trending_up",
+                "items": [
+                    {
+                        "title": "Who Prices Cognitive Labor in the Age of Agents? A Position on Compute-Anchored Wages",
+                        "url": "https://arxiv.org/abs/2605.05558"
+                    }
+                ]
+            },
+            {
+                "name": "研究前沿",
+                "icon": "science",
+                "items": [
+                    {
+                        "title": "Agentic Discovery of Exchange-Correlation Density Functionals",
+                        "url": "https://arxiv.org/abs/2605.05460"
+                    },
+                    {
+                        "title": "BitCal-TTS: Bit-Calibrated Test-Time Scaling for Quantized Reasoning Models",
+                        "url": "https://arxiv.org/abs/2605.05561"
+                    },
+                    {
+                        "title": "Belief Memory: Agent Memory Under Partial Observability",
+                        "url": "https://arxiv.org/abs/2605.05583"
+                    },
+                    {
+                        "title": "BALAR : A Bayesian Agentic Loop for Active Reasoning",
+                        "url": "https://arxiv.org/abs/2605.05386"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id": "2026-05-09",
         "title": "AI 日报 · 2026年05月09日",
         "date": "2026-05-09",

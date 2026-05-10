@@ -1,21 +1,4 @@
 {
-  "2026-05-01": [
-    "https://arxiv.org/abs/2604.26311",
-    "https://arxiv.org/abs/2604.26106",
-    "https://arxiv.org/abs/2604.26522",
-    "https://arxiv.org/abs/2604.26733",
-    "https://arxiv.org/abs/2604.25934",
-    "https://simonwillison.net/2026/Apr/30/codex-goals/#atom-everything",
-    "https://techcrunch.com/2026/04/30/stripe-link-digital-wallet-ai-agents-shopping/",
-    "https://arxiv.org/abs/2604.26805",
-    "https://arxiv.org/abs/2604.25972",
-    "https://arxiv.org/abs/2604.26095",
-    "https://arxiv.org/abs/2604.26645",
-    "https://arxiv.org/abs/2604.26091",
-    "https://www.reddit.com/r/MachineLearning/comments/1t04rrz/applying_karpathys_autoresearch_to_a_33mtoken/",
-    "https://www.reddit.com/r/MachineLearning/comments/1szyjpk/r_joint_embedding_variational_bayes_tmlr_26/",
-    "https://arxiv.org/abs/2604.24966"
-  ],
   "2026-05-04": [
     "https://arxiv.org/abs/2605.00055",
     "https://arxiv.org/abs/2605.00136",
@@ -117,5 +100,22 @@
     "https://arxiv.org/abs/2605.04711",
     "https://arxiv.org/abs/2605.04193",
     "https://arxiv.org/abs/2605.04908"
+  ],
+  "2026-05-10": [
+    "https://arxiv.org/abs/2605.05460",
+    "https://arxiv.org/abs/2605.05561",
+    "https://www.reddit.com/r/MachineLearning/comments/1t7yrvr/deepseek_v4_paper_full_version_is_out_fp4_qat/",
+    "https://arxiv.org/abs/2605.05583",
+    "https://arxiv.org/abs/2605.05386",
+    "https://arxiv.org/abs/2605.05407",
+    "https://arxiv.org/abs/2605.05413",
+    "https://arxiv.org/abs/2605.05538",
+    "https://arxiv.org/abs/2605.05657",
+    "https://www.qbitai.com/2026/05/414496.html",
+    "https://arxiv.org/abs/2605.05379",
+    "https://arxiv.org/abs/2605.05440",
+    "https://arxiv.org/abs/2605.05580",
+    "https://arxiv.org/abs/2605.05409",
+    "https://arxiv.org/abs/2605.05558"
   ]
 }

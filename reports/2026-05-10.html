@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 日报 · 2026年05月10日</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,300,0,0&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<script>
+tailwind.config = {
+    theme: {
+        extend: {
+            colors: {
+                warm: { 50: '#fbf9f6', 100: '#f5f0ea', 200: '#e8dfd5', 400: '#b5a08a', 500: '#8a7f76', 600: '#6b6158', 700: '#4a403a', 800: '#342d28', 900: '#1f1a17' },
+                accent: { DEFAULT: '#c96442', light: '#e8825f', dark: '#a84e32' },
+            },
+            fontFamily: { sans: ['Noto Sans SC', 'system-ui', 'sans-serif'] },
+        }
+    }
+}
+</script>
+<style>
+body { font-family: 'Noto Sans SC', system-ui, sans-serif; }
+.material-symbols-rounded { font-family: 'Material Symbols Rounded' !important; font-weight: 300 !important; font-style: normal; display: inline-block; line-height: 1; font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24 !important; }
+.card-hover { transition: all 0.25s ease; }
+.card-hover:hover { transform: translateY(-3px); box-shadow: 0 12px 24px -8px rgba(74,64,58,0.14); }
+</style>
+</head>
+<body class="bg-warm-50 text-warm-700 antialiased">
+
+<!-- Navigation -->
+<nav class="fixed top-0 w-full bg-warm-50/85 backdrop-blur-md z-50 border-b border-warm-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-14">
+        <a href="../index.html" class="text-lg font-bold text-accent hover:text-accent-dark transition">← AI 日报</a>
+        <span class="text-warm-500 text-sm">2026年05月10日</span>
+    </div>
+</nav>
+
+<main class="pt-20 pb-16">
+    <!-- Header -->
+    <section class="bg-gradient-to-br from-accent to-accent-dark text-white py-12 mb-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-3xl md:text-4xl font-bold mb-2">AI 日报 · 2026年05月10日</h1>
+            <p class="text-orange-100">共 15 篇精选，来自 3 个信息源</p>
+        </div>
+    </section>
+
+    <!-- Overview -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-10">
+        <div class="bg-white border border-warm-200 rounded-xl p-6 shadow-sm" style="border-left: 4px solid #c96442;">
+            <p class="text-warm-700 leading-relaxed">今日三大看点：DeepSeek V4 完整论文发布，FP4 量化训练实现 2 倍加速且保留 99.7% 召回率；LLM Agent 驱动的科学发现再下一城，自动搜索密度泛函理论中的交换关联泛函；多篇论文聚焦 Agent 系统的记忆、授权与检索架构，agentic AI 的工程化正在加速成型。</p>
+        </div>
+    </div>
+
+    <!-- Content -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <section class="mb-10">
+    <div class="flex items-center gap-3 mb-5">
+        <span class="material-symbols-rounded text-2xl" style="color: #c96442;">rocket</span>
+        <h2 class="text-xl font-bold" style="color: #c96442;">模型发布</h2>
+        <span class="text-xs text-warm-400 bg-warm-100 px-2.5 py-0.5 rounded-full">2 篇</span>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+        <div class="bg-white border border-warm-200 rounded-xl overflow-hidden shadow-sm card-hover" style="border-left: 4px solid #c96442;">
+    <div class="p-5">
+        <div class="flex items-start gap-3 mb-3">
+            <span class="material-symbols-rounded mt-0.5 flex-shrink-0" style="color: #c96442; font-size: 20px;">rocket</span>
+            <h3 class="text-base font-bold leading-snug flex-1" style="color: #c96442;">DeepSeek V4 完整论文发布，FP4 量化训练细节与稳定性技巧（DeepSeek V4 paper full version is out, FP4 QAT details and stability tricks）</h3>
+            <span class="flex-shrink-0 text-xs font-bold text-white px-2 py-0.5 rounded" style="background: #c96442;">10.3</span>
+        </div>
+        <p class="text-sm text-warm-700 leading-relaxed mb-3">DeepSeek 本周放出了 V4 的完整技术论文，相比 4 月的 58 页预览版增加了大量技术深度。最核心的亮点是 FP4 量化感知训练（QAT）——MoE 专家权重直接以 FP4 精度训练，QK 路径也使用 FP4 激活，实现了 2 倍加速且保留 99.7% 的召回率，推理阶段直接运行在 FP4 权重上。效率数据非常亮眼：V4-Pro 在 1M 上下文场景下 FLOPs 仅为 V3.2 的 27%，KV cache 仅为 10%；V4-Flash 更是分别降至 10% 和 7%。针对万亿参数 MoE 的 loss spike 问题，团队提出了&quot;预期路由&quot;等两种训练稳定性机制。这意味着超大规模 MoE 模型的部署成本正在被大幅压缩。</p>
+        <div class="flex flex-wrap items-center gap-1.5 text-xs text-warm-500">
+            <a href="https://www.reddit.com/r/MachineLearning/comments/1t7yrvr/deepseek_v4_paper_full_version_is_out_fp4_qat/" target="_blank" rel="noopener" class="text-accent font-medium hover:underline">原文 ↗</a>
+            <span>·</span>
+            <span class="font-medium text-warm-600">Reddit ML</span>
+            <span>·</span>
+            <span>15小时前</span>
+            <span>·</span>
+            <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">DeepSeek V4</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">FP4量化</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">QAT</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">MoE</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">长上下文</span>
+        </div>
+    </div>
+</div>
+<div class="bg-white border border-warm-200 rounded-xl overflow-hidden shadow-sm card-hover" style="">
+    <div class="p-5">
+        <div class="flex items-start gap-3 mb-3">
+            <span class="material-symbols-rounded mt-0.5 flex-shrink-0" style="color: #c96442; font-size: 20px;">rocket</span>
+            <h3 class="text-base font-bold leading-snug flex-1" style="color: #c96442;">百度发布文心 5.1：搜索能力登顶国内，预训练成本仅为业界 6%</h3>
+            <span class="flex-shrink-0 text-xs font-bold text-white px-2 py-0.5 rounded" style="background: #c96442;">9.7</span>
+        </div>
+        <p class="text-sm text-warm-700 leading-relaxed mb-3">百度正式发布文心大模型 5.1 版本，在搜索、知识和 Agent 能力上实现全面提升，搜索能力据称登顶国内。最引人注目的数据是预训练成本仅为业界平均水平的 6%，这一效率优势如果属实，意味着百度在训练工程上做了极致优化。在国内大模型竞争白热化的当下，成本效率可能比单纯的性能指标更具战略意义。</p>
+        <div class="flex flex-wrap items-center gap-1.5 text-xs text-warm-500">
+            <a href="https://www.qbitai.com/2026/05/414496.html" target="_blank" rel="noopener" class="text-accent font-medium hover:underline">原文 ↗</a>
+            <span>·</span>
+            <span class="font-medium text-warm-600">量子位</span>
+            <span>·</span>
+            <span>20小时前</span>
+            <span>·</span>
+            <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">百度</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">文心5.1</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">预训练</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">搜索</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">Agent</span>
+        </div>
+    </div>
+</div>
+    </div>
+</section>
+<section class="mb-10">
+    <div class="flex items-center gap-3 mb-5">
+        <span class="material-symbols-rounded text-2xl" style="color: #9e2a2b;">science</span>
+        <h2 class="text-xl font-bold" style="color: #9e2a2b;">研究论文</h2>
+        <span class="text-xs text-warm-400 bg-warm-100 px-2.5 py-0.5 rounded-full">12 篇</span>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+        <div class="bg-white border border-warm-200 rounded-xl overflow-hidden shadow-sm card-hover" style="border-left: 4px solid #9e2a2b;">
+    <div class="p-5">
+        <div class="flex items-start gap-3 mb-3">
+            <span class="material-symbols-rounded mt-0.5 flex-shrink-0" style="color: #9e2a2b; font-size: 20px;">science</span>
+            <h3 class="text-base font-bold leading-snug flex-1" style="color: #9e2a2b;">LLM Agent 自动发现交换关联密度泛函（Agentic Discovery of Exchange-Correlation Density Functionals）</h3>
+            <span class="flex-shrink-0 text-xs font-bold text-white px-2 py-0.5 rounded" style="background: #9e2a2b;">10.3</span>
+        </div>
+        <p class="text-sm text-warm-700 leading-relaxed mb-3">密度泛函理论（DFT）中交换关联泛函的设计一直依赖人类研究者的物理直觉和经验拟合。这篇论文提出了一个 Agent 搜索系统，让 LLM 在进化历史引导下提出结构化的泛函形式变更，通过&quot;计划-执行-总结&quot;的迭代循环来优化泛函性能。系统以标准热化学数据集为优化目标，实现了可度量的改进。这是 LLM 作为科学发现工具的又一个有力案例——不是替代物理学家，而是系统化地探索人类难以穷举的设计空间。</p>
+        <div class="flex flex-wrap items-center gap-1.5 text-xs text-warm-500">
+            <a href="https://arxiv.org/abs/2605.05460" target="_blank" rel="noopener" class="text-accent font-medium hover:underline">原文 ↗</a>
+            <span>·</span>
+            <span class="font-medium text-warm-600">arXiv AI</span>
+            <span>·</span>
+            <span>20小时前</span>
+            <span>·</span>
+            <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">LLM</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">科学发现</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">密度泛函理论</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">Agent搜索</span>
+        </div>
+    </div>
+</div>
+<div class="bg-white border border-warm-200 rounded-xl overflow-hidden shadow-sm card-hover" style="border-left: 4px solid #9e2a2b;">
+    <div class="p-5">
+        <div class="flex items-start gap-3 mb-3">
+            <span class="material-symbols-rounded mt-0.5 flex-shrink-0" style="color: #9e2a2b; font-size: 20px;">science</span>
+            <h3 class="text-base font-bold leading-snug flex-1" style="color: #9e2a2b;">比特校准测试时缩放：量化推理模型的自适应计算分配（BitCal-TTS: Bit-Calibrated Test-Time Scaling for Quantized Reasoning Models）</h3>
+            <span class="flex-shrink-0 text-xs font-bold text-white px-2 py-0.5 rounded" style="background: #9e2a2b;">10.3</span>
+        </div>
+        <p class="text-sm text-warm-700 leading-relaxed mb-3">4-bit 量化让大型推理模型在有限内存和延迟预算下变得实用，但量化会扭曲驱动自适应测试时计算分配的在线信号。具体表现为：模型可能在推理尚未稳定时就过早停止，输出看似合理但实际错误的答案。BitCal-TTS 提出了一个轻量运行时控制器，结合 token 级不确定性代理、推理轨迹稳定性检测和比特条件置信度重校准，在固定 token 预算下显著改善了量化模型的推理质量。这项工作填补了&quot;量化部署&quot;与&quot;测试时计算&quot;两个热门方向之间的空白。</p>
+        <div class="flex flex-wrap items-center gap-1.5 text-xs text-warm-500">
+            <a href="https://arxiv.org/abs/2605.05561" target="_blank" rel="noopener" class="text-accent font-medium hover:underline">原文 ↗</a>
+            <span>·</span>
+            <span class="font-medium text-warm-600">arXiv AI</span>
+            <span>·</span>
+            <span>20小时前</span>
+            <span>·</span>
+            <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">量化</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">推理模型</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">测试时计算</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">校准</span>
+        </div>
+    </div>
+</div>
+<div class="bg-white border border-warm-200 rounded-xl overflow-hidden shadow-sm card-hover" style="">
+    <div class="p-5">
+        <div class="flex items-start gap-3 mb-3">
+            <span class="material-symbols-rounded mt-0.5 flex-shrink-0" style="color: #9e2a2b; font-size: 20px;">science</span>
+            <h3 class="text-base font-bold leading-snug flex-1" style="color: #9e2a2b;">信念记忆：部分可观测下的 Agent 记忆（Belief Memory: Agent Memory Under Partial Observability）</h3>
+            <span class="flex-shrink-0 text-xs font-bold text-white px-2 py-0.5 rounded" style="background: #9e2a2b;">10.1</span>
+        </div>
+        <p class="text-sm text-warm-700 leading-relaxed mb-3">现有 LLM Agent 的外部记忆通常将每次观察存储为单一确定性结论（比如从临时错误推断&quot;API X 失败了&quot;），但现实观察本质上是部分的、模糊的。这种做法会引发自我强化错误：Agent 基于存储的结论行动，从不重新审视替代解释。BeliefMem 将记忆范式从&quot;每次观察提交一个结论&quot;转变为&quot;保留多个候选结论及其概率&quot;，让 Agent 在不确定性下做出更稳健的决策。这是将贝叶斯思维引入 Agent 记忆系统的一次有意义的尝试。</p>
+        <div class="flex flex-wrap items-center gap-1.5 text-xs text-warm-500">
+            <a href="https://arxiv.org/abs/2605.05583" target="_blank" rel="noopener" class="text-accent font-medium hover:underline">原文 ↗</a>
+            <span>·</span>
+            <span class="font-medium text-warm-600">arXiv AI</span>
+            <span>·</span>
+            <span>20小时前</span>
+            <span>·</span>
+            <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">LLM Agent</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">记忆</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">部分可观测</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">不确定性</span>
+        </div>
+    </div>
+</div>
+<div class="bg-white border border-warm-200 rounded-xl overflow-hidden shadow-sm card-hover" style="">
+    <div class="p-5">
+        <div class="flex items-start gap-3 mb-3">
+            <span class="material-symbols-rounded mt-0.5 flex-shrink-0" style="color: #9e2a2b; font-size: 20px;">science</span>
+            <h3 class="text-base font-bold leading-snug flex-1" style="color: #9e2a2b;">BALAR：贝叶斯主动推理的 Agent 循环（BALAR: A Bayesian Agentic Loop for Active Reasoning）</h3>
+            <span class="flex-shrink-0 text-xs font-bold text-white px-2 py-0.5 rounded" style="background: #9e2a2b;">9.8</span>
+        </div>
+        <p class="text-sm text-warm-700 leading-relaxed mb-3">当前大多数 LLM 系统在多轮对话中是被动反应式的，缺乏对&quot;缺少什么信息&quot;和&quot;下一步该问什么&quot;的原则性推理。BALAR 提出了一个任务无关的外循环算法，无需微调即可实现 LLM Agent 与用户之间的结构化多轮交互。它维护对潜在状态的结构化信念，通过最大化期望互信息来选择澄清问题，并在当前状态表示不足时动态扩展。这为构建真正&quot;会提问&quot;的 AI 助手提供了理论基础。</p>
+        <div class="flex flex-wrap items-center gap-1.5 text-xs text-warm-500">
+            <a href="https://arxiv.org/abs/2605.05386" target="_blank" rel="noopener" class="text-accent font-medium hover:underline">原文 ↗</a>
+            <span>·</span>
+            <span class="font-medium text-warm-600">arXiv AI</span>
+            <span>·</span>
+            <span>20小时前</span>
+            <span>·</span>
+            <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">贝叶斯推理</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">Agent</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">主动推理</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">对话系统</span>
+        </div>
+    </div>
+</div>
+<div class="bg-white border border-warm-200 rounded-xl overflow-hidden shadow-sm card-hover" style="">
+    <div class="p-5">
+        <div class="flex items-start gap-3 mb-3">
+            <span class="material-symbols-rounded mt-0.5 flex-shrink-0" style="color: #9e2a2b; font-size: 20px;">science</span>
+            <h3 class="text-base font-bold leading-snug flex-1" style="color: #9e2a2b;">PRISM：感知推理交织的序列决策框架（PRISM: Perception Reasoning Interleaved for Sequential Decision Making）</h3>
+            <span class="flex-shrink-0 text-xs font-bold text-white px-2 py-0.5 rounded" style="background: #9e2a2b;">9.8</span>
+        </div>
+        <p class="text-sm text-warm-700 leading-relaxed mb-3">将 LLM 具身 Agent 从纯文本环境扩展到复杂多模态场景仍是一大挑战，核心问题在于视觉语言模型（VLM）常常忽略任务关键信息。PRISM 通过动态问答管道将感知（VLM）和决策（LLM）紧密耦合：LLM 不是被动接受 VLM 的描述，而是主动批评、用目标导向的问题探测 VLM，并合成紧凑的场景描述。在 ALFWorld 和 Room-to-Room 基准上取得了显著提升。这种闭环交互模式比单次&quot;看一眼就决策&quot;更接近人类的认知过程。</p>
+        <div class="flex flex-wrap items-center gap-1.5 text-xs text-warm-500">
+            <a href="https://arxiv.org/abs/2605.05407" target="_blank" rel="noopener" class="text-accent font-medium hover:underline">原文 ↗</a>
+            <span>·</span>
+            <span class="font-medium text-warm-600">arXiv AI</span>
+            <span>·</span>
+            <span>20小时前</span>
+            <span>·</span>
+            <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">多模态</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">具身智能</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">VLM</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">决策</span>
+        </div>
+    </div>
+</div>
+<div class="bg-white border border-warm-200 rounded-xl overflow-hidden shadow-sm card-hover" style="">
+    <div class="p-5">
+        <div class="flex items-start gap-3 mb-3">
+            <span class="material-symbols-rounded mt-0.5 flex-shrink-0" style="color: #9e2a2b; font-size: 20px;">science</span>
+            <h3 class="text-base font-bold leading-snug flex-1" style="color: #9e2a2b;">从历史到状态：LLM Agent 的常量上下文技能学习（From History to State: Constant-Context Skill Learning for LLM Agents）</h3>
+            <span class="flex-shrink-0 text-xs font-bold text-white px-2 py-0.5 rounded" style="background: #9e2a2b;">9.8</span>
+        </div>
+        <p class="text-sm text-warm-700 leading-relaxed mb-3">LLM Agent 面临隐私-成本-能力的三角矛盾：云端模型执行多步工作流效果好但暴露敏感中间上下文，本地模型保护隐私但可靠性不足。本文提出常量上下文技能学习框架，将可复用的工作流程序学习到轻量任务族模块中，推理时仅依赖当前观察和紧凑状态块，用确定性追踪器替代不断增长的历史记录。这种&quot;上下文到权重&quot;的思路既降低了推理成本，又为隐私保护提供了新路径。</p>
+        <div class="flex flex-wrap items-center gap-1.5 text-xs text-warm-500">
+            <a href="https://arxiv.org/abs/2605.05413" target="_blank" rel="noopener" class="text-accent font-medium hover:underline">原文 ↗</a>
+            <span>·</span>
+            <span class="font-medium text-warm-600">arXiv AI</span>
+            <span>·</span>
+            <span>20小时前</span>
+            <span>·</span>
+            <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">LLM Agent</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">技能学习</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">隐私</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">上下文压缩</span>
+        </div>
+    </div>
+</div>
+<div class="bg-white border border-warm-200 rounded-xl overflow-hidden shadow-sm card-hover" style="">
+    <div class="p-5">
+        <div class="flex items-start gap-3 mb-3">
+            <span class="material-symbols-rounded mt-0.5 flex-shrink-0" style="color: #9e2a2b; font-size: 20px;">science</span>
+            <h3 class="text-base font-bold leading-snug flex-1" style="color: #9e2a2b;">AgenticRAG：面向企业知识库的 Agent 检索（AgenticRAG: Agentic Retrieval for Enterprise Knowledge Bases）</h3>
+            <span class="flex-shrink-0 text-xs font-bold text-white px-2 py-0.5 rounded" style="background: #9e2a2b;">9.8</span>
+        </div>
+        <p class="text-sm text-warm-700 leading-relaxed mb-3">标准 RAG 管道将过多的接地负担放在搜索栈上，限制了语言模型只能使用检索过程深处选定的固定候选集。AgenticRAG 在现有企业搜索基础设施之上叠加轻量 Agent 框架，为推理 LLM 配备搜索、查找、打开和摘要工具，使模型能自主迭代检索、文档内导航和证据分析。在三个开放基准上取得显著提升：BRIGHT 上 recall@1 达 49.6%（比最佳嵌入基线高 21.8 个百分点），事实性评分 0.96。对企业级 RAG 落地有直接参考价值。</p>
+        <div class="flex flex-wrap items-center gap-1.5 text-xs text-warm-500">
+            <a href="https://arxiv.org/abs/2605.05538" target="_blank" rel="noopener" class="text-accent font-medium hover:underline">原文 ↗</a>
+            <span>·</span>
+            <span class="font-medium text-warm-600">arXiv AI</span>
+            <span>·</span>
+            <span>20小时前</span>
+            <span>·</span>
+            <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">AgenticRAG</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">企业知识库</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">检索增强</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">Agent</span>
+        </div>
+    </div>
+</div>
+<div class="bg-white border border-warm-200 rounded-xl overflow-hidden shadow-sm card-hover" style="">
+    <div class="p-5">
+        <div class="flex items-start gap-3 mb-3">
+            <span class="material-symbols-rounded mt-0.5 flex-shrink-0" style="color: #9e2a2b; font-size: 20px;">science</span>
+            <h3 class="text-base font-bold leading-snug flex-1" style="color: #9e2a2b;">检索条件拓扑选择与多 Agent 代码生成的预算守恒（Retrieval-Conditioned Topology Selection with Provable Budget Conservation for Multi-Agent Code Generation）</h3>
+            <span class="flex-shrink-0 text-xs font-bold text-white px-2 py-0.5 rounded" style="background: #9e2a2b;">9.8</span>
+        </div>
+        <p class="text-sm text-warm-700 leading-relaxed mb-3">多 Agent LLM 代码生成系统面临一个基本路由问题：最优编排拓扑取决于代码的结构复杂度，但现有系统在选择拓扑时不参考代码库。RGAO 架构通过从层次化代码索引中提取结构复杂度向量，在选择编排拓扑前闭合这个循环。系统在 Code-Agent 多 Agent 框架中运行，子 Agent 受六维预算向量的形式化合约约束。这是将复杂度条件路由与形式化预算保证两条研究线结合的首次尝试。</p>
+        <div class="flex flex-wrap items-center gap-1.5 text-xs text-warm-500">
+            <a href="https://arxiv.org/abs/2605.05657" target="_blank" rel="noopener" class="text-accent font-medium hover:underline">原文 ↗</a>
+            <span>·</span>
+            <span class="font-medium text-warm-600">arXiv AI</span>
+            <span>·</span>
+            <span>20小时前</span>
+            <span>·</span>
+            <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">多Agent</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">代码生成</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">拓扑选择</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">检索引导</span>
+        </div>
+    </div>
+</div>
+<div class="bg-white border border-warm-200 rounded-xl overflow-hidden shadow-sm card-hover" style="">
+    <div class="p-5">
+        <div class="flex items-start gap-3 mb-3">
+            <span class="material-symbols-rounded mt-0.5 flex-shrink-0" style="color: #9e2a2b; font-size: 20px;">science</span>
+            <h3 class="text-base font-bold leading-snug flex-1" style="color: #9e2a2b;">部分证据基准：Agent 系统中授权受限证据的评测（Partial Evidence Bench: Benchmarking Authorization-Limited Evidence in Agentic Systems）</h3>
+            <span class="flex-shrink-0 text-xs font-bold text-white px-2 py-0.5 rounded" style="background: #9e2a2b;">9.5</span>
+        </div>
+        <p class="text-sm text-warm-700 leading-relaxed mb-3">企业 Agent 越来越多地在有权限约束的检索系统中运行，访问控制可能被正确执行，但系统仍然产出看似完整实则遗漏了授权边界外关键证据的答案。Partial Evidence Bench 提供了 72 个任务，覆盖尽职调查、合规审计和安全事件响应三个场景族，配备 ACL 分区语料库和完整性判断预言机。这个基准填补了一个重要空白：评估 Agent 系统在&quot;能看到什么&quot;受限时是否诚实地报告信息缺口。</p>
+        <div class="flex flex-wrap items-center gap-1.5 text-xs text-warm-500">
+            <a href="https://arxiv.org/abs/2605.05379" target="_blank" rel="noopener" class="text-accent font-medium hover:underline">原文 ↗</a>
+            <span>·</span>
+            <span class="font-medium text-warm-600">arXiv AI</span>
+            <span>·</span>
+            <span>20小时前</span>
+            <span>·</span>
+            <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">benchmark</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">agentic系统</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">授权</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">部分证据</span>
+        </div>
+    </div>
+</div>
+<div class="bg-white border border-warm-200 rounded-xl overflow-hidden shadow-sm card-hover" style="">
+    <div class="p-5">
+        <div class="flex items-start gap-3 mb-3">
+            <span class="material-symbols-rounded mt-0.5 flex-shrink-0" style="color: #9e2a2b; font-size: 20px;">science</span>
+            <h3 class="text-base font-bold leading-snug flex-1" style="color: #9e2a2b;">多 Agent AI 系统中的授权传播：身份治理即基础设施（Authorization Propagation in Multi-Agent AI Systems: Identity Governance as Infrastructure）</h3>
+            <span class="flex-shrink-0 text-xs font-bold text-white px-2 py-0.5 rounded" style="background: #9e2a2b;">9.5</span>
+        </div>
+        <p class="text-sm text-warm-700 leading-relaxed mb-3">Agent AI 的安全讨论过度聚焦于提示注入，但多 Agent 系统还存在一个独立的授权问题：当非人类主体跨边界检索数据、委托任务和综合结果时，如何维护授权不变量。论文将此形式化为&quot;授权传播&quot;问题，识别出传递委托、聚合推断和时间有效性三个子问题，并推导出七项结构性要求。这不是 RBAC/ABAC 能解决的——当 Agent 链式调用时，权限的语义会发生质变。</p>
+        <div class="flex flex-wrap items-center gap-1.5 text-xs text-warm-500">
+            <a href="https://arxiv.org/abs/2605.05440" target="_blank" rel="noopener" class="text-accent font-medium hover:underline">原文 ↗</a>
+            <span>·</span>
+            <span class="font-medium text-warm-600">arXiv AI</span>
+            <span>·</span>
+            <span>20小时前</span>
+            <span>·</span>
+            <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">多Agent系统</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">授权传播</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">安全</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">身份治理</span>
+        </div>
+    </div>
+</div>
+<div class="bg-white border border-warm-200 rounded-xl overflow-hidden shadow-sm card-hover" style="">
+    <div class="p-5">
+        <div class="flex items-start gap-3 mb-3">
+            <span class="material-symbols-rounded mt-0.5 flex-shrink-0" style="color: #9e2a2b; font-size: 20px;">science</span>
+            <h3 class="text-base font-bold leading-snug flex-1" style="color: #9e2a2b;">AlphaCrafter：面向截面量化交易的全栈多 Agent 框架（AlphaCrafter: A Full-Stack Multi-Agent Framework for Cross-Sectional Quantitative Trading）</h3>
+            <span class="flex-shrink-0 text-xs font-bold text-white px-2 py-0.5 rounded" style="background: #9e2a2b;">9.5</span>
+        </div>
+        <p class="text-sm text-warm-700 leading-relaxed mb-3">金融市场的非平稳性要求因子发现、体制自适应选择和风险约束执行的持续耦合，但现有方法通常在静态或孤立假设下优化这些组件。AlphaCrafter 提出全栈多 Agent 框架，将因子挖掘视为持续过程而非一次性搜索，避免了角色扮演式 Agent 架构引入的行为噪声。这是 LLM 多 Agent 系统在量化金融领域的一次系统性应用尝试，强调的是工程严谨性而非拟人化模拟。</p>
+        <div class="flex flex-wrap items-center gap-1.5 text-xs text-warm-500">
+            <a href="https://arxiv.org/abs/2605.05580" target="_blank" rel="noopener" class="text-accent font-medium hover:underline">原文 ↗</a>
+            <span>·</span>
+            <span class="font-medium text-warm-600">arXiv AI</span>
+            <span>·</span>
+            <span>20小时前</span>
+            <span>·</span>
+            <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">多Agent</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">量化交易</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">因子挖掘</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">LLM</span>
+        </div>
+    </div>
+</div>
+<div class="bg-white border border-warm-200 rounded-xl overflow-hidden shadow-sm card-hover" style="">
+    <div class="p-5">
+        <div class="flex items-start gap-3 mb-3">
+            <span class="material-symbols-rounded mt-0.5 flex-shrink-0" style="color: #9e2a2b; font-size: 20px;">science</span>
+            <h3 class="text-base font-bold leading-snug flex-1" style="color: #9e2a2b;">FinAgent-RAG：面向金融文档问答的 Agent 检索增强生成（Agentic Retrieval-Augmented Generation for Financial Document Question Answering）</h3>
+            <span class="flex-shrink-0 text-xs font-bold text-white px-2 py-0.5 rounded" style="background: #9e2a2b;">9.2</span>
+        </div>
+        <p class="text-sm text-warm-700 leading-relaxed mb-3">金融文档问答需要对异构证据（结构化表格、文本叙述、脚注）进行复杂的多步数值推理，传统单次&quot;检索-生成&quot;范式难以应对。FinAgent-RAG 编排迭代检索-推理循环并加入自验证机制，集成了三项领域特定创新：对比金融检索器（使用困难负样本训练）、专门的数值推理模块和自我验证环节。这种为金融精度需求专门工程化的 Agent RAG 框架，比通用方案更贴合实际业务场景。</p>
+        <div class="flex flex-wrap items-center gap-1.5 text-xs text-warm-500">
+            <a href="https://arxiv.org/abs/2605.05409" target="_blank" rel="noopener" class="text-accent font-medium hover:underline">原文 ↗</a>
+            <span>·</span>
+            <span class="font-medium text-warm-600">arXiv AI</span>
+            <span>·</span>
+            <span>20小时前</span>
+            <span>·</span>
+            <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">RAG</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">金融QA</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">多步推理</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">Agent</span>
+        </div>
+    </div>
+</div>
+    </div>
+</section>
+<section class="mb-10">
+    <div class="flex items-center gap-3 mb-5">
+        <span class="material-symbols-rounded text-2xl" style="color: #c96442;">lightbulb</span>
+        <h2 class="text-xl font-bold" style="color: #c96442;">行业观点</h2>
+        <span class="text-xs text-warm-400 bg-warm-100 px-2.5 py-0.5 rounded-full">1 篇</span>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+        <div class="bg-white border border-warm-200 rounded-xl overflow-hidden shadow-sm card-hover" style="">
+    <div class="p-5">
+        <div class="flex items-start gap-3 mb-3">
+            <span class="material-symbols-rounded mt-0.5 flex-shrink-0" style="color: #c96442; font-size: 20px;">lightbulb</span>
+            <h3 class="text-base font-bold leading-snug flex-1" style="color: #c96442;">谁来为认知劳动定价？关于计算锚定工资的立场（Who Prices Cognitive Labor in the Age of Agents? A Position on Compute-Anchored Wages）</h3>
+            <span class="flex-shrink-0 text-xs font-bold text-white px-2 py-0.5 rounded" style="background: #c96442;">9.0</span>
+        </div>
+        <p class="text-sm text-warm-700 leading-relaxed mb-3">一个直觉性的观点是：AI Agent 可以近零边际成本复制，因此构成无限弹性供给的劳动投入，会将认知劳动工资压至零。本文认为这个框架在机制上是错误的：Agent 不是劳动，而是将计算资本转化为有效认知劳动单位的生产技术。一旦认识到这一点，锚定均衡工资的弹性供给边际就从劳动市场迁移到了计算资本市场。论文基于教科书要素定价框架推导了正式模型，对理论和政策都有启发意义。这是一个值得认真对待的经济学视角——AI 对劳动市场的影响可能不是&quot;替代&quot;那么简单。</p>
+        <div class="flex flex-wrap items-center gap-1.5 text-xs text-warm-500">
+            <a href="https://arxiv.org/abs/2605.05558" target="_blank" rel="noopener" class="text-accent font-medium hover:underline">原文 ↗</a>
+            <span>·</span>
+            <span class="font-medium text-warm-600">arXiv AI</span>
+            <span>·</span>
+            <span>20小时前</span>
+            <span>·</span>
+            <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">AI经济学</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">认知劳动</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">Agent</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2 py-0.5 rounded-full">定价</span>
+        </div>
+    </div>
+</div>
+    </div>
+</section>
+    </div>
+
+    <!-- Keywords -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12">
+        <div class="bg-white border border-warm-200 rounded-xl p-6 shadow-sm text-center">
+            <h2 class="text-lg font-bold text-warm-800 mb-4">今日关键词</h2>
+            <div class="flex flex-wrap justify-center gap-2"><span class="inline-block bg-warm-100 text-warm-600 text-xs px-2.5 py-1 rounded-full border border-warm-200">Agent</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2.5 py-1 rounded-full border border-warm-200">LLM</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2.5 py-1 rounded-full border border-warm-200">LLM Agent</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2.5 py-1 rounded-full border border-warm-200">多Agent</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2.5 py-1 rounded-full border border-warm-200">科学发现</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2.5 py-1 rounded-full border border-warm-200">密度泛函理论</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2.5 py-1 rounded-full border border-warm-200">Agent搜索</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2.5 py-1 rounded-full border border-warm-200">量化</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2.5 py-1 rounded-full border border-warm-200">推理模型</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2.5 py-1 rounded-full border border-warm-200">测试时计算</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2.5 py-1 rounded-full border border-warm-200">校准</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2.5 py-1 rounded-full border border-warm-200">DeepSeek V4</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2.5 py-1 rounded-full border border-warm-200">FP4量化</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2.5 py-1 rounded-full border border-warm-200">QAT</span> <span class="inline-block bg-warm-100 text-warm-600 text-xs px-2.5 py-1 rounded-full border border-warm-200">MoE</span></div>
+        </div>
+    </div>
+</main>
+
+<footer class="text-center text-warm-400 text-sm py-8 border-t border-warm-200">
+    由 AI 日报 自动生成 · 2026-05-10 08:03:04
+</footer>
+</body>
+</html>
