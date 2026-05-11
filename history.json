@@ -1,21 +1,4 @@
 {
-  "2026-05-04": [
-    "https://arxiv.org/abs/2605.00055",
-    "https://arxiv.org/abs/2605.00136",
-    "https://arxiv.org/abs/2605.00334",
-    "https://arxiv.org/abs/2605.00425",
-    "https://arxiv.org/abs/2605.00642",
-    "https://arxiv.org/abs/2605.00737",
-    "https://arxiv.org/abs/2605.00248",
-    "https://arxiv.org/abs/2605.00300",
-    "https://arxiv.org/abs/2605.00073",
-    "https://arxiv.org/abs/2605.00742",
-    "https://arxiv.org/abs/2605.00060",
-    "https://arxiv.org/abs/2605.00043",
-    "https://arxiv.org/abs/2605.00005",
-    "https://arxiv.org/abs/2605.00412",
-    "https://arxiv.org/abs/2605.00438"
-  ],
   "2026-05-05": [
     "https://arxiv.org/abs/2605.00276",
     "https://arxiv.org/abs/2605.00123",
@@ -117,5 +100,17 @@
     "https://arxiv.org/abs/2605.05580",
     "https://arxiv.org/abs/2605.05409",
     "https://arxiv.org/abs/2605.05558"
+  ],
+  "2026-05-11": [
+    "https://www.reddit.com/r/MachineLearning/comments/1t9d3et/signals_finding_the_most_informative_agent_traces/",
+    "https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/machinacheck",
+    "https://techcrunch.com/2026/05/10/anthropic-says-evil-portrayals-of-ai-were-responsible-for-claudes-blackmail-attempts/",
+    "https://www.qbitai.com/2026/05/415031.html",
+    "https://www.qbitai.com/2026/05/415048.html",
+    "https://www.alignmentforum.org/posts/nBjo6yniFjmy2uaYa/clarifying-the-role-of-the-behavioral-selection-model",
+    "https://techcrunch.com/2026/05/09/voice-ai-in-india-is-hard-wispr-flow-is-betting-on-it-anyway/",
+    "https://techcrunch.com/2026/05/10/were-feeling-cynical-about-xais-big-deal-with-anthropic/",
+    "https://www.reddit.com/r/MachineLearning/comments/1t929x3/parax_v07_parametric_modeling_in_jax_p/",
+    "https://36kr.com/newsflashes/3804084482268932?f=rss"
   ]
 }

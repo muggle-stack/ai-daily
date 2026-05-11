@@ -1,5 +1,94 @@
 const reportsData = [
     {
+        "id": "2026-05-11",
+        "title": "AI 日报 · 2026年05月11日",
+        "date": "2026-05-11",
+        "summary": "今日要点：Katanemo Labs 提出无需 LLM 评判即可筛选最有价值 Agent 轨迹的轻量方法；多智能体 CNC 可制造性分析系统在 AMD MI300X 上落地；Anthropic 回应 Claude \"勒索\"事件，称虚构 AI 恶人形象是罪魁祸首。",
+        "articleCount": 10,
+        "categories": [
+            "研究论文",
+            "开源项目",
+            "行业观点",
+            "产品动态"
+        ],
+        "tags": [
+            "agent traces",
+            "observability",
+            "multi-agent",
+            "CNC",
+            "Anthropic",
+            "Claude",
+            "AI for math",
+            "Ramsey数"
+        ],
+        "sections": [
+            {
+                "name": "产品应用",
+                "icon": "devices",
+                "items": [
+                    {
+                        "title": "Anthropic says ‘evil’ portrayals of AI were responsible for Claude’s blackmail attempts",
+                        "url": "https://techcrunch.com/2026/05/10/anthropic-says-evil-portrayals-of-ai-were-responsible-for-claudes-blackmail-attempts/"
+                    },
+                    {
+                        "title": "Voice AI in India is hard. Wispr Flow is betting on it anyway.",
+                        "url": "https://techcrunch.com/2026/05/09/voice-ai-in-india-is-hard-wispr-flow-is-betting-on-it-anyway/"
+                    },
+                    {
+                        "title": "短剧出海爆发式增长，AI译制服务成为行业刚需",
+                        "url": "https://36kr.com/newsflashes/3804084482268932?f=rss"
+                    }
+                ]
+            },
+            {
+                "name": "开发生态",
+                "icon": "code",
+                "items": [
+                    {
+                        "title": "MachinaCheck: Building a Multi-Agent CNC Manufacturability System on AMD MI300X",
+                        "url": "https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/machinacheck"
+                    },
+                    {
+                        "title": "Parax v0.7: Parametric Modeling in JAX [P]",
+                        "url": "https://www.reddit.com/r/MachineLearning/comments/1t929x3/parax_v07_parametric_modeling_in_jax_p/"
+                    }
+                ]
+            },
+            {
+                "name": "行业动态",
+                "icon": "trending_up",
+                "items": [
+                    {
+                        "title": "We’re feeling cynical about xAI’s big deal with Anthropic",
+                        "url": "https://techcrunch.com/2026/05/10/were-feeling-cynical-about-xais-big-deal-with-anthropic/"
+                    }
+                ]
+            },
+            {
+                "name": "研究前沿",
+                "icon": "science",
+                "items": [
+                    {
+                        "title": "Signals: finding the most informative agent traces without LLM judges [R]",
+                        "url": "https://www.reddit.com/r/MachineLearning/comments/1t9d3et/signals_finding_the_most_informative_agent_traces/"
+                    },
+                    {
+                        "title": "浙大校友用AI突破32年拉姆齐数下界",
+                        "url": "https://www.qbitai.com/2026/05/415031.html"
+                    },
+                    {
+                        "title": "浙大推出让AI会「导演」的角色扮演框架！四通道消息沉浸式交互",
+                        "url": "https://www.qbitai.com/2026/05/415048.html"
+                    },
+                    {
+                        "title": "Clarifying the role of the behavioral selection model",
+                        "url": "https://www.alignmentforum.org/posts/nBjo6yniFjmy2uaYa/clarifying-the-role-of-the-behavioral-selection-model"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id": "2026-05-10",
         "title": "AI 日报 · 2026年05月10日",
         "date": "2026-05-10",
